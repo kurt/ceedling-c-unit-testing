@@ -1,0 +1,23 @@
+---
+:source:
+  :path: test
+  :file: test_spi.c
+:successes:
+- :test: test_CheckBaudRate
+  :line: 19
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores:
+- :test: test_spi_NeedToImplement
+  :line: 15
+  :message: Need to Implement spi
+  :unity_test_time: 0
+:counts:
+  :total: 2
+  :passed: 1
+  :failed: 0
+  :ignored: 1
+:stdout:
+- Baud Rate 100 is Incorrect!
+:time: 0.005015090000597411

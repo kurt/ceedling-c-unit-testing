@@ -1,0 +1,26 @@
+---
+:source:
+  :path: test
+  :file: test_tempsensor.c
+:successes:
+- :test: test_whenTempRegisterReadsMaxValue_thenTheTempIsTheMaxValue
+  :line: 17
+  :message: ''
+  :unity_test_time: 0
+- :test: test_whenTempRegisterReadsMinValue_thenTheTempIsTheMinValu
+  :line: 31
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores:
+- :test: test_tempsensor_NeedToImplement
+  :line: 14
+  :message: Need to Implement tempsensor
+  :unity_test_time: 0
+:counts:
+  :total: 3
+  :passed: 2
+  :failed: 0
+  :ignored: 1
+:stdout: []
+:time: 0.004120211000554264

@@ -1,0 +1,13 @@
+---
+src/lights.c:
+- TEST
+build/test/mocks/mock_i2c.c:
+- TEST
+src/tempsensor.c:
+- TEST
+build/test/mocks/mock_spi.c:
+- TEST
+src/CANData.c:
+- TEST
+src/spi.c:
+- TEST
