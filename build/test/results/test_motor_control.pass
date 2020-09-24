@@ -1,23 +1,22 @@
 ---
 :source:
   :path: test
-  :file: test_spi.c
+  :file: test_motor_control.c
 :successes:
-- :test: test_CheckBaudRate
+- :test: test_readEncoder
   :line: 19
   :message: ''
   :unity_test_time: 0
 :failures: []
 :ignores:
-- :test: test_spi_NeedToImplement
+- :test: test_motor_control_NeedToImplement
   :line: 15
-  :message: Need to Implement spi
+  :message: Need to Implement motor_control
   :unity_test_time: 0
 :counts:
   :total: 2
   :passed: 1
   :failed: 0
   :ignored: 1
-:stdout:
-- Baud Rate 100 is Incorrect!
-:time: 0.0049381399985577445
+:stdout: []
+:time: 0.005238964000454871

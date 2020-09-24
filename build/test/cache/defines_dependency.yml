@@ -11,3 +11,5 @@ src/CANData.c:
 - TEST
 src/spi.c:
 - TEST
+src/motor_control.c:
+- TEST

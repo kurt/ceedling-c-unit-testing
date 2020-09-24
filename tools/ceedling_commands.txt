@@ -1,0 +1,5 @@
+# ceedling commands
+
+ceedling gcov:all utils:gcov # call and generate reports after adding gcovr to the yml file plugins
+
+ceedling module:create[modulename]
