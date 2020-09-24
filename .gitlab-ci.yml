@@ -20,7 +20,7 @@ build:
     - ceedling
   artifacts:
     reports:
-      junit: build/artifacts/test/git_ci_results.xml
+      junit: build/artifacts/test/report.xml
     paths:
       - build/artifacts/test
       # depending on your build setup it's most likely a good idea to cache outputs to reduce the build time
