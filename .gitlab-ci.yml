@@ -9,6 +9,8 @@ build:
   # instead of calling g++ directly you can also use some build toolkit like make
   # install the necessary build tools when needed
   before_script:
+    - apt-get update -y
+    - apt-get install sudo -y
     - sudo apt-add-repository ppa:brightbox/ruby-ng && sudo apt-get update -y
     - sudo apt-get install ruby2.4
     - gem install ceedling
