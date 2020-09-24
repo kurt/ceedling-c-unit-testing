@@ -18,6 +18,7 @@ build:
     #- sudo apt-get install ruby2.4 -y
   #  - gem install ceedling 
   script:
+     - pwd
   #  - ceedling
   artifacts:
     reports:
