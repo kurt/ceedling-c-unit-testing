@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x91f3ae0" file="src/CANData.h" linenr="4" str="uint16_t" scope="0x9217210" type="name"/>
+    <token id="0x91c2f68" file="src/CANData.h" linenr="4" str="parseCANData" scope="0x9217210" type="name" function="0x9201368" astParent="0x91c1d68"/>
+    <token id="0x91c1d68" file="src/CANData.h" linenr="4" str="(" scope="0x9217210" link="0x91ee500" astOperand1="0x91c2f68"/>
+    <token id="0x91ee500" file="src/CANData.h" linenr="4" str=")" scope="0x9217210" link="0x91c1d68"/>
+    <token id="0x91f5e60" file="src/CANData.h" linenr="4" str=";" scope="0x9217210"/>
+    <token id="0x91ef410" file="src/spi.h" linenr="7" str="uint16_t" scope="0x9217210" type="name"/>
+    <token id="0x91f0168" file="src/spi.h" linenr="7" str="spi_readData" scope="0x9217210" type="name" function="0x91ee638" astParent="0x91eaca8"/>
+    <token id="0x91eaca8" file="src/spi.h" linenr="7" str="(" scope="0x9217210" link="0x92027d0" astOperand1="0x91f0168" astOperand2="0x9201670"/>
+    <token id="0x91f0308" file="src/spi.h" linenr="7" str="uint16_t" scope="0x9217210" type="name"/>
+    <token id="0x91f25d8" file="src/spi.h" linenr="7" str="dataOut" scope="0x9217210" type="name" varId="1" variable="0x91f02b8" astParent="0x9201670"/>
+    <token id="0x9201670" file="src/spi.h" linenr="7" str="," scope="0x9217210" astParent="0x91eaca8" astOperand1="0x91f25d8" astOperand2="0x9201518"/>
+    <token id="0x9200958" file="src/spi.h" linenr="7" str="uint16_t" scope="0x9217210" type="name"/>
+    <token id="0x9201518" file="src/spi.h" linenr="7" str="baudrate" scope="0x9217210" type="name" varId="2" variable="0x9202560" astParent="0x9201670"/>
+    <token id="0x92027d0" file="src/spi.h" linenr="7" str=")" scope="0x9217210" link="0x91eaca8"/>
+    <token id="0x91f3098" file="src/spi.h" linenr="7" str=";" scope="0x9217210"/>
+    <token id="0x92013d0" file="src/spi.h" linenr="8" str="bool" scope="0x9217210" type="name"/>
+    <token id="0x91ee5c0" file="src/spi.h" linenr="8" str="checkBaudRate" scope="0x9217210" type="name" function="0x91fac20" astParent="0x91ecc30"/>
+    <token id="0x91ecc30" file="src/spi.h" linenr="8" str="(" scope="0x9217210" link="0x9219630" astOperand1="0x91ee5c0" astOperand2="0x91f1108"/>
+    <token id="0x91f1098" file="src/spi.h" linenr="8" str="uint16_t" scope="0x9217210" type="name"/>
+    <token id="0x91f1108" file="src/spi.h" linenr="8" str="baudrate" scope="0x9217210" type="name" varId="3" variable="0x921a360" astParent="0x91ecc30"/>
+    <token id="0x9219630" file="src/spi.h" linenr="8" str=")" scope="0x9217210" link="0x91ecc30"/>
+    <token id="0x92196a0" file="src/spi.h" linenr="8" str=";" scope="0x9217210"/>
+    <token id="0x92023f0" file="src/CANData.c" linenr="4" str="uint16_t" scope="0x9217210" type="name"/>
+    <token id="0x9202460" file="src/CANData.c" linenr="4" str="parseCANData" scope="0x9217210" type="name" function="0x9201368" astParent="0x91eb748"/>
+    <token id="0x91eb748" file="src/CANData.c" linenr="4" str="(" scope="0x9217210" link="0x91eb7b8" astOperand1="0x9202460"/>
+    <token id="0x91eb7b8" file="src/CANData.c" linenr="4" str=")" scope="0x9217210" link="0x91eb748"/>
+    <token id="0x91ed268" file="src/CANData.c" linenr="4" str="{" scope="0x921a2b8" link="0x920df70"/>
+    <token id="0x91ed2d8" file="src/CANData.c" linenr="5" str="uint16_t" scope="0x921a2b8" type="name"/>
+    <token id="0x91eea60" file="src/CANData.c" linenr="5" str="DataIn" scope="0x921a2b8" type="name" varId="4" variable="0x9202610"/>
+    <token id="0x91eead0" file="src/CANData.c" linenr="5" str=";" scope="0x921a2b8"/>
+    <token id="0x9212c00" file="src/CANData.c" linenr="6" str="uint16_t" scope="0x921a2b8" type="name"/>
+    <token id="0x9212c70" file="src/CANData.c" linenr="6" str="dataOut" scope="0x921a2b8" type="name" varId="5" variable="0x91f3110"/>
+    <token id="0x91ee930" file="src/CANData.c" linenr="6" str=";" scope="0x921a2b8"/>
+    <token id="0x91ee370" file="src/CANData.c" linenr="6" str="dataOut" scope="0x921a2b8" type="name" varId="5" variable="0x91f3110" astParent="0x91ee3e0"/>
+    <token id="0x91ee3e0" file="src/CANData.c" linenr="6" str="=" scope="0x921a2b8" type="op" isAssignmentOp="True" astOperand1="0x91ee370" astOperand2="0x91ee9a0"/>
+    <token id="0x91ee9a0" file="src/CANData.c" linenr="6" str="4" scope="0x921a2b8" type="number" isInt="True" values="0x91ee9a4" astParent="0x91ee3e0"/>
+    <token id="0x91ecfe0" file="src/CANData.c" linenr="6" str=";" scope="0x921a2b8"/>
+    <token id="0x91ed050" file="src/CANData.c" linenr="7" str="uint16_t" scope="0x921a2b8" type="name"/>
+    <token id="0x9201bb0" file="src/CANData.c" linenr="7" str="baudrate" scope="0x921a2b8" type="name" varId="6" variable="0x9201448"/>
+    <token id="0x9201c20" file="src/CANData.c" linenr="7" str=";" scope="0x921a2b8"/>
+    <token id="0x91ee450" file="src/CANData.c" linenr="7" str="baudrate" scope="0x921a2b8" type="name" varId="6" variable="0x9201448" astParent="0x9217198"/>
+    <token id="0x9217198" file="src/CANData.c" linenr="7" str="=" scope="0x921a2b8" type="op" isAssignmentOp="True" astOperand1="0x91ee450" astOperand2="0x91fab38"/>
+    <token id="0x91fab38" file="src/CANData.c" linenr="7" str="9600" scope="0x921a2b8" type="number" isInt="True" values="0x91fab3c" astParent="0x9217198"/>
+    <token id="0x91faba8" file="src/CANData.c" linenr="7" str=";" scope="0x921a2b8"/>
+    <token id="0x91ed128" file="src/CANData.c" linenr="8" str="DataIn" scope="0x921a2b8" type="name" varId="4" variable="0x9202610" astParent="0x91ed198"/>
+    <token id="0x91ed198" file="src/CANData.c" linenr="8" str="=" scope="0x921a2b8" type="op" isAssignmentOp="True" astOperand1="0x91ed128" astOperand2="0x91fc348"/>
+    <token id="0x91fc2d8" file="src/CANData.c" linenr="8" str="spi_readData" scope="0x921a2b8" type="name" function="0x91ee638" astParent="0x91fc348"/>
+    <token id="0x91fc348" file="src/CANData.c" linenr="8" str="(" scope="0x921a2b8" link="0x91f15a8" astParent="0x91ed198" astOperand1="0x91fc2d8" astOperand2="0x92026e8"/>
+    <token id="0x9202678" file="src/CANData.c" linenr="8" str="dataOut" scope="0x921a2b8" type="name" varId="5" variable="0x91f3110" values="0x920267c" astParent="0x92026e8"/>
+    <token id="0x92026e8" file="src/CANData.c" linenr="8" str="," scope="0x921a2b8" astParent="0x91fc348" astOperand1="0x9202678" astOperand2="0x91f1538"/>
+    <token id="0x91f1538" file="src/CANData.c" linenr="8" str="baudrate" scope="0x921a2b8" type="name" varId="6" variable="0x9201448" values="0x91f153c" astParent="0x92026e8"/>
+    <token id="0x91f15a8" file="src/CANData.c" linenr="8" str=")" scope="0x921a2b8" link="0x91fc348"/>
+    <token id="0x91f1618" file="src/CANData.c" linenr="8" str=";" scope="0x921a2b8"/>
+    <token id="0x91ed8d8" file="src/CANData.c" linenr="13" str="return" scope="0x921a2b8" type="name" astOperand1="0x91ed9b8"/>
+    <token id="0x91ed948" file="src/CANData.c" linenr="13" str="DataIn" scope="0x921a2b8" type="name" varId="4" variable="0x9202610" astParent="0x91ed9b8"/>
+    <token id="0x91ed9b8" file="src/CANData.c" linenr="13" str="-" scope="0x921a2b8" type="op" isArithmeticalOp="True" astParent="0x91ed8d8" astOperand1="0x91ed948" astOperand2="0x920de90"/>
+    <token id="0x920de90" file="src/CANData.c" linenr="13" str="10" scope="0x921a2b8" type="number" isInt="True" values="0x920de94" astParent="0x91ed9b8"/>
+    <token id="0x920df00" file="src/CANData.c" linenr="13" str=";" scope="0x921a2b8"/>
+    <token id="0x920df70" file="src/CANData.c" linenr="14" str="}" scope="0x921a2b8" link="0x91ed268"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x9217210" type="Global">
+      <functionList>
+        <function id="0x9201368" tokenDef="0x91c2f68" name="parseCANData"/>
+        <function id="0x91ee638" tokenDef="0x91f0168" name="spi_readData">
+          <arg nr="1" variable="0x91f02b8"/>
+          <arg nr="2" variable="0x9202560"/>
+        </function>
+        <function id="0x91fac20" tokenDef="0x91ee5c0" name="checkBaudRate">
+          <arg nr="1" variable="0x921a360"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x921a2b8" type="Function" className="parseCANData" classStart="0x91ed268" classEnd="0x920df70" nestedIn="0x9217210" function="0x9201368">
+      <varlist>
+        <var id="0x9202610"/>
+        <var id="0x91f3110"/>
+        <var id="0x9201448"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x91f02b8" nameToken="0x91f25d8" typeStartToken="0x91f0308" typeEndToken="0x91f0308" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9202560" nameToken="0x9201518" typeStartToken="0x9200958" typeEndToken="0x9200958" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x921a360" nameToken="0x91f1108" typeStartToken="0x91f1098" typeEndToken="0x91f1098" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9202610" nameToken="0x91eea60" typeStartToken="0x91ed2d8" typeEndToken="0x91ed2d8" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91f3110" nameToken="0x9212c70" typeStartToken="0x9212c00" typeEndToken="0x9212c00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9201448" nameToken="0x9201bb0" typeStartToken="0x91ed050" typeEndToken="0x91ed050" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x91ee9a4">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x91fab3c">
+      <value intvalue="9600" known="true"/>
+    </values>
+    <values id="0x920267c">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x91f153c">
+      <value intvalue="9600" known="true"/>
+    </values>
+    <values id="0x920de94">
+      <value intvalue="10" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

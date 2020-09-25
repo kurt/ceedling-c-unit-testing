@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x92013d0" file="test/test_motor_control.c" linenr="5" str="void" scope="0x91ee5c8" type="name"/>
+    <token id="0x91c1d68" file="test/test_motor_control.c" linenr="5" str="setUp" scope="0x91ee5c8" type="name" function="0x91ed210" astParent="0x91c2f68"/>
+    <token id="0x91c2f68" file="test/test_motor_control.c" linenr="5" str="(" scope="0x91ee5c8" link="0x91f1108" astOperand1="0x91c1d68"/>
+    <token id="0x91f1108" file="test/test_motor_control.c" linenr="5" str=")" scope="0x91ee5c8" link="0x91c2f68"/>
+    <token id="0x91f0308" file="test/test_motor_control.c" linenr="6" str="{" scope="0x9201a30" link="0x91eaca8"/>
+    <token id="0x91eaca8" file="test/test_motor_control.c" linenr="7" str="}" scope="0x9201a30" link="0x91f0308"/>
+    <token id="0x91ee500" file="test/test_motor_control.c" linenr="9" str="void" scope="0x91ee5c8" type="name"/>
+    <token id="0x91f5e60" file="test/test_motor_control.c" linenr="9" str="tearDown" scope="0x91ee5c8" type="name" function="0x91fac20" astParent="0x91f0168"/>
+    <token id="0x91f0168" file="test/test_motor_control.c" linenr="9" str="(" scope="0x91ee5c8" link="0x9201670" astOperand1="0x91f5e60"/>
+    <token id="0x9201670" file="test/test_motor_control.c" linenr="9" str=")" scope="0x91ee5c8" link="0x91f0168"/>
+    <token id="0x91f25d8" file="test/test_motor_control.c" linenr="10" str="{" scope="0x9205700" link="0x9200958"/>
+    <token id="0x9200958" file="test/test_motor_control.c" linenr="11" str="}" scope="0x9205700" link="0x91f25d8"/>
+    <token id="0x92027d0" file="test/test_motor_control.c" linenr="13" str="void" scope="0x91ee5c8" type="name"/>
+    <token id="0x9201518" file="test/test_motor_control.c" linenr="13" str="test_motor_control_NeedToImplement" scope="0x91ee5c8" type="name" function="0x9201368" astParent="0x91ed3a0"/>
+    <token id="0x91ed3a0" file="test/test_motor_control.c" linenr="13" str="(" scope="0x91ee5c8" link="0x91ecc30" astOperand1="0x9201518"/>
+    <token id="0x91ecc30" file="test/test_motor_control.c" linenr="13" str=")" scope="0x91ee5c8" link="0x91ed3a0"/>
+    <token id="0x91ed268" file="test/test_motor_control.c" linenr="14" str="{" scope="0x92057d8" link="0x92023f0"/>
+    <token id="0x91ed2d8" file="test/test_motor_control.c" linenr="15" str="TEST_IGNORE_MESSAGE" scope="0x92057d8" type="name" astParent="0x91eea60"/>
+    <token id="0x91eea60" file="test/test_motor_control.c" linenr="15" str="(" scope="0x92057d8" link="0x9219630" astOperand1="0x91ed2d8" astOperand2="0x91eead0"/>
+    <token id="0x91eead0" file="test/test_motor_control.c" linenr="15" str="&quot;Need to Implement motor_control&quot;" scope="0x92057d8" type="string" strlen="31" values="0x91eead4" astParent="0x91eea60"/>
+    <token id="0x9219630" file="test/test_motor_control.c" linenr="15" str=")" scope="0x92057d8" link="0x91eea60"/>
+    <token id="0x92196a0" file="test/test_motor_control.c" linenr="15" str=";" scope="0x92057d8"/>
+    <token id="0x92023f0" file="test/test_motor_control.c" linenr="16" str="}" scope="0x92057d8" link="0x91ed268"/>
+    <token id="0x9202460" file="test/test_motor_control.c" linenr="19" str="void" scope="0x91ee5c8" type="name"/>
+    <token id="0x91eb748" file="test/test_motor_control.c" linenr="19" str="test_readEncoder" scope="0x91ee5c8" type="name" function="0x9205880" astParent="0x91eb7b8"/>
+    <token id="0x91eb7b8" file="test/test_motor_control.c" linenr="19" str="(" scope="0x91ee5c8" link="0x91ed4d8" astOperand1="0x91eb748"/>
+    <token id="0x91ed4d8" file="test/test_motor_control.c" linenr="19" str=")" scope="0x91ee5c8" link="0x91eb7b8"/>
+    <token id="0x9212c00" file="test/test_motor_control.c" linenr="19" str="{" scope="0x91ecdc0" link="0x92019b8"/>
+    <token id="0x9212c70" file="test/test_motor_control.c" linenr="20" str="uint16_t" scope="0x91ecdc0" type="name"/>
+    <token id="0x91ee930" file="test/test_motor_control.c" linenr="20" str="ret_val" scope="0x91ecdc0" type="name" varId="1" variable="0x9202560"/>
+    <token id="0x91ee9a0" file="test/test_motor_control.c" linenr="20" str=";" scope="0x91ecdc0"/>
+    <token id="0x91ef808" file="test/test_motor_control.c" linenr="20" str="ret_val" scope="0x91ecdc0" type="name" varId="1" variable="0x9202560" astParent="0x92026e8"/>
+    <token id="0x92026e8" file="test/test_motor_control.c" linenr="20" str="=" scope="0x91ecdc0" type="op" isAssignmentOp="True" astOperand1="0x91ef808" astOperand2="0x9201bb0"/>
+    <token id="0x9201bb0" file="test/test_motor_control.c" linenr="20" str="100" scope="0x91ecdc0" type="number" isInt="True" values="0x9201bb4" astParent="0x92026e8"/>
+    <token id="0x9201c20" file="test/test_motor_control.c" linenr="20" str=";" scope="0x91ecdc0"/>
+    <token id="0x91ecfe0" file="test/test_motor_control.c" linenr="21" str="for" scope="0x91ecdc0" type="name" astParent="0x91ed050"/>
+    <token id="0x91ed050" file="test/test_motor_control.c" linenr="21" str="(" scope="0x91ecdc0" link="0x91ed948" astOperand1="0x91ecfe0" astOperand2="0x91fc2d8"/>
+    <token id="0x91ed128" file="test/test_motor_control.c" linenr="21" str="float" scope="0x91ecdc0" type="name"/>
+    <token id="0x91ed198" file="test/test_motor_control.c" linenr="21" str="test" scope="0x91ecdc0" type="name" varId="2" variable="0x91f02b8" astParent="0x91fab38"/>
+    <token id="0x91fab38" file="test/test_motor_control.c" linenr="21" str="=" scope="0x91ecdc0" type="op" isAssignmentOp="True" astParent="0x91fc2d8" astOperand1="0x91ed198" astOperand2="0x91faba8"/>
+    <token id="0x91faba8" file="test/test_motor_control.c" linenr="21" str="100.0" scope="0x91ecdc0" type="number" isFloat="True" astParent="0x91fab38"/>
+    <token id="0x91fc2d8" file="test/test_motor_control.c" linenr="21" str=";" scope="0x91ecdc0" astParent="0x91ed050" astOperand1="0x91fab38" astOperand2="0x920df00"/>
+    <token id="0x91fc348" file="test/test_motor_control.c" linenr="21" str="test" scope="0x91ecdc0" type="name" varId="2" variable="0x91f02b8" astParent="0x9202678"/>
+    <token id="0x9202678" file="test/test_motor_control.c" linenr="21" str="&gt;=" scope="0x91ecdc0" type="op" isComparisonOp="True" astParent="0x920df00" astOperand1="0x91fc348" astOperand2="0x920de90"/>
+    <token id="0x920de90" file="test/test_motor_control.c" linenr="21" str="0" scope="0x91ecdc0" type="number" isInt="True" values="0x920de94" astParent="0x9202678"/>
+    <token id="0x920df00" file="test/test_motor_control.c" linenr="21" str=";" scope="0x91ecdc0" astParent="0x91fc2d8" astOperand1="0x9202678" astOperand2="0x91ed8d8"/>
+    <token id="0x920df70" file="test/test_motor_control.c" linenr="21" str="test" scope="0x91ecdc0" type="name" varId="2" variable="0x91f02b8" astParent="0x91ed8d8"/>
+    <token id="0x91ed8d8" file="test/test_motor_control.c" linenr="21" str="--" scope="0x91ecdc0" type="op" astParent="0x920df00" astOperand1="0x920df70"/>
+    <token id="0x91ed948" file="test/test_motor_control.c" linenr="21" str=")" scope="0x91ecdc0" link="0x91ed050"/>
+    <token id="0x91ed9b8" file="test/test_motor_control.c" linenr="21" str="{" scope="0x91ece68" link="0x91ef958"/>
+    <token id="0x91f1538" file="test/test_motor_control.c" linenr="22" str="spi_readData_ExpectAndReturn" scope="0x91ece68" type="name" astParent="0x91f15d0"/>
+    <token id="0x91f15d0" file="test/test_motor_control.c" linenr="22" str="(" scope="0x91ece68" link="0x9217278" astOperand1="0x91f1538" astOperand2="0x9217198"/>
+    <token id="0x91ee370" file="test/test_motor_control.c" linenr="22" str="6" scope="0x91ece68" type="number" isInt="True" values="0x91ee374" astParent="0x91ee3e0"/>
+    <token id="0x91ee3e0" file="test/test_motor_control.c" linenr="22" str="," scope="0x91ece68" astParent="0x9217198" astOperand1="0x91ee370" astOperand2="0x91ee450"/>
+    <token id="0x91ee450" file="test/test_motor_control.c" linenr="22" str="9600" scope="0x91ece68" type="number" isInt="True" values="0x91ee454" astParent="0x91ee3e0"/>
+    <token id="0x9217198" file="test/test_motor_control.c" linenr="22" str="," scope="0x91ece68" astParent="0x91f15d0" astOperand1="0x91ee3e0" astOperand2="0x9217208"/>
+    <token id="0x9217208" file="test/test_motor_control.c" linenr="22" str="ret_val" scope="0x91ece68" type="name" varId="1" variable="0x9202560" astParent="0x9217198"/>
+    <token id="0x9217278" file="test/test_motor_control.c" linenr="22" str=")" scope="0x91ece68" link="0x91f15d0"/>
+    <token id="0x921a2b0" file="test/test_motor_control.c" linenr="22" str=";" scope="0x91ece68"/>
+    <token id="0x921a320" file="test/test_motor_control.c" linenr="23" str="TEST_ASSERT_EQUAL_FLOAT" scope="0x91ece68" type="name" astParent="0x921a390"/>
+    <token id="0x921a390" file="test/test_motor_control.c" linenr="23" str="(" scope="0x91ece68" link="0x91f72c0" astOperand1="0x921a320" astOperand2="0x91f70d8"/>
+    <token id="0x921a400" file="test/test_motor_control.c" linenr="23" str="test" scope="0x91ece68" type="name" varId="2" variable="0x91f02b8" astParent="0x91f70d8"/>
+    <token id="0x91f70d8" file="test/test_motor_control.c" linenr="23" str="," scope="0x91ece68" astParent="0x921a390" astOperand1="0x921a400" astOperand2="0x91f71b8"/>
+    <token id="0x91f7148" file="test/test_motor_control.c" linenr="23" str="readEncoder" scope="0x91ece68" type="name" astParent="0x91f71b8"/>
+    <token id="0x91f71b8" file="test/test_motor_control.c" linenr="23" str="(" scope="0x91ece68" link="0x91f7228" astParent="0x91f70d8" astOperand1="0x91f7148"/>
+    <token id="0x91f7228" file="test/test_motor_control.c" linenr="23" str=")" scope="0x91ece68" link="0x91f71b8"/>
+    <token id="0x91f72c0" file="test/test_motor_control.c" linenr="23" str=")" scope="0x91ece68" link="0x921a390"/>
+    <token id="0x91f7330" file="test/test_motor_control.c" linenr="23" str=";" scope="0x91ece68"/>
+    <token id="0x91f73a0" file="test/test_motor_control.c" linenr="24" str="ret_val" scope="0x91ece68" type="name" varId="1" variable="0x9202560" astParent="0x91f7410"/>
+    <token id="0x91f7410" file="test/test_motor_control.c" linenr="24" str="-=" scope="0x91ece68" type="op" isAssignmentOp="True" astOperand1="0x91f73a0" astOperand2="0x91ef878"/>
+    <token id="0x91ef878" file="test/test_motor_control.c" linenr="24" str="1" scope="0x91ece68" type="number" isInt="True" values="0x91ef87c" astParent="0x91f7410"/>
+    <token id="0x91ef8e8" file="test/test_motor_control.c" linenr="24" str=";" scope="0x91ece68"/>
+    <token id="0x91ef958" file="test/test_motor_control.c" linenr="25" str="}" scope="0x91ece68" link="0x91ed9b8"/>
+    <token id="0x92019b8" file="test/test_motor_control.c" linenr="26" str="}" scope="0x91ecdc0" link="0x9212c00"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x91ee5c8" type="Global">
+      <functionList>
+        <function id="0x91ed210" tokenDef="0x91c1d68" name="setUp"/>
+        <function id="0x91fac20" tokenDef="0x91f5e60" name="tearDown"/>
+        <function id="0x9201368" tokenDef="0x9201518" name="test_motor_control_NeedToImplement"/>
+        <function id="0x9205880" tokenDef="0x91eb748" name="test_readEncoder"/>
+      </functionList>
+    </scope>
+    <scope id="0x9201a30" type="Function" className="setUp" classStart="0x91f0308" classEnd="0x91eaca8" nestedIn="0x91ee5c8" function="0x91ed210"/>
+    <scope id="0x9205700" type="Function" className="tearDown" classStart="0x91f25d8" classEnd="0x9200958" nestedIn="0x91ee5c8" function="0x91fac20"/>
+    <scope id="0x92057d8" type="Function" className="test_motor_control_NeedToImplement" classStart="0x91ed268" classEnd="0x92023f0" nestedIn="0x91ee5c8" function="0x9201368"/>
+    <scope id="0x91ecdc0" type="Function" className="test_readEncoder" classStart="0x9212c00" classEnd="0x92019b8" nestedIn="0x91ee5c8" function="0x9205880">
+      <varlist>
+        <var id="0x9202560"/>
+      </varlist>
+    </scope>
+    <scope id="0x91ece68" type="For" classStart="0x91ed9b8" classEnd="0x91ef958" nestedIn="0x91ecdc0">
+      <varlist>
+        <var id="0x91f02b8"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x9202560" nameToken="0x91ee930" typeStartToken="0x9212c70" typeEndToken="0x9212c70" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91f02b8" nameToken="0x91ed198" typeStartToken="0x91ed128" typeEndToken="0x91ed128" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x91eead4">
+      <value tokvalue="0x91eead0" known="true"/>
+    </values>
+    <values id="0x9201bb4">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x920de94">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x91ee374">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x91ee454">
+      <value intvalue="9600" known="true"/>
+    </values>
+    <values id="0x91ef87c">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

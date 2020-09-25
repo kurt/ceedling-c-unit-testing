@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x92013d0" file="src/tempsensor.h" linenr="3" str="float" scope="0x91ee5c8" type="name"/>
+    <token id="0x91c1d68" file="src/tempsensor.h" linenr="3" str="tempSensor_getTemperature" scope="0x91ee5c8" type="name" function="0x9201368" astParent="0x91c2f68"/>
+    <token id="0x91c2f68" file="src/tempsensor.h" linenr="3" str="(" scope="0x91ee5c8" link="0x91f0308" astOperand1="0x91c1d68"/>
+    <token id="0x91f0308" file="src/tempsensor.h" linenr="3" str=")" scope="0x91ee5c8" link="0x91c2f68"/>
+    <token id="0x91f5e60" file="src/tempsensor.h" linenr="3" str=";" scope="0x91ee5c8"/>
+    <token id="0x91f0168" file="src/i2c.h" linenr="6" str="uint16_t" scope="0x91ee5c8" type="name"/>
+    <token id="0x91ef410" file="src/i2c.h" linenr="6" str="i2c_readRegister" scope="0x91ee5c8" type="name" function="0x91fac20" astParent="0x91ee500"/>
+    <token id="0x91ee500" file="src/i2c.h" linenr="6" str="(" scope="0x91ee5c8" link="0x9200958" astOperand1="0x91ef410" astOperand2="0x91f25d8"/>
+    <token id="0x91eaca8" file="src/i2c.h" linenr="6" str="uint8_t" scope="0x91ee5c8" type="name"/>
+    <token id="0x91f25d8" file="src/i2c.h" linenr="6" str="registerAddress" scope="0x91ee5c8" type="name" varId="1" variable="0x91f3110" astParent="0x91ee500"/>
+    <token id="0x9200958" file="src/i2c.h" linenr="6" str=")" scope="0x91ee5c8" link="0x91ee500"/>
+    <token id="0x9201670" file="src/i2c.h" linenr="6" str=";" scope="0x91ee5c8"/>
+    <token id="0x9201518" file="src/tempsensor.c" linenr="7" str="float" scope="0x91ee5c8" type="name"/>
+    <token id="0x92027d0" file="src/tempsensor.c" linenr="7" str="tempSensor_getTemperature" scope="0x91ee5c8" type="name" function="0x9201368" astParent="0x91f3098"/>
+    <token id="0x91f3098" file="src/tempsensor.c" linenr="7" str="(" scope="0x91ee5c8" link="0x91ecc30" astOperand1="0x92027d0"/>
+    <token id="0x91ecc30" file="src/tempsensor.c" linenr="7" str=")" scope="0x91ee5c8" link="0x91f3098"/>
+    <token id="0x91f1098" file="src/tempsensor.c" linenr="8" str="{" scope="0x91ed8e0" link="0x91ed128"/>
+    <token id="0x91f1108" file="src/tempsensor.c" linenr="9" str="uint16_t" scope="0x91ed8e0" type="name"/>
+    <token id="0x91ed268" file="src/tempsensor.c" linenr="9" str="rawValue" scope="0x91ed8e0" type="name" varId="2" variable="0x9202560"/>
+    <token id="0x91ed2d8" file="src/tempsensor.c" linenr="9" str=";" scope="0x91ed8e0"/>
+    <token id="0x91eb748" file="src/tempsensor.c" linenr="9" str="rawValue" scope="0x91ed8e0" type="name" varId="2" variable="0x9202560" astParent="0x91ed198"/>
+    <token id="0x91ed198" file="src/tempsensor.c" linenr="9" str="=" scope="0x91ed8e0" type="op" isAssignmentOp="True" astOperand1="0x91eb748" astOperand2="0x91eead0"/>
+    <token id="0x91eea60" file="src/tempsensor.c" linenr="9" str="i2c_readRegister" scope="0x91ed8e0" type="name" function="0x91fac20" astParent="0x91eead0"/>
+    <token id="0x91eead0" file="src/tempsensor.c" linenr="9" str="(" scope="0x91ed8e0" link="0x92196a0" astParent="0x91ed198" astOperand1="0x91eea60" astOperand2="0x9219630"/>
+    <token id="0x9219630" file="src/tempsensor.c" linenr="9" str="3" scope="0x91ed8e0" type="number" isInt="True" values="0x9219634" astParent="0x91eead0"/>
+    <token id="0x92196a0" file="src/tempsensor.c" linenr="9" str=")" scope="0x91ed8e0" link="0x91eead0"/>
+    <token id="0x92023f0" file="src/tempsensor.c" linenr="9" str=";" scope="0x91ed8e0"/>
+    <token id="0x9202460" file="src/tempsensor.c" linenr="11" str="return" scope="0x91ed8e0" type="name" astOperand1="0x9212c00"/>
+    <token id="0x91eb7b8" file="src/tempsensor.c" linenr="11" str="-100.0f" scope="0x91ed8e0" type="number" isFloat="True" astParent="0x9212c00"/>
+    <token id="0x9212c00" file="src/tempsensor.c" linenr="11" str="+" scope="0x91ed8e0" type="op" isArithmeticalOp="True" astParent="0x9202460" astOperand1="0x91eb7b8" astOperand2="0x91ee9a0"/>
+    <token id="0x9212c70" file="src/tempsensor.c" linenr="11" str="(" scope="0x91ed8e0" link="0x91fab38"/>
+    <token id="0x91ee930" file="src/tempsensor.c" linenr="11" str="0.2f" scope="0x91ed8e0" type="number" isFloat="True" astParent="0x91ee9a0"/>
+    <token id="0x91ee9a0" file="src/tempsensor.c" linenr="11" str="*" scope="0x91ed8e0" type="op" isArithmeticalOp="True" astParent="0x9212c00" astOperand1="0x91ee930" astOperand2="0x9201bb0"/>
+    <token id="0x9201bb0" file="src/tempsensor.c" linenr="11" str="(" scope="0x91ed8e0" link="0x91ecfe0" astParent="0x91ee9a0" astOperand1="0x91ed050"/>
+    <token id="0x9201c20" file="src/tempsensor.c" linenr="11" str="float" scope="0x91ed8e0" type="name"/>
+    <token id="0x91ecfe0" file="src/tempsensor.c" linenr="11" str=")" scope="0x91ed8e0" link="0x9201bb0"/>
+    <token id="0x91ed050" file="src/tempsensor.c" linenr="11" str="rawValue" scope="0x91ed8e0" type="name" varId="2" variable="0x9202560" astParent="0x9201bb0"/>
+    <token id="0x91fab38" file="src/tempsensor.c" linenr="11" str=")" scope="0x91ed8e0" link="0x9212c70"/>
+    <token id="0x91faba8" file="src/tempsensor.c" linenr="11" str=";" scope="0x91ed8e0"/>
+    <token id="0x91ed128" file="src/tempsensor.c" linenr="12" str="}" scope="0x91ed8e0" link="0x91f1098"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x91ee5c8" type="Global">
+      <functionList>
+        <function id="0x9201368" tokenDef="0x91c1d68" name="tempSensor_getTemperature"/>
+        <function id="0x91fac20" tokenDef="0x91ef410" name="i2c_readRegister">
+          <arg nr="1" variable="0x91f3110"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x91ed8e0" type="Function" className="tempSensor_getTemperature" classStart="0x91f1098" classEnd="0x91ed128" nestedIn="0x91ee5c8" function="0x9201368">
+      <varlist>
+        <var id="0x9202560"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x91f3110" nameToken="0x91f25d8" typeStartToken="0x91eaca8" typeEndToken="0x91eaca8" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9202560" nameToken="0x91ed268" typeStartToken="0x91f1108" typeEndToken="0x91f1108" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x9219634">
+      <value intvalue="3" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x91c2f68" file="test/test_tempsensor.c" linenr="4" str="void" scope="0x91ee5c8" type="name"/>
+    <token id="0x91f0308" file="test/test_tempsensor.c" linenr="4" str="setUp" scope="0x91ee5c8" type="name" function="0x91ed210" astParent="0x91eaca8"/>
+    <token id="0x91eaca8" file="test/test_tempsensor.c" linenr="4" str="(" scope="0x91ee5c8" link="0x9212ab8" astOperand1="0x91f0308"/>
+    <token id="0x9212ab8" file="test/test_tempsensor.c" linenr="4" str=")" scope="0x91ee5c8" link="0x91eaca8"/>
+    <token id="0x92013d0" file="test/test_tempsensor.c" linenr="5" str="{" scope="0x91ee6c0" link="0x91c1d68"/>
+    <token id="0x91c1d68" file="test/test_tempsensor.c" linenr="6" str="}" scope="0x91ee6c0" link="0x92013d0"/>
+    <token id="0x91ef410" file="test/test_tempsensor.c" linenr="8" str="void" scope="0x91ee5c8" type="name"/>
+    <token id="0x91ee500" file="test/test_tempsensor.c" linenr="8" str="tearDown" scope="0x91ee5c8" type="name" function="0x91fac20" astParent="0x91f5e60"/>
+    <token id="0x91f5e60" file="test/test_tempsensor.c" linenr="8" str="(" scope="0x91ee5c8" link="0x9201670" astOperand1="0x91ee500"/>
+    <token id="0x9201670" file="test/test_tempsensor.c" linenr="8" str=")" scope="0x91ee5c8" link="0x91f5e60"/>
+    <token id="0x91f25d8" file="test/test_tempsensor.c" linenr="9" str="{" scope="0x91ee768" link="0x9200958"/>
+    <token id="0x9200958" file="test/test_tempsensor.c" linenr="10" str="}" scope="0x91ee768" link="0x91f25d8"/>
+    <token id="0x92027d0" file="test/test_tempsensor.c" linenr="12" str="void" scope="0x91ee5c8" type="name"/>
+    <token id="0x9201518" file="test/test_tempsensor.c" linenr="12" str="test_tempsensor_NeedToImplement" scope="0x91ee5c8" type="name" function="0x91ee480" astParent="0x91ed3a0"/>
+    <token id="0x91ed3a0" file="test/test_tempsensor.c" linenr="12" str="(" scope="0x91ee5c8" link="0x91ecc30" astOperand1="0x9201518"/>
+    <token id="0x91ecc30" file="test/test_tempsensor.c" linenr="12" str=")" scope="0x91ee5c8" link="0x91ed3a0"/>
+    <token id="0x91ed268" file="test/test_tempsensor.c" linenr="13" str="{" scope="0x91f2348" link="0x92023f0"/>
+    <token id="0x91ed2d8" file="test/test_tempsensor.c" linenr="14" str="TEST_IGNORE_MESSAGE" scope="0x91f2348" type="name" astParent="0x91eea60"/>
+    <token id="0x91eea60" file="test/test_tempsensor.c" linenr="14" str="(" scope="0x91f2348" link="0x9219630" astOperand1="0x91ed2d8" astOperand2="0x91eead0"/>
+    <token id="0x91eead0" file="test/test_tempsensor.c" linenr="14" str="&quot;Need to Implement tempsensor&quot;" scope="0x91f2348" type="string" strlen="28" values="0x91eead4" astParent="0x91eea60"/>
+    <token id="0x9219630" file="test/test_tempsensor.c" linenr="14" str=")" scope="0x91f2348" link="0x91eea60"/>
+    <token id="0x92196a0" file="test/test_tempsensor.c" linenr="14" str=";" scope="0x91f2348"/>
+    <token id="0x92023f0" file="test/test_tempsensor.c" linenr="15" str="}" scope="0x91f2348" link="0x91ed268"/>
+    <token id="0x9202460" file="test/test_tempsensor.c" linenr="17" str="void" scope="0x91ee5c8" type="name"/>
+    <token id="0x91eb748" file="test/test_tempsensor.c" linenr="17" str="test_whenTempRegisterReadsMaxValue_thenTheTempIsTheMaxValue" scope="0x91ee5c8" type="name" function="0x9201368" astParent="0x91ed468"/>
+    <token id="0x91ed468" file="test/test_tempsensor.c" linenr="17" str="(" scope="0x91ee5c8" link="0x91f0048" astOperand1="0x91eb748"/>
+    <token id="0x91f0048" file="test/test_tempsensor.c" linenr="17" str=")" scope="0x91ee5c8" link="0x91ed468"/>
+    <token id="0x91f00b8" file="test/test_tempsensor.c" linenr="18" str="{" scope="0x91f2460" link="0x9202218"/>
+    <token id="0x9212c00" file="test/test_tempsensor.c" linenr="19" str="uint8_t" scope="0x91f2460" type="name"/>
+    <token id="0x9212c70" file="test/test_tempsensor.c" linenr="19" str="tempRegisterAddress" scope="0x91f2460" type="name" varId="1" variable="0x92023b0"/>
+    <token id="0x91ee930" file="test/test_tempsensor.c" linenr="19" str=";" scope="0x91f2460"/>
+    <token id="0x91f7148" file="test/test_tempsensor.c" linenr="19" str="tempRegisterAddress" scope="0x91f2460" type="name" varId="1" variable="0x92023b0" astParent="0x91db0f8"/>
+    <token id="0x91db0f8" file="test/test_tempsensor.c" linenr="19" str="=" scope="0x91f2460" type="op" isAssignmentOp="True" astOperand1="0x91f7148" astOperand2="0x91ee9a0"/>
+    <token id="0x91ee9a0" file="test/test_tempsensor.c" linenr="19" str="3" scope="0x91f2460" type="number" isInt="True" values="0x91ee9a4" astParent="0x91db0f8"/>
+    <token id="0x91ecfe0" file="test/test_tempsensor.c" linenr="19" str=";" scope="0x91f2460"/>
+    <token id="0x91ed050" file="test/test_tempsensor.c" linenr="20" str="float" scope="0x91f2460" type="name"/>
+    <token id="0x9201bb0" file="test/test_tempsensor.c" linenr="20" str="expectedTemperature" scope="0x91f2460" type="name" varId="2" variable="0x91eb800"/>
+    <token id="0x9201c20" file="test/test_tempsensor.c" linenr="20" str=";" scope="0x91f2460"/>
+    <token id="0x91db168" file="test/test_tempsensor.c" linenr="20" str="expectedTemperature" scope="0x91f2460" type="name" varId="2" variable="0x91eb800" astParent="0x91efa18"/>
+    <token id="0x91efa18" file="test/test_tempsensor.c" linenr="20" str="=" scope="0x91f2460" type="op" isAssignmentOp="True" astOperand1="0x91db168" astOperand2="0x91ed128"/>
+    <token id="0x91ed128" file="test/test_tempsensor.c" linenr="20" str="104.6f" scope="0x91f2460" type="number" isFloat="True" astParent="0x91efa18"/>
+    <token id="0x91ed198" file="test/test_tempsensor.c" linenr="20" str=";" scope="0x91f2460"/>
+    <token id="0x91fab38" file="test/test_tempsensor.c" linenr="21" str="float" scope="0x91f2460" type="name"/>
+    <token id="0x91faba8" file="test/test_tempsensor.c" linenr="21" str="tolerance" scope="0x91f2460" type="name" varId="3" variable="0x91f02b8"/>
+    <token id="0x91fc2d8" file="test/test_tempsensor.c" linenr="21" str=";" scope="0x91f2460"/>
+    <token id="0x91efa88" file="test/test_tempsensor.c" linenr="21" str="tolerance" scope="0x91f2460" type="name" varId="3" variable="0x91f02b8" astParent="0x91efaf8"/>
+    <token id="0x91efaf8" file="test/test_tempsensor.c" linenr="21" str="=" scope="0x91f2460" type="op" isAssignmentOp="True" astOperand1="0x91efa88" astOperand2="0x91fc348"/>
+    <token id="0x91fc348" file="test/test_tempsensor.c" linenr="21" str="0.1f" scope="0x91f2460" type="number" isFloat="True" astParent="0x91efaf8"/>
+    <token id="0x9202678" file="test/test_tempsensor.c" linenr="21" str=";" scope="0x91f2460"/>
+    <token id="0x9202710" file="test/test_tempsensor.c" linenr="24" str="i2c_readRegister_ExpectAndReturn" scope="0x91f2460" type="name" astParent="0x91ed8d8"/>
+    <token id="0x91ed8d8" file="test/test_tempsensor.c" linenr="24" str="(" scope="0x91f2460" link="0x920df00" astOperand1="0x9202710" astOperand2="0x91ed9b8"/>
+    <token id="0x91ed948" file="test/test_tempsensor.c" linenr="24" str="tempRegisterAddress" scope="0x91f2460" type="name" varId="1" variable="0x92023b0" values="0x91ed94c" astParent="0x91ed9b8"/>
+    <token id="0x91ed9b8" file="test/test_tempsensor.c" linenr="24" str="," scope="0x91f2460" astParent="0x91ed8d8" astOperand1="0x91ed948" astOperand2="0x920de90"/>
+    <token id="0x920de90" file="test/test_tempsensor.c" linenr="24" str="1023" scope="0x91f2460" type="number" isInt="True" values="0x920de94" astParent="0x91ed9b8"/>
+    <token id="0x920df00" file="test/test_tempsensor.c" linenr="24" str=")" scope="0x91f2460" link="0x91ed8d8"/>
+    <token id="0x920df70" file="test/test_tempsensor.c" linenr="24" str=";" scope="0x91f2460"/>
+    <token id="0x91f1538" file="test/test_tempsensor.c" linenr="27" str="float" scope="0x91f2460" type="name"/>
+    <token id="0x91f15a8" file="test/test_tempsensor.c" linenr="27" str="actualTemperature" scope="0x91f2460" type="name" varId="4" variable="0x91ecf78"/>
+    <token id="0x91ee370" file="test/test_tempsensor.c" linenr="27" str=";" scope="0x91f2460"/>
+    <token id="0x91efb68" file="test/test_tempsensor.c" linenr="27" str="actualTemperature" scope="0x91f2460" type="name" varId="4" variable="0x91ecf78" astParent="0x91f33b8"/>
+    <token id="0x91f33b8" file="test/test_tempsensor.c" linenr="27" str="=" scope="0x91f2460" type="op" isAssignmentOp="True" astOperand1="0x91efb68" astOperand2="0x91f3188"/>
+    <token id="0x91ee3e0" file="test/test_tempsensor.c" linenr="27" str="tempSensor_getTemperature" scope="0x91f2460" type="name" astParent="0x91f3188"/>
+    <token id="0x91f3188" file="test/test_tempsensor.c" linenr="27" str="(" scope="0x91f2460" link="0x91f31f8" astParent="0x91f33b8" astOperand1="0x91ee3e0"/>
+    <token id="0x91f31f8" file="test/test_tempsensor.c" linenr="27" str=")" scope="0x91f2460" link="0x91f3188"/>
+    <token id="0x91f3268" file="test/test_tempsensor.c" linenr="27" str=";" scope="0x91f2460"/>
+    <token id="0x91fe728" file="test/test_tempsensor.c" linenr="28" str="TEST_ASSERT_FLOAT_WITHIN" scope="0x91f2460" type="name" astParent="0x91fe798"/>
+    <token id="0x91fe798" file="test/test_tempsensor.c" linenr="28" str="(" scope="0x91f2460" link="0x921a348" astOperand1="0x91fe728" astOperand2="0x9217278"/>
+    <token id="0x91fe808" file="test/test_tempsensor.c" linenr="28" str="tolerance" scope="0x91f2460" type="name" varId="3" variable="0x91f02b8" astParent="0x9217198"/>
+    <token id="0x9217198" file="test/test_tempsensor.c" linenr="28" str="," scope="0x91f2460" astParent="0x9217278" astOperand1="0x91fe808" astOperand2="0x9217208"/>
+    <token id="0x9217208" file="test/test_tempsensor.c" linenr="28" str="expectedTemperature" scope="0x91f2460" type="name" varId="2" variable="0x91eb800" astParent="0x9217198"/>
+    <token id="0x9217278" file="test/test_tempsensor.c" linenr="28" str="," scope="0x91f2460" astParent="0x91fe798" astOperand1="0x9217198" astOperand2="0x921a2b0"/>
+    <token id="0x921a2b0" file="test/test_tempsensor.c" linenr="28" str="actualTemperature" scope="0x91f2460" type="name" varId="4" variable="0x91ecf78" astParent="0x9217278"/>
+    <token id="0x921a348" file="test/test_tempsensor.c" linenr="28" str=")" scope="0x91f2460" link="0x91fe798"/>
+    <token id="0x921a3b8" file="test/test_tempsensor.c" linenr="28" str=";" scope="0x91f2460"/>
+    <token id="0x9202218" file="test/test_tempsensor.c" linenr="29" str="}" scope="0x91f2460" link="0x91f00b8"/>
+    <token id="0x9202288" file="test/test_tempsensor.c" linenr="31" str="void" scope="0x91ee5c8" type="name"/>
+    <token id="0x92022f8" file="test/test_tempsensor.c" linenr="31" str="test_whenTempRegisterReadsMinValue_thenTheTempIsTheMinValu" scope="0x91ee5c8" type="name" function="0x91f2508" astParent="0x91ed618"/>
+    <token id="0x91ed618" file="test/test_tempsensor.c" linenr="31" str="(" scope="0x91ee5c8" link="0x91ed6f8" astOperand1="0x92022f8"/>
+    <token id="0x91ed6f8" file="test/test_tempsensor.c" linenr="31" str=")" scope="0x91ee5c8" link="0x91ed618"/>
+    <token id="0x91ed768" file="test/test_tempsensor.c" linenr="31" str="{" scope="0x92010a8" link="0x91db088"/>
+    <token id="0x91f72c0" file="test/test_tempsensor.c" linenr="32" str="uint8_t" scope="0x92010a8" type="name"/>
+    <token id="0x91f7330" file="test/test_tempsensor.c" linenr="32" str="tempRegisterAddress" scope="0x92010a8" type="name" varId="5" variable="0x9202560"/>
+    <token id="0x91f73c8" file="test/test_tempsensor.c" linenr="32" str=";" scope="0x92010a8"/>
+    <token id="0x91f3428" file="test/test_tempsensor.c" linenr="32" str="tempRegisterAddress" scope="0x92010a8" type="name" varId="5" variable="0x9202560" astParent="0x91f34c0"/>
+    <token id="0x91f34c0" file="test/test_tempsensor.c" linenr="32" str="=" scope="0x92010a8" type="op" isAssignmentOp="True" astOperand1="0x91f3428" astOperand2="0x91ef808"/>
+    <token id="0x91ef808" file="test/test_tempsensor.c" linenr="32" str="3" scope="0x92010a8" type="number" isInt="True" values="0x91ef80c" astParent="0x91f34c0"/>
+    <token id="0x91ef878" file="test/test_tempsensor.c" linenr="32" str=";" scope="0x92010a8"/>
+    <token id="0x91ef8e8" file="test/test_tempsensor.c" linenr="33" str="float" scope="0x92010a8" type="name"/>
+    <token id="0x91ef958" file="test/test_tempsensor.c" linenr="33" str="expectedTemperature" scope="0x92010a8" type="name" varId="6" variable="0x9202610"/>
+    <token id="0x91f70d8" file="test/test_tempsensor.c" linenr="33" str=";" scope="0x92010a8"/>
+    <token id="0x91f3530" file="test/test_tempsensor.c" linenr="33" str="expectedTemperature" scope="0x92010a8" type="name" varId="6" variable="0x9202610" astParent="0x9201d48"/>
+    <token id="0x9201d48" file="test/test_tempsensor.c" linenr="33" str="=" scope="0x92010a8" type="op" isAssignmentOp="True" astOperand1="0x91f3530" astOperand2="0x91f71b8"/>
+    <token id="0x91f71b8" file="test/test_tempsensor.c" linenr="33" str="-100.0f" scope="0x92010a8" type="number" isFloat="True" astParent="0x9201d48"/>
+    <token id="0x91f7228" file="test/test_tempsensor.c" linenr="33" str=";" scope="0x92010a8"/>
+    <token id="0x92019b8" file="test/test_tempsensor.c" linenr="34" str="float" scope="0x92010a8" type="name"/>
+    <token id="0x9201a28" file="test/test_tempsensor.c" linenr="34" str="tolerance" scope="0x92010a8" type="name" varId="7" variable="0x91f3b20"/>
+    <token id="0x9201a98" file="test/test_tempsensor.c" linenr="34" str=";" scope="0x92010a8"/>
+    <token id="0x9201db8" file="test/test_tempsensor.c" linenr="34" str="tolerance" scope="0x92010a8" type="name" varId="7" variable="0x91f3b20" astParent="0x9201e28"/>
+    <token id="0x9201e28" file="test/test_tempsensor.c" linenr="34" str="=" scope="0x92010a8" type="op" isAssignmentOp="True" astOperand1="0x9201db8" astOperand2="0x9201b08"/>
+    <token id="0x9201b08" file="test/test_tempsensor.c" linenr="34" str="0.1f" scope="0x92010a8" type="number" isFloat="True" astParent="0x9201e28"/>
+    <token id="0x92056f8" file="test/test_tempsensor.c" linenr="34" str=";" scope="0x92010a8"/>
+    <token id="0x9205790" file="test/test_tempsensor.c" linenr="36" str="i2c_readRegister_ExpectAndReturn" scope="0x92010a8" type="name" astParent="0x9205828"/>
+    <token id="0x9205828" file="test/test_tempsensor.c" linenr="36" str="(" scope="0x92010a8" link="0x921a8d0" astOperand1="0x9205790" astOperand2="0x921a7f0"/>
+    <token id="0x921a780" file="test/test_tempsensor.c" linenr="36" str="tempRegisterAddress" scope="0x92010a8" type="name" varId="5" variable="0x9202560" values="0x921a784" astParent="0x921a7f0"/>
+    <token id="0x921a7f0" file="test/test_tempsensor.c" linenr="36" str="," scope="0x92010a8" astParent="0x9205828" astOperand1="0x921a780" astOperand2="0x921a860"/>
+    <token id="0x921a860" file="test/test_tempsensor.c" linenr="36" str="0" scope="0x92010a8" type="number" isInt="True" values="0x921a864" astParent="0x921a7f0"/>
+    <token id="0x921a8d0" file="test/test_tempsensor.c" linenr="36" str=")" scope="0x92010a8" link="0x9205828"/>
+    <token id="0x9201738" file="test/test_tempsensor.c" linenr="36" str=";" scope="0x92010a8"/>
+    <token id="0x92017a8" file="test/test_tempsensor.c" linenr="38" str="float" scope="0x92010a8" type="name"/>
+    <token id="0x9201818" file="test/test_tempsensor.c" linenr="38" str="actualTemperature" scope="0x92010a8" type="name" varId="8" variable="0x9201150"/>
+    <token id="0x92018b0" file="test/test_tempsensor.c" linenr="38" str=";" scope="0x92010a8"/>
+    <token id="0x9201e98" file="test/test_tempsensor.c" linenr="38" str="actualTemperature" scope="0x92010a8" type="name" varId="8" variable="0x9201150" astParent="0x9201f30"/>
+    <token id="0x9201f30" file="test/test_tempsensor.c" linenr="38" str="=" scope="0x92010a8" type="op" isAssignmentOp="True" astOperand1="0x9201e98" astOperand2="0x92020a8"/>
+    <token id="0x9202010" file="test/test_tempsensor.c" linenr="38" str="tempSensor_getTemperature" scope="0x92010a8" type="name" astParent="0x92020a8"/>
+    <token id="0x92020a8" file="test/test_tempsensor.c" linenr="38" str="(" scope="0x92010a8" link="0x9202118" astParent="0x9201f30" astOperand1="0x9202010"/>
+    <token id="0x9202118" file="test/test_tempsensor.c" linenr="38" str=")" scope="0x92010a8" link="0x92020a8"/>
+    <token id="0x9202188" file="test/test_tempsensor.c" linenr="38" str=";" scope="0x92010a8"/>
+    <token id="0x921a538" file="test/test_tempsensor.c" linenr="39" str="TEST_ASSERT_FLOAT_WITHIN" scope="0x92010a8" type="name" astParent="0x921a5d0"/>
+    <token id="0x921a5d0" file="test/test_tempsensor.c" linenr="39" str="(" scope="0x92010a8" link="0x91f0fc0" astOperand1="0x921a538" astOperand2="0x91f0eb8"/>
+    <token id="0x921a640" file="test/test_tempsensor.c" linenr="39" str="tolerance" scope="0x92010a8" type="name" varId="7" variable="0x91f3b20" astParent="0x921a6b0"/>
+    <token id="0x921a6b0" file="test/test_tempsensor.c" linenr="39" str="," scope="0x92010a8" astParent="0x91f0eb8" astOperand1="0x921a640" astOperand2="0x91f0e20"/>
+    <token id="0x91f0e20" file="test/test_tempsensor.c" linenr="39" str="expectedTemperature" scope="0x92010a8" type="name" varId="6" variable="0x9202610" astParent="0x921a6b0"/>
+    <token id="0x91f0eb8" file="test/test_tempsensor.c" linenr="39" str="," scope="0x92010a8" astParent="0x921a5d0" astOperand1="0x921a6b0" astOperand2="0x91f0f28"/>
+    <token id="0x91f0f28" file="test/test_tempsensor.c" linenr="39" str="actualTemperature" scope="0x92010a8" type="name" varId="8" variable="0x9201150" astParent="0x91f0eb8"/>
+    <token id="0x91f0fc0" file="test/test_tempsensor.c" linenr="39" str=")" scope="0x92010a8" link="0x921a5d0"/>
+    <token id="0x91db018" file="test/test_tempsensor.c" linenr="39" str=";" scope="0x92010a8"/>
+    <token id="0x91db088" file="test/test_tempsensor.c" linenr="40" str="}" scope="0x92010a8" link="0x91ed768"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x91ee5c8" type="Global">
+      <functionList>
+        <function id="0x91ed210" tokenDef="0x91f0308" name="setUp"/>
+        <function id="0x91fac20" tokenDef="0x91ee500" name="tearDown"/>
+        <function id="0x91ee480" tokenDef="0x9201518" name="test_tempsensor_NeedToImplement"/>
+        <function id="0x9201368" tokenDef="0x91eb748" name="test_whenTempRegisterReadsMaxValue_thenTheTempIsTheMaxValue"/>
+        <function id="0x91f2508" tokenDef="0x92022f8" name="test_whenTempRegisterReadsMinValue_thenTheTempIsTheMinValu"/>
+      </functionList>
+    </scope>
+    <scope id="0x91ee6c0" type="Function" className="setUp" classStart="0x92013d0" classEnd="0x91c1d68" nestedIn="0x91ee5c8" function="0x91ed210"/>
+    <scope id="0x91ee768" type="Function" className="tearDown" classStart="0x91f25d8" classEnd="0x9200958" nestedIn="0x91ee5c8" function="0x91fac20"/>
+    <scope id="0x91f2348" type="Function" className="test_tempsensor_NeedToImplement" classStart="0x91ed268" classEnd="0x92023f0" nestedIn="0x91ee5c8" function="0x91ee480"/>
+    <scope id="0x91f2460" type="Function" className="test_whenTempRegisterReadsMaxValue_thenTheTempIsTheMaxValue" classStart="0x91f00b8" classEnd="0x9202218" nestedIn="0x91ee5c8" function="0x9201368">
+      <varlist>
+        <var id="0x92023b0"/>
+        <var id="0x91eb800"/>
+        <var id="0x91f02b8"/>
+        <var id="0x91ecf78"/>
+      </varlist>
+    </scope>
+    <scope id="0x92010a8" type="Function" className="test_whenTempRegisterReadsMinValue_thenTheTempIsTheMinValu" classStart="0x91ed768" classEnd="0x91db088" nestedIn="0x91ee5c8" function="0x91f2508">
+      <varlist>
+        <var id="0x9202560"/>
+        <var id="0x9202610"/>
+        <var id="0x91f3b20"/>
+        <var id="0x9201150"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x92023b0" nameToken="0x9212c70" typeStartToken="0x9212c00" typeEndToken="0x9212c00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91eb800" nameToken="0x9201bb0" typeStartToken="0x91ed050" typeEndToken="0x91ed050" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91f02b8" nameToken="0x91faba8" typeStartToken="0x91fab38" typeEndToken="0x91fab38" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91ecf78" nameToken="0x91f15a8" typeStartToken="0x91f1538" typeEndToken="0x91f1538" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9202560" nameToken="0x91f7330" typeStartToken="0x91f72c0" typeEndToken="0x91f72c0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9202610" nameToken="0x91ef958" typeStartToken="0x91ef8e8" typeEndToken="0x91ef8e8" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91f3b20" nameToken="0x9201a28" typeStartToken="0x92019b8" typeEndToken="0x92019b8" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9201150" nameToken="0x9201818" typeStartToken="0x92017a8" typeEndToken="0x92017a8" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x91eead4">
+      <value tokvalue="0x91eead0" known="true"/>
+    </values>
+    <values id="0x91ee9a4">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x91ed94c">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x920de94">
+      <value intvalue="1023" known="true"/>
+    </values>
+    <values id="0x91ef80c">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x921a784">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x921a864">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

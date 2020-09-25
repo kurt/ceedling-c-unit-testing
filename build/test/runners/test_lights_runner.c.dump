@@ -1,0 +1,651 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x91f3ae0" file="build/test/runners/test_lights_runner.c" linenr="6" str="int" scope="0x921a540" type="name"/>
+    <token id="0x91c2f68" file="build/test/runners/test_lights_runner.c" linenr="6" str="GlobalExpectCount" scope="0x921a540" type="name" varId="1" variable="0x9202560"/>
+    <token id="0x91c1d68" file="build/test/runners/test_lights_runner.c" linenr="6" str=";" scope="0x921a540"/>
+    <token id="0x91f0168" file="build/test/runners/test_lights_runner.c" linenr="7" str="int" scope="0x921a540" type="name"/>
+    <token id="0x91ee500" file="build/test/runners/test_lights_runner.c" linenr="7" str="GlobalVerifyOrder" scope="0x921a540" type="name" varId="2" variable="0x9201448"/>
+    <token id="0x91f5e60" file="build/test/runners/test_lights_runner.c" linenr="7" str=";" scope="0x921a540"/>
+    <token id="0x91ef410" file="build/test/runners/test_lights_runner.c" linenr="8" str="char" scope="0x921a540" type="name" astParent="0x91eaca8"/>
+    <token id="0x91eaca8" file="build/test/runners/test_lights_runner.c" linenr="8" str="*" scope="0x921a540" type="op" isArithmeticalOp="True" astOperand1="0x91ef410" astOperand2="0x91f0308"/>
+    <token id="0x91f0308" file="build/test/runners/test_lights_runner.c" linenr="8" str="GlobalOrderError" scope="0x921a540" type="name" varId="3" variable="0x920dfe8" astParent="0x91eaca8"/>
+    <token id="0x91f2fe0" file="build/test/runners/test_lights_runner.c" linenr="8" str=";" scope="0x921a540"/>
+    <token id="0x9200958" file="build/test/runners/test_lights_runner.c" linenr="11" str="extern" scope="0x921a540" type="name"/>
+    <token id="0x9201670" file="build/test/runners/test_lights_runner.c" linenr="11" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91f25d8" file="build/test/runners/test_lights_runner.c" linenr="11" str="setUp" scope="0x921a540" type="name" function="0x91ee638" astParent="0x9201518"/>
+    <token id="0x9201518" file="build/test/runners/test_lights_runner.c" linenr="11" str="(" scope="0x921a540" link="0x91f3098" astOperand1="0x91f25d8"/>
+    <token id="0x91f3098" file="build/test/runners/test_lights_runner.c" linenr="11" str=")" scope="0x921a540" link="0x9201518"/>
+    <token id="0x92013d0" file="build/test/runners/test_lights_runner.c" linenr="11" str=";" scope="0x921a540"/>
+    <token id="0x92024e8" file="build/test/runners/test_lights_runner.c" linenr="12" str="extern" scope="0x921a540" type="name"/>
+    <token id="0x91ee5c0" file="build/test/runners/test_lights_runner.c" linenr="12" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91ecc30" file="build/test/runners/test_lights_runner.c" linenr="12" str="tearDown" scope="0x921a540" type="name" function="0x91fac20" astParent="0x9219630"/>
+    <token id="0x9219630" file="build/test/runners/test_lights_runner.c" linenr="12" str="(" scope="0x921a540" link="0x92023f0" astOperand1="0x91ecc30"/>
+    <token id="0x92023f0" file="build/test/runners/test_lights_runner.c" linenr="12" str=")" scope="0x921a540" link="0x9219630"/>
+    <token id="0x9202460" file="build/test/runners/test_lights_runner.c" linenr="12" str=";" scope="0x921a540"/>
+    <token id="0x91eb748" file="build/test/runners/test_lights_runner.c" linenr="13" str="extern" scope="0x921a540" type="name"/>
+    <token id="0x91eb7b8" file="build/test/runners/test_lights_runner.c" linenr="13" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91ed268" file="build/test/runners/test_lights_runner.c" linenr="13" str="test_lights_NeedToImplement" scope="0x921a540" type="name" function="0x91f29b8" astParent="0x91eea60"/>
+    <token id="0x91eea60" file="build/test/runners/test_lights_runner.c" linenr="13" str="(" scope="0x921a540" link="0x91ee930" astOperand1="0x91ed268"/>
+    <token id="0x91ee930" file="build/test/runners/test_lights_runner.c" linenr="13" str=")" scope="0x921a540" link="0x91eea60"/>
+    <token id="0x91ee9a0" file="build/test/runners/test_lights_runner.c" linenr="13" str=";" scope="0x921a540"/>
+    <token id="0x9212c00" file="build/test/runners/test_lights_runner.c" linenr="14" str="extern" scope="0x921a540" type="name"/>
+    <token id="0x9212c70" file="build/test/runners/test_lights_runner.c" linenr="14" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91ecfe0" file="build/test/runners/test_lights_runner.c" linenr="14" str="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff" scope="0x921a540" type="name" function="0x91ed210" astParent="0x9201bb0"/>
+    <token id="0x9201bb0" file="build/test/runners/test_lights_runner.c" linenr="14" str="(" scope="0x921a540" link="0x91ed128" astOperand1="0x91ecfe0"/>
+    <token id="0x91ed128" file="build/test/runners/test_lights_runner.c" linenr="14" str=")" scope="0x921a540" link="0x9201bb0"/>
+    <token id="0x91ed198" file="build/test/runners/test_lights_runner.c" linenr="14" str=";" scope="0x921a540"/>
+    <token id="0x91fab38" file="build/test/runners/test_lights_runner.c" linenr="18" str="static" scope="0x921a540" type="name"/>
+    <token id="0x91faba8" file="build/test/runners/test_lights_runner.c" linenr="18" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91fc2d8" file="build/test/runners/test_lights_runner.c" linenr="18" str="CMock_Init" scope="0x921a540" type="name" function="0x9201368" astParent="0x91fc348"/>
+    <token id="0x91fc348" file="build/test/runners/test_lights_runner.c" linenr="18" str="(" scope="0x921a540" link="0x92026e8" astOperand1="0x91fc2d8"/>
+    <token id="0x92026e8" file="build/test/runners/test_lights_runner.c" linenr="18" str=")" scope="0x921a540" link="0x91fc348"/>
+    <token id="0x91f1538" file="build/test/runners/test_lights_runner.c" linenr="19" str="{" scope="0x91ed620" link="0x9217208"/>
+    <token id="0x91f15a8" file="build/test/runners/test_lights_runner.c" linenr="20" str="GlobalExpectCount" scope="0x91ed620" type="name" varId="1" variable="0x9202560" astParent="0x91f1618"/>
+    <token id="0x91f1618" file="build/test/runners/test_lights_runner.c" linenr="20" str="=" scope="0x91ed620" type="op" isAssignmentOp="True" astOperand1="0x91f15a8" astOperand2="0x91ee370"/>
+    <token id="0x91ee370" file="build/test/runners/test_lights_runner.c" linenr="20" str="0" scope="0x91ed620" type="number" isInt="True" values="0x91ee374" astParent="0x91f1618"/>
+    <token id="0x91ee3e0" file="build/test/runners/test_lights_runner.c" linenr="20" str=";" scope="0x91ed620"/>
+    <token id="0x91ee450" file="build/test/runners/test_lights_runner.c" linenr="21" str="GlobalVerifyOrder" scope="0x91ed620" type="name" varId="2" variable="0x9201448" astParent="0x91f3188"/>
+    <token id="0x91f3188" file="build/test/runners/test_lights_runner.c" linenr="21" str="=" scope="0x91ed620" type="op" isAssignmentOp="True" astOperand1="0x91ee450" astOperand2="0x91f31f8"/>
+    <token id="0x91f31f8" file="build/test/runners/test_lights_runner.c" linenr="21" str="0" scope="0x91ed620" type="number" isInt="True" values="0x91f31fc" astParent="0x91f3188"/>
+    <token id="0x91f3268" file="build/test/runners/test_lights_runner.c" linenr="21" str=";" scope="0x91ed620"/>
+    <token id="0x920de90" file="build/test/runners/test_lights_runner.c" linenr="22" str="GlobalOrderError" scope="0x91ed620" type="name" varId="3" variable="0x920dfe8" astParent="0x920df00"/>
+    <token id="0x920df00" file="build/test/runners/test_lights_runner.c" linenr="22" str="=" scope="0x91ed620" type="op" isAssignmentOp="True" astOperand1="0x920de90" astOperand2="0x920df70"/>
+    <token id="0x920df70" file="build/test/runners/test_lights_runner.c" linenr="22" str="0" scope="0x91ed620" type="number" isInt="True" values="0x920df74" astParent="0x920df00"/>
+    <token id="0x9217198" file="build/test/runners/test_lights_runner.c" linenr="22" str=";" scope="0x91ed620"/>
+    <token id="0x9217208" file="build/test/runners/test_lights_runner.c" linenr="23" str="}" scope="0x91ed620" link="0x91f1538"/>
+    <token id="0x9217278" file="build/test/runners/test_lights_runner.c" linenr="24" str="static" scope="0x921a540" type="name"/>
+    <token id="0x91ed8d8" file="build/test/runners/test_lights_runner.c" linenr="24" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91ed948" file="build/test/runners/test_lights_runner.c" linenr="24" str="CMock_Verify" scope="0x921a540" type="name" function="0x91ed6c8" astParent="0x91ed9b8"/>
+    <token id="0x91ed9b8" file="build/test/runners/test_lights_runner.c" linenr="24" str="(" scope="0x921a540" link="0x9202288" astOperand1="0x91ed948"/>
+    <token id="0x9202288" file="build/test/runners/test_lights_runner.c" linenr="24" str=")" scope="0x921a540" link="0x91ed9b8"/>
+    <token id="0x92022f8" file="build/test/runners/test_lights_runner.c" linenr="25" str="{" scope="0x91ed748" link="0x9202368"/>
+    <token id="0x9202368" file="build/test/runners/test_lights_runner.c" linenr="26" str="}" scope="0x91ed748" link="0x92022f8"/>
+    <token id="0x91f70d8" file="build/test/runners/test_lights_runner.c" linenr="27" str="static" scope="0x921a540" type="name"/>
+    <token id="0x91f7148" file="build/test/runners/test_lights_runner.c" linenr="27" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91f71b8" file="build/test/runners/test_lights_runner.c" linenr="27" str="CMock_Destroy" scope="0x921a540" type="name" function="0x92025a8" astParent="0x91f7228"/>
+    <token id="0x91f7228" file="build/test/runners/test_lights_runner.c" linenr="27" str="(" scope="0x921a540" link="0x91ef878" astOperand1="0x91f71b8"/>
+    <token id="0x91ef878" file="build/test/runners/test_lights_runner.c" linenr="27" str=")" scope="0x921a540" link="0x91f7228"/>
+    <token id="0x91ef8e8" file="build/test/runners/test_lights_runner.c" linenr="28" str="{" scope="0x91efe58" link="0x91ef958"/>
+    <token id="0x91ef958" file="build/test/runners/test_lights_runner.c" linenr="29" str="}" scope="0x91efe58" link="0x91ef8e8"/>
+    <token id="0x91f72c0" file="build/test/runners/test_lights_runner.c" linenr="32" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91f7330" file="build/test/runners/test_lights_runner.c" linenr="32" str="resetTest" scope="0x921a540" type="name" function="0x91eff00" astParent="0x91f73a0"/>
+    <token id="0x91f73a0" file="build/test/runners/test_lights_runner.c" linenr="32" str="(" scope="0x921a540" link="0x92019b8" astOperand1="0x91f7330"/>
+    <token id="0x92019b8" file="build/test/runners/test_lights_runner.c" linenr="32" str=")" scope="0x921a540" link="0x91f73a0"/>
+    <token id="0x9201a28" file="build/test/runners/test_lights_runner.c" linenr="32" str=";" scope="0x921a540"/>
+    <token id="0x9201a98" file="build/test/runners/test_lights_runner.c" linenr="33" str="void" scope="0x921a540" type="name"/>
+    <token id="0x9201b08" file="build/test/runners/test_lights_runner.c" linenr="33" str="resetTest" scope="0x921a540" type="name" function="0x91eff00" astParent="0x92056f8"/>
+    <token id="0x92056f8" file="build/test/runners/test_lights_runner.c" linenr="33" str="(" scope="0x921a540" link="0x92057d8" astOperand1="0x9201b08"/>
+    <token id="0x92057d8" file="build/test/runners/test_lights_runner.c" linenr="33" str=")" scope="0x921a540" link="0x92056f8"/>
+    <token id="0x9205848" file="build/test/runners/test_lights_runner.c" linenr="34" str="{" scope="0x91eff80" link="0x9201738"/>
+    <token id="0x91ed3a0" file="build/test/runners/test_lights_runner.c" linenr="35" str="tearDown" scope="0x91eff80" type="name" function="0x91fac20" astParent="0x91ed410"/>
+    <token id="0x91ed410" file="build/test/runners/test_lights_runner.c" linenr="35" str="(" scope="0x91eff80" link="0x91ed480" astOperand1="0x91ed3a0"/>
+    <token id="0x91ed480" file="build/test/runners/test_lights_runner.c" linenr="35" str=")" scope="0x91eff80" link="0x91ed410"/>
+    <token id="0x91ed4f0" file="build/test/runners/test_lights_runner.c" linenr="35" str=";" scope="0x91eff80"/>
+    <token id="0x92054c8" file="build/test/runners/test_lights_runner.c" linenr="36" str="CMock_Verify" scope="0x91eff80" type="name" function="0x91ed6c8" astParent="0x9205538"/>
+    <token id="0x9205538" file="build/test/runners/test_lights_runner.c" linenr="36" str="(" scope="0x91eff80" link="0x92055a8" astOperand1="0x92054c8"/>
+    <token id="0x92055a8" file="build/test/runners/test_lights_runner.c" linenr="36" str=")" scope="0x91eff80" link="0x9205538"/>
+    <token id="0x9205618" file="build/test/runners/test_lights_runner.c" linenr="36" str=";" scope="0x91eff80"/>
+    <token id="0x921a780" file="build/test/runners/test_lights_runner.c" linenr="37" str="CMock_Destroy" scope="0x91eff80" type="name" function="0x92025a8" astParent="0x921a7f0"/>
+    <token id="0x921a7f0" file="build/test/runners/test_lights_runner.c" linenr="37" str="(" scope="0x91eff80" link="0x921a860" astOperand1="0x921a780"/>
+    <token id="0x921a860" file="build/test/runners/test_lights_runner.c" linenr="37" str=")" scope="0x91eff80" link="0x921a7f0"/>
+    <token id="0x921a8d0" file="build/test/runners/test_lights_runner.c" linenr="37" str=";" scope="0x91eff80"/>
+    <token id="0x91ecdb8" file="build/test/runners/test_lights_runner.c" linenr="38" str="CMock_Init" scope="0x91eff80" type="name" function="0x9201368" astParent="0x91ece28"/>
+    <token id="0x91ece28" file="build/test/runners/test_lights_runner.c" linenr="38" str="(" scope="0x91eff80" link="0x91ece98" astOperand1="0x91ecdb8"/>
+    <token id="0x91ece98" file="build/test/runners/test_lights_runner.c" linenr="38" str=")" scope="0x91eff80" link="0x91ece28"/>
+    <token id="0x91ecf08" file="build/test/runners/test_lights_runner.c" linenr="38" str=";" scope="0x91eff80"/>
+    <token id="0x9202010" file="build/test/runners/test_lights_runner.c" linenr="39" str="setUp" scope="0x91eff80" type="name" function="0x91ee638" astParent="0x9202080"/>
+    <token id="0x9202080" file="build/test/runners/test_lights_runner.c" linenr="39" str="(" scope="0x91eff80" link="0x92020f0" astOperand1="0x9202010"/>
+    <token id="0x92020f0" file="build/test/runners/test_lights_runner.c" linenr="39" str=")" scope="0x91eff80" link="0x9202080"/>
+    <token id="0x9202160" file="build/test/runners/test_lights_runner.c" linenr="39" str=";" scope="0x91eff80"/>
+    <token id="0x9201738" file="build/test/runners/test_lights_runner.c" linenr="40" str="}" scope="0x91eff80" link="0x9205848"/>
+    <token id="0x92017a8" file="build/test/runners/test_lights_runner.c" linenr="41" str="void" scope="0x921a540" type="name"/>
+    <token id="0x9201818" file="build/test/runners/test_lights_runner.c" linenr="41" str="verifyTest" scope="0x921a540" type="name" function="0x91f0028" astParent="0x9201888"/>
+    <token id="0x9201888" file="build/test/runners/test_lights_runner.c" linenr="41" str="(" scope="0x921a540" link="0x921a320" astOperand1="0x9201818"/>
+    <token id="0x921a320" file="build/test/runners/test_lights_runner.c" linenr="41" str=")" scope="0x921a540" link="0x9201888"/>
+    <token id="0x921a390" file="build/test/runners/test_lights_runner.c" linenr="41" str=";" scope="0x921a540"/>
+    <token id="0x921a400" file="build/test/runners/test_lights_runner.c" linenr="42" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91efa18" file="build/test/runners/test_lights_runner.c" linenr="42" str="verifyTest" scope="0x921a540" type="name" function="0x91f0028" astParent="0x91efa88"/>
+    <token id="0x91efa88" file="build/test/runners/test_lights_runner.c" linenr="42" str="(" scope="0x921a540" link="0x91efb68" astOperand1="0x91efa18"/>
+    <token id="0x91efb68" file="build/test/runners/test_lights_runner.c" linenr="42" str=")" scope="0x921a540" link="0x91efa88"/>
+    <token id="0x91efbd8" file="build/test/runners/test_lights_runner.c" linenr="43" str="{" scope="0x91f0e28" link="0x91db1d8"/>
+    <token id="0x91db018" file="build/test/runners/test_lights_runner.c" linenr="44" str="CMock_Verify" scope="0x91f0e28" type="name" function="0x91ed6c8" astParent="0x91db088"/>
+    <token id="0x91db088" file="build/test/runners/test_lights_runner.c" linenr="44" str="(" scope="0x91f0e28" link="0x91db0f8" astOperand1="0x91db018"/>
+    <token id="0x91db0f8" file="build/test/runners/test_lights_runner.c" linenr="44" str=")" scope="0x91f0e28" link="0x91db088"/>
+    <token id="0x91db168" file="build/test/runners/test_lights_runner.c" linenr="44" str=";" scope="0x91f0e28"/>
+    <token id="0x91db1d8" file="build/test/runners/test_lights_runner.c" linenr="45" str="}" scope="0x91f0e28" link="0x91efbd8"/>
+    <token id="0x91ee6b8" file="build/test/runners/test_lights_runner.c" linenr="48" str="static" scope="0x921a540" type="name"/>
+    <token id="0x91ee728" file="build/test/runners/test_lights_runner.c" linenr="48" str="void" scope="0x921a540" type="name"/>
+    <token id="0x91ee798" file="build/test/runners/test_lights_runner.c" linenr="48" str="run_test" scope="0x921a540" type="name" function="0x91f0ed0" astParent="0x91ee808"/>
+    <token id="0x91ee808" file="build/test/runners/test_lights_runner.c" linenr="48" str="(" scope="0x921a540" link="0x9201f08" astOperand1="0x91ee798" astOperand2="0x9201db8"/>
+    <token id="0x91ee878" file="build/test/runners/test_lights_runner.c" linenr="48" str="UnityTestFunction" scope="0x921a540" type="name"/>
+    <token id="0x91f33b8" file="build/test/runners/test_lights_runner.c" linenr="48" str="func" scope="0x921a540" type="name" varId="4" variable="0x92021d8" astParent="0x91f3428"/>
+    <token id="0x91f3428" file="build/test/runners/test_lights_runner.c" linenr="48" str="," scope="0x921a540" astParent="0x9201db8" astOperand1="0x91f33b8" astOperand2="0x91f3578"/>
+    <token id="0x91f3498" file="build/test/runners/test_lights_runner.c" linenr="48" str="const" scope="0x921a540" type="name"/>
+    <token id="0x91f3508" file="build/test/runners/test_lights_runner.c" linenr="48" str="char" scope="0x921a540" type="name" astParent="0x91f3578"/>
+    <token id="0x91f3578" file="build/test/runners/test_lights_runner.c" linenr="48" str="*" scope="0x921a540" type="op" isArithmeticalOp="True" astParent="0x91f3428" astOperand1="0x91f3508" astOperand2="0x9201d48"/>
+    <token id="0x9201d48" file="build/test/runners/test_lights_runner.c" linenr="48" str="name" scope="0x921a540" type="name" varId="5" variable="0x92172f0" astParent="0x91f3578"/>
+    <token id="0x9201db8" file="build/test/runners/test_lights_runner.c" linenr="48" str="," scope="0x921a540" astParent="0x91ee808" astOperand1="0x91f3428" astOperand2="0x9201e98"/>
+    <token id="0x9201e28" file="build/test/runners/test_lights_runner.c" linenr="48" str="int" scope="0x921a540" type="name"/>
+    <token id="0x9201e98" file="build/test/runners/test_lights_runner.c" linenr="48" str="line_num" scope="0x921a540" type="name" varId="6" variable="0x91f3110" astParent="0x9201db8"/>
+    <token id="0x9201f08" file="build/test/runners/test_lights_runner.c" linenr="48" str=")" scope="0x921a540" link="0x91ee808"/>
+    <token id="0x91f2340" file="build/test/runners/test_lights_runner.c" linenr="49" str="{" scope="0x91f0f50" link="0x9200f18"/>
+    <token id="0x91f23b0" file="build/test/runners/test_lights_runner.c" linenr="50" str="Unity" scope="0x91f0f50" type="name" astParent="0x91f2420"/>
+    <token id="0x91f2420" file="build/test/runners/test_lights_runner.c" linenr="50" str="." scope="0x91f0f50" astParent="0x91f2500" astOperand1="0x91f23b0" astOperand2="0x91f2490"/>
+    <token id="0x91f2490" file="build/test/runners/test_lights_runner.c" linenr="50" str="CurrentTestName" scope="0x91f0f50" type="name" astParent="0x91f2420"/>
+    <token id="0x91f2500" file="build/test/runners/test_lights_runner.c" linenr="50" str="=" scope="0x91f0f50" type="op" isAssignmentOp="True" astOperand1="0x91f2420" astOperand2="0x92010a0"/>
+    <token id="0x92010a0" file="build/test/runners/test_lights_runner.c" linenr="50" str="name" scope="0x91f0f50" type="name" varId="5" variable="0x92172f0" values="0x92010a4" astParent="0x91f2500"/>
+    <token id="0x9201110" file="build/test/runners/test_lights_runner.c" linenr="50" str=";" scope="0x91f0f50"/>
+    <token id="0x9201180" file="build/test/runners/test_lights_runner.c" linenr="51" str="Unity" scope="0x91f0f50" type="name" astParent="0x92011f0"/>
+    <token id="0x92011f0" file="build/test/runners/test_lights_runner.c" linenr="51" str="." scope="0x91f0f50" astParent="0x91eada8" astOperand1="0x9201180" astOperand2="0x9201260"/>
+    <token id="0x9201260" file="build/test/runners/test_lights_runner.c" linenr="51" str="CurrentTestLineNumber" scope="0x91f0f50" type="name" astParent="0x92011f0"/>
+    <token id="0x91eada8" file="build/test/runners/test_lights_runner.c" linenr="51" str="=" scope="0x91f0f50" type="op" isAssignmentOp="True" astOperand1="0x92011f0" astOperand2="0x91eae18"/>
+    <token id="0x91eae18" file="build/test/runners/test_lights_runner.c" linenr="51" str="line_num" scope="0x91f0f50" type="name" varId="6" variable="0x91f3110" values="0x91eae1c" astParent="0x91eada8"/>
+    <token id="0x91eae88" file="build/test/runners/test_lights_runner.c" linenr="51" str=";" scope="0x91f0f50"/>
+    <token id="0x91eaef8" file="build/test/runners/test_lights_runner.c" linenr="56" str="Unity" scope="0x91f0f50" type="name" astParent="0x91eaf68"/>
+    <token id="0x91eaf68" file="build/test/runners/test_lights_runner.c" linenr="56" str="." scope="0x91f0f50" astParent="0x9200ac8" astOperand1="0x91eaef8" astOperand2="0x9200a58"/>
+    <token id="0x9200a58" file="build/test/runners/test_lights_runner.c" linenr="56" str="NumberOfTests" scope="0x91f0f50" type="name" astParent="0x91eaf68"/>
+    <token id="0x9200ac8" file="build/test/runners/test_lights_runner.c" linenr="56" str="++" scope="0x91f0f50" type="op" astOperand1="0x91eaf68"/>
+    <token id="0x9200b38" file="build/test/runners/test_lights_runner.c" linenr="56" str=";" scope="0x91f0f50"/>
+    <token id="0x9200ba8" file="build/test/runners/test_lights_runner.c" linenr="57" str="UNITY_CLR_DETAILS" scope="0x91f0f50" type="name" astParent="0x9200c18"/>
+    <token id="0x9200c18" file="build/test/runners/test_lights_runner.c" linenr="57" str="(" scope="0x91f0f50" link="0x9200c88" astOperand1="0x9200ba8"/>
+    <token id="0x9200c88" file="build/test/runners/test_lights_runner.c" linenr="57" str=")" scope="0x91f0f50" link="0x9200c18"/>
+    <token id="0x9217358" file="build/test/runners/test_lights_runner.c" linenr="57" str=";" scope="0x91f0f50"/>
+    <token id="0x92173c8" file="build/test/runners/test_lights_runner.c" linenr="58" str="UNITY_EXEC_TIME_START" scope="0x91f0f50" type="name" astParent="0x9217438"/>
+    <token id="0x9217438" file="build/test/runners/test_lights_runner.c" linenr="58" str="(" scope="0x91f0f50" link="0x92174a8" astOperand1="0x92173c8"/>
+    <token id="0x92174a8" file="build/test/runners/test_lights_runner.c" linenr="58" str=")" scope="0x91f0f50" link="0x9217438"/>
+    <token id="0x9217518" file="build/test/runners/test_lights_runner.c" linenr="58" str=";" scope="0x91f0f50"/>
+    <token id="0x9217588" file="build/test/runners/test_lights_runner.c" linenr="59" str="CMock_Init" scope="0x91f0f50" type="name" function="0x9201368" astParent="0x91eb460"/>
+    <token id="0x91eb460" file="build/test/runners/test_lights_runner.c" linenr="59" str="(" scope="0x91f0f50" link="0x91eb4d0" astOperand1="0x9217588"/>
+    <token id="0x91eb4d0" file="build/test/runners/test_lights_runner.c" linenr="59" str=")" scope="0x91f0f50" link="0x91eb460"/>
+    <token id="0x91eb540" file="build/test/runners/test_lights_runner.c" linenr="59" str=";" scope="0x91f0f50"/>
+    <token id="0x91eb5b0" file="build/test/runners/test_lights_runner.c" linenr="60" str="if" scope="0x91f0f50" type="name" astParent="0x91eb620"/>
+    <token id="0x91eb620" file="build/test/runners/test_lights_runner.c" linenr="60" str="(" scope="0x91f0f50" link="0x91f3888" astOperand1="0x91eb5b0" astOperand2="0x91f37a8"/>
+    <token id="0x91eb690" file="build/test/runners/test_lights_runner.c" linenr="60" str="TEST_PROTECT" scope="0x91f0f50" type="name" astParent="0x91f37a8"/>
+    <token id="0x91f37a8" file="build/test/runners/test_lights_runner.c" linenr="60" str="(" scope="0x91f0f50" link="0x91f3818" astParent="0x91eb620" astOperand1="0x91eb690"/>
+    <token id="0x91f3818" file="build/test/runners/test_lights_runner.c" linenr="60" str=")" scope="0x91f0f50" link="0x91f37a8"/>
+    <token id="0x91f3888" file="build/test/runners/test_lights_runner.c" linenr="60" str=")" scope="0x91f0f50" link="0x91eb620"/>
+    <token id="0x91f38f8" file="build/test/runners/test_lights_runner.c" linenr="61" str="{" scope="0x91f0ff8" link="0x91eb148"/>
+    <token id="0x91f3968" file="build/test/runners/test_lights_runner.c" linenr="62" str="setUp" scope="0x91f0ff8" type="name" function="0x91ee638" astParent="0x91f39d8"/>
+    <token id="0x91f39d8" file="build/test/runners/test_lights_runner.c" linenr="62" str="(" scope="0x91f0ff8" link="0x9204c60" astOperand1="0x91f3968"/>
+    <token id="0x9204c60" file="build/test/runners/test_lights_runner.c" linenr="62" str=")" scope="0x91f0ff8" link="0x91f39d8"/>
+    <token id="0x9204cd0" file="build/test/runners/test_lights_runner.c" linenr="62" str=";" scope="0x91f0ff8"/>
+    <token id="0x9204d40" file="build/test/runners/test_lights_runner.c" linenr="63" str="func" scope="0x91f0ff8" type="name" varId="4" variable="0x92021d8" astParent="0x9204db0"/>
+    <token id="0x9204db0" file="build/test/runners/test_lights_runner.c" linenr="63" str="(" scope="0x91f0ff8" link="0x9204e20" astOperand1="0x9204d40"/>
+    <token id="0x9204e20" file="build/test/runners/test_lights_runner.c" linenr="63" str=")" scope="0x91f0ff8" link="0x9204db0"/>
+    <token id="0x9204e90" file="build/test/runners/test_lights_runner.c" linenr="63" str=";" scope="0x91f0ff8"/>
+    <token id="0x91eb148" file="build/test/runners/test_lights_runner.c" linenr="64" str="}" scope="0x91f0ff8" link="0x91f38f8"/>
+    <token id="0x91eb1b8" file="build/test/runners/test_lights_runner.c" linenr="65" str="if" scope="0x91f0f50" type="name" astParent="0x91eb228"/>
+    <token id="0x91eb228" file="build/test/runners/test_lights_runner.c" linenr="65" str="(" scope="0x91f0f50" link="0x91fa818" astOperand1="0x91eb1b8" astOperand2="0x91eb308"/>
+    <token id="0x91eb298" file="build/test/runners/test_lights_runner.c" linenr="65" str="TEST_PROTECT" scope="0x91f0f50" type="name" astParent="0x91eb308"/>
+    <token id="0x91eb308" file="build/test/runners/test_lights_runner.c" linenr="65" str="(" scope="0x91f0f50" link="0x91eb378" astParent="0x91eb228" astOperand1="0x91eb298"/>
+    <token id="0x91eb378" file="build/test/runners/test_lights_runner.c" linenr="65" str=")" scope="0x91f0f50" link="0x91eb308"/>
+    <token id="0x91fa818" file="build/test/runners/test_lights_runner.c" linenr="65" str=")" scope="0x91f0f50" link="0x91eb228"/>
+    <token id="0x91fa888" file="build/test/runners/test_lights_runner.c" linenr="66" str="{" scope="0x91f10a0" link="0x9211b98"/>
+    <token id="0x91fa8f8" file="build/test/runners/test_lights_runner.c" linenr="67" str="tearDown" scope="0x91f10a0" type="name" function="0x91fac20" astParent="0x91fa968"/>
+    <token id="0x91fa968" file="build/test/runners/test_lights_runner.c" linenr="67" str="(" scope="0x91f10a0" link="0x91fa9d8" astOperand1="0x91fa8f8"/>
+    <token id="0x91fa9d8" file="build/test/runners/test_lights_runner.c" linenr="67" str=")" scope="0x91f10a0" link="0x91fa968"/>
+    <token id="0x91faa48" file="build/test/runners/test_lights_runner.c" linenr="67" str=";" scope="0x91f10a0"/>
+    <token id="0x92119d8" file="build/test/runners/test_lights_runner.c" linenr="68" str="CMock_Verify" scope="0x91f10a0" type="name" function="0x91ed6c8" astParent="0x9211a48"/>
+    <token id="0x9211a48" file="build/test/runners/test_lights_runner.c" linenr="68" str="(" scope="0x91f10a0" link="0x9211ab8" astOperand1="0x92119d8"/>
+    <token id="0x9211ab8" file="build/test/runners/test_lights_runner.c" linenr="68" str=")" scope="0x91f10a0" link="0x9211a48"/>
+    <token id="0x9211b28" file="build/test/runners/test_lights_runner.c" linenr="68" str=";" scope="0x91f10a0"/>
+    <token id="0x9211b98" file="build/test/runners/test_lights_runner.c" linenr="69" str="}" scope="0x91f10a0" link="0x91fa888"/>
+    <token id="0x9211c08" file="build/test/runners/test_lights_runner.c" linenr="70" str="CMock_Destroy" scope="0x91f0f50" type="name" function="0x92025a8" astParent="0x91ef4a8"/>
+    <token id="0x91ef4a8" file="build/test/runners/test_lights_runner.c" linenr="70" str="(" scope="0x91f0f50" link="0x91ef518" astOperand1="0x9211c08"/>
+    <token id="0x91ef518" file="build/test/runners/test_lights_runner.c" linenr="70" str=")" scope="0x91f0f50" link="0x91ef4a8"/>
+    <token id="0x91ef588" file="build/test/runners/test_lights_runner.c" linenr="70" str=";" scope="0x91f0f50"/>
+    <token id="0x91ef5f8" file="build/test/runners/test_lights_runner.c" linenr="71" str="UNITY_EXEC_TIME_STOP" scope="0x91f0f50" type="name" astParent="0x91ef668"/>
+    <token id="0x91ef668" file="build/test/runners/test_lights_runner.c" linenr="71" str="(" scope="0x91f0f50" link="0x91ef6d8" astOperand1="0x91ef5f8"/>
+    <token id="0x91ef6d8" file="build/test/runners/test_lights_runner.c" linenr="71" str=")" scope="0x91f0f50" link="0x91ef668"/>
+    <token id="0x91ef748" file="build/test/runners/test_lights_runner.c" linenr="71" str=";" scope="0x91f0f50"/>
+    <token id="0x9200d30" file="build/test/runners/test_lights_runner.c" linenr="72" str="UnityConcludeTest" scope="0x91f0f50" type="name" astParent="0x9200dc8"/>
+    <token id="0x9200dc8" file="build/test/runners/test_lights_runner.c" linenr="72" str="(" scope="0x91f0f50" link="0x9200e38" astOperand1="0x9200d30"/>
+    <token id="0x9200e38" file="build/test/runners/test_lights_runner.c" linenr="72" str=")" scope="0x91f0f50" link="0x9200dc8"/>
+    <token id="0x9200ea8" file="build/test/runners/test_lights_runner.c" linenr="72" str=";" scope="0x91f0f50"/>
+    <token id="0x9200f18" file="build/test/runners/test_lights_runner.c" linenr="73" str="}" scope="0x91f0f50" link="0x91f2340"/>
+    <token id="0x9200f88" file="build/test/runners/test_lights_runner.c" linenr="76" str="int" scope="0x921a540" type="name"/>
+    <token id="0x91f26a0" file="build/test/runners/test_lights_runner.c" linenr="76" str="main" scope="0x921a540" type="name" function="0x91f1148" astParent="0x91f2710"/>
+    <token id="0x91f2710" file="build/test/runners/test_lights_runner.c" linenr="76" str="(" scope="0x921a540" link="0x91f27f0" astOperand1="0x91f26a0"/>
+    <token id="0x91f27f0" file="build/test/runners/test_lights_runner.c" linenr="76" str=")" scope="0x921a540" link="0x91f2710"/>
+    <token id="0x91f2860" file="build/test/runners/test_lights_runner.c" linenr="77" str="{" scope="0x91f11c8" link="0x91efde0"/>
+    <token id="0x91f28d0" file="build/test/runners/test_lights_runner.c" linenr="78" str="UnityBegin" scope="0x91f11c8" type="name" astParent="0x91f2940"/>
+    <token id="0x91f2940" file="build/test/runners/test_lights_runner.c" linenr="78" str="(" scope="0x91f11c8" link="0x9212260" astOperand1="0x91f28d0" astOperand2="0x92121f0"/>
+    <token id="0x92121f0" file="build/test/runners/test_lights_runner.c" linenr="78" str="&quot;test_lights.c&quot;" scope="0x91f11c8" type="string" strlen="13" values="0x92121f4" astParent="0x91f2940"/>
+    <token id="0x9212260" file="build/test/runners/test_lights_runner.c" linenr="78" str=")" scope="0x91f11c8" link="0x91f2940"/>
+    <token id="0x92122d0" file="build/test/runners/test_lights_runner.c" linenr="78" str=";" scope="0x91f11c8"/>
+    <token id="0x9212340" file="build/test/runners/test_lights_runner.c" linenr="79" str="run_test" scope="0x91f11c8" type="name" function="0x91f0ed0" astParent="0x92123b0"/>
+    <token id="0x92123b0" file="build/test/runners/test_lights_runner.c" linenr="79" str="(" scope="0x91f11c8" link="0x92128b8" astOperand1="0x9212340" astOperand2="0x92127d8"/>
+    <token id="0x9212420" file="build/test/runners/test_lights_runner.c" linenr="79" str="test_lights_NeedToImplement" scope="0x91f11c8" type="name" astParent="0x92124b8"/>
+    <token id="0x92124b8" file="build/test/runners/test_lights_runner.c" linenr="79" str="," scope="0x91f11c8" astParent="0x92127d8" astOperand1="0x9212420" astOperand2="0x9212740"/>
+    <token id="0x9212740" file="build/test/runners/test_lights_runner.c" linenr="79" str="&quot;test_lights_NeedToImplement&quot;" scope="0x91f11c8" type="string" strlen="27" values="0x9212744" astParent="0x92124b8"/>
+    <token id="0x92127d8" file="build/test/runners/test_lights_runner.c" linenr="79" str="," scope="0x91f11c8" astParent="0x92123b0" astOperand1="0x92124b8" astOperand2="0x9212848"/>
+    <token id="0x9212848" file="build/test/runners/test_lights_runner.c" linenr="79" str="13" scope="0x91f11c8" type="number" isInt="True" values="0x921284c" astParent="0x92127d8"/>
+    <token id="0x92128b8" file="build/test/runners/test_lights_runner.c" linenr="79" str=")" scope="0x91f11c8" link="0x92123b0"/>
+    <token id="0x9212928" file="build/test/runners/test_lights_runner.c" linenr="79" str=";" scope="0x91f11c8"/>
+    <token id="0x9212998" file="build/test/runners/test_lights_runner.c" linenr="80" str="run_test" scope="0x91f11c8" type="name" function="0x91f0ed0" astParent="0x9212a08"/>
+    <token id="0x9212a08" file="build/test/runners/test_lights_runner.c" linenr="80" str="(" scope="0x91f11c8" link="0x91eca08" astOperand1="0x9212998" astOperand2="0x91ec928"/>
+    <token id="0x9212a78" file="build/test/runners/test_lights_runner.c" linenr="80" str="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff" scope="0x91f11c8" type="name" astParent="0x91ec808"/>
+    <token id="0x91ec808" file="build/test/runners/test_lights_runner.c" linenr="80" str="," scope="0x91f11c8" astParent="0x91ec928" astOperand1="0x9212a78" astOperand2="0x91ec878"/>
+    <token id="0x91ec878" file="build/test/runners/test_lights_runner.c" linenr="80" str="&quot;test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff&quot;" scope="0x91f11c8" type="string" strlen="56" values="0x91ec87c" astParent="0x91ec808"/>
+    <token id="0x91ec928" file="build/test/runners/test_lights_runner.c" linenr="80" str="," scope="0x91f11c8" astParent="0x9212a08" astOperand1="0x91ec808" astOperand2="0x91ec998"/>
+    <token id="0x91ec998" file="build/test/runners/test_lights_runner.c" linenr="80" str="18" scope="0x91f11c8" type="number" isInt="True" values="0x91ec99c" astParent="0x91ec928"/>
+    <token id="0x91eca08" file="build/test/runners/test_lights_runner.c" linenr="80" str=")" scope="0x91f11c8" link="0x9212a08"/>
+    <token id="0x91eca78" file="build/test/runners/test_lights_runner.c" linenr="80" str=";" scope="0x91f11c8"/>
+    <token id="0x91ecae8" file="build/test/runners/test_lights_runner.c" linenr="82" str="return" scope="0x91f11c8" type="name" astOperand1="0x91efc90"/>
+    <token id="0x91ecb58" file="build/test/runners/test_lights_runner.c" linenr="82" str="UnityEnd" scope="0x91f11c8" type="name" astParent="0x91efc90"/>
+    <token id="0x91efc90" file="build/test/runners/test_lights_runner.c" linenr="82" str="(" scope="0x91f11c8" link="0x91efd00" astParent="0x91ecae8" astOperand1="0x91ecb58"/>
+    <token id="0x91efd00" file="build/test/runners/test_lights_runner.c" linenr="82" str=")" scope="0x91f11c8" link="0x91efc90"/>
+    <token id="0x91efd70" file="build/test/runners/test_lights_runner.c" linenr="82" str=";" scope="0x91f11c8"/>
+    <token id="0x91efde0" file="build/test/runners/test_lights_runner.c" linenr="83" str="}" scope="0x91f11c8" link="0x91f2860"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x921a540" type="Global">
+      <functionList>
+        <function id="0x91ee638" tokenDef="0x91f25d8" name="setUp"/>
+        <function id="0x91fac20" tokenDef="0x91ecc30" name="tearDown"/>
+        <function id="0x91f29b8" tokenDef="0x91ed268" name="test_lights_NeedToImplement"/>
+        <function id="0x91ed210" tokenDef="0x91ecfe0" name="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff"/>
+        <function id="0x9201368" tokenDef="0x91fc2d8" name="CMock_Init"/>
+        <function id="0x91ed6c8" tokenDef="0x91ed948" name="CMock_Verify"/>
+        <function id="0x92025a8" tokenDef="0x91f71b8" name="CMock_Destroy"/>
+        <function id="0x91eff00" tokenDef="0x91f7330" name="resetTest"/>
+        <function id="0x91f0028" tokenDef="0x9201818" name="verifyTest"/>
+        <function id="0x91f0ed0" tokenDef="0x91ee798" name="run_test">
+          <arg nr="1" variable="0x92021d8"/>
+          <arg nr="2" variable="0x92172f0"/>
+          <arg nr="3" variable="0x91f3110"/>
+        </function>
+        <function id="0x91f1148" tokenDef="0x91f26a0" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x9202560"/>
+        <var id="0x9201448"/>
+        <var id="0x920dfe8"/>
+      </varlist>
+    </scope>
+    <scope id="0x91ed620" type="Function" className="CMock_Init" classStart="0x91f1538" classEnd="0x9217208" nestedIn="0x921a540" function="0x9201368"/>
+    <scope id="0x91ed748" type="Function" className="CMock_Verify" classStart="0x92022f8" classEnd="0x9202368" nestedIn="0x921a540" function="0x91ed6c8"/>
+    <scope id="0x91efe58" type="Function" className="CMock_Destroy" classStart="0x91ef8e8" classEnd="0x91ef958" nestedIn="0x921a540" function="0x92025a8"/>
+    <scope id="0x91eff80" type="Function" className="resetTest" classStart="0x9205848" classEnd="0x9201738" nestedIn="0x921a540" function="0x91eff00"/>
+    <scope id="0x91f0e28" type="Function" className="verifyTest" classStart="0x91efbd8" classEnd="0x91db1d8" nestedIn="0x921a540" function="0x91f0028"/>
+    <scope id="0x91f0f50" type="Function" className="run_test" classStart="0x91f2340" classEnd="0x9200f18" nestedIn="0x921a540" function="0x91f0ed0"/>
+    <scope id="0x91f0ff8" type="If" classStart="0x91f38f8" classEnd="0x91eb148" nestedIn="0x91f0f50"/>
+    <scope id="0x91f10a0" type="If" classStart="0x91fa888" classEnd="0x9211b98" nestedIn="0x91f0f50"/>
+    <scope id="0x91f11c8" type="Function" className="main" classStart="0x91f2860" classEnd="0x91efde0" nestedIn="0x921a540" function="0x91f1148"/>
+  </scopes>
+  <variables>
+    <var id="0x9202560" nameToken="0x91c2f68" typeStartToken="0x91f3ae0" typeEndToken="0x91f3ae0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9201448" nameToken="0x91ee500" typeStartToken="0x91f0168" typeEndToken="0x91f0168" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x920dfe8" nameToken="0x91f0308" typeStartToken="0x91ef410" typeEndToken="0x91eaca8" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x92021d8" nameToken="0x91f33b8" typeStartToken="0x91ee878" typeEndToken="0x91ee878" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x92172f0" nameToken="0x9201d48" typeStartToken="0x91f3508" typeEndToken="0x91f3578" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x91f3110" nameToken="0x9201e98" typeStartToken="0x9201e28" typeEndToken="0x9201e28" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x91ee374">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x91f31fc">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x920df74">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x92010a4">
+      <value tokvalue="0x9212740" possible="true"/>
+      <value tokvalue="0x91ec878" possible="true"/>
+    </values>
+    <values id="0x91eae1c">
+      <value intvalue="13" possible="true"/>
+      <value intvalue="18" possible="true"/>
+    </values>
+    <values id="0x92121f4">
+      <value tokvalue="0x92121f0" known="true"/>
+    </values>
+    <values id="0x9212744">
+      <value tokvalue="0x9212740" known="true"/>
+    </values>
+    <values id="0x921284c">
+      <value intvalue="13" known="true"/>
+    </values>
+    <values id="0x91ec87c">
+      <value tokvalue="0x91ec878" known="true"/>
+    </values>
+    <values id="0x91ec99c">
+      <value intvalue="18" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+<dump cfg="UNITY_USE_COMMAND_LINE_ARGS">
+  <tokenlist>
+    <token id="0x91c2f68" file="build/test/runners/test_lights_runner.c" linenr="6" str="int" scope="0x91ed1a0" type="name"/>
+    <token id="0x91c1d68" file="build/test/runners/test_lights_runner.c" linenr="6" str="GlobalExpectCount" scope="0x91ed1a0" type="name" varId="1" variable="0x91eed60"/>
+    <token id="0x91f3ae0" file="build/test/runners/test_lights_runner.c" linenr="6" str=";" scope="0x91ed1a0"/>
+    <token id="0x91f0168" file="build/test/runners/test_lights_runner.c" linenr="7" str="int" scope="0x91ed1a0" type="name"/>
+    <token id="0x91ee500" file="build/test/runners/test_lights_runner.c" linenr="7" str="GlobalVerifyOrder" scope="0x91ed1a0" type="name" varId="2" variable="0x91eed98"/>
+    <token id="0x91f5e60" file="build/test/runners/test_lights_runner.c" linenr="7" str=";" scope="0x91ed1a0"/>
+    <token id="0x91ef410" file="build/test/runners/test_lights_runner.c" linenr="8" str="char" scope="0x91ed1a0" type="name" astParent="0x91f0308"/>
+    <token id="0x91f0308" file="build/test/runners/test_lights_runner.c" linenr="8" str="*" scope="0x91ed1a0" type="op" isArithmeticalOp="True" astOperand1="0x91ef410" astOperand2="0x91eaca8"/>
+    <token id="0x91eaca8" file="build/test/runners/test_lights_runner.c" linenr="8" str="GlobalOrderError" scope="0x91ed1a0" type="name" varId="3" variable="0x91eedd0" astParent="0x91f0308"/>
+    <token id="0x9200958" file="build/test/runners/test_lights_runner.c" linenr="8" str=";" scope="0x91ed1a0"/>
+    <token id="0x91f25d8" file="build/test/runners/test_lights_runner.c" linenr="11" str="extern" scope="0x91ed1a0" type="name"/>
+    <token id="0x9201670" file="build/test/runners/test_lights_runner.c" linenr="11" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x9201518" file="build/test/runners/test_lights_runner.c" linenr="11" str="setUp" scope="0x91ed1a0" type="name" function="0x91fac20" astParent="0x92027d0"/>
+    <token id="0x92027d0" file="build/test/runners/test_lights_runner.c" linenr="11" str="(" scope="0x91ed1a0" link="0x92013d0" astOperand1="0x9201518"/>
+    <token id="0x92013d0" file="build/test/runners/test_lights_runner.c" linenr="11" str=")" scope="0x91ed1a0" link="0x92027d0"/>
+    <token id="0x91f3098" file="build/test/runners/test_lights_runner.c" linenr="11" str=";" scope="0x91ed1a0"/>
+    <token id="0x91ee5c0" file="build/test/runners/test_lights_runner.c" linenr="12" str="extern" scope="0x91ed1a0" type="name"/>
+    <token id="0x91ecc30" file="build/test/runners/test_lights_runner.c" linenr="12" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x91eea60" file="build/test/runners/test_lights_runner.c" linenr="12" str="tearDown" scope="0x91ed1a0" type="name" function="0x91ec918" astParent="0x9219630"/>
+    <token id="0x9219630" file="build/test/runners/test_lights_runner.c" linenr="12" str="(" scope="0x91ed1a0" link="0x92023f0" astOperand1="0x91eea60"/>
+    <token id="0x92023f0" file="build/test/runners/test_lights_runner.c" linenr="12" str=")" scope="0x91ed1a0" link="0x9219630"/>
+    <token id="0x9202460" file="build/test/runners/test_lights_runner.c" linenr="12" str=";" scope="0x91ed1a0"/>
+    <token id="0x91eb748" file="build/test/runners/test_lights_runner.c" linenr="13" str="extern" scope="0x91ed1a0" type="name"/>
+    <token id="0x91eb7b8" file="build/test/runners/test_lights_runner.c" linenr="13" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x91ed268" file="build/test/runners/test_lights_runner.c" linenr="13" str="test_lights_NeedToImplement" scope="0x91ed1a0" type="name" function="0x9201368" astParent="0x9212c00"/>
+    <token id="0x9212c00" file="build/test/runners/test_lights_runner.c" linenr="13" str="(" scope="0x91ed1a0" link="0x91ee930" astOperand1="0x91ed268"/>
+    <token id="0x91ee930" file="build/test/runners/test_lights_runner.c" linenr="13" str=")" scope="0x91ed1a0" link="0x9212c00"/>
+    <token id="0x91ee9a0" file="build/test/runners/test_lights_runner.c" linenr="13" str=";" scope="0x91ed1a0"/>
+    <token id="0x9201bb0" file="build/test/runners/test_lights_runner.c" linenr="14" str="extern" scope="0x91ed1a0" type="name"/>
+    <token id="0x9201c20" file="build/test/runners/test_lights_runner.c" linenr="14" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x91ecfe0" file="build/test/runners/test_lights_runner.c" linenr="14" str="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff" scope="0x91ed1a0" type="name" function="0x91ee638" astParent="0x91ed128"/>
+    <token id="0x91ed128" file="build/test/runners/test_lights_runner.c" linenr="14" str="(" scope="0x91ed1a0" link="0x91fab38" astOperand1="0x91ecfe0"/>
+    <token id="0x91fab38" file="build/test/runners/test_lights_runner.c" linenr="14" str=")" scope="0x91ed1a0" link="0x91ed128"/>
+    <token id="0x91faba8" file="build/test/runners/test_lights_runner.c" linenr="14" str=";" scope="0x91ed1a0"/>
+    <token id="0x9202678" file="build/test/runners/test_lights_runner.c" linenr="18" str="static" scope="0x91ed1a0" type="name"/>
+    <token id="0x92026e8" file="build/test/runners/test_lights_runner.c" linenr="18" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x91fc2d8" file="build/test/runners/test_lights_runner.c" linenr="18" str="CMock_Init" scope="0x91ed1a0" type="name" function="0x91eda30" astParent="0x91fc348"/>
+    <token id="0x91fc348" file="build/test/runners/test_lights_runner.c" linenr="18" str="(" scope="0x91ed1a0" link="0x91f15a8" astOperand1="0x91fc2d8"/>
+    <token id="0x91f15a8" file="build/test/runners/test_lights_runner.c" linenr="18" str=")" scope="0x91ed1a0" link="0x91fc348"/>
+    <token id="0x91f1618" file="build/test/runners/test_lights_runner.c" linenr="19" str="{" scope="0x921a620" link="0x91ed8d8"/>
+    <token id="0x91ee370" file="build/test/runners/test_lights_runner.c" linenr="20" str="GlobalExpectCount" scope="0x921a620" type="name" varId="1" variable="0x91eed60" astParent="0x91ee3e0"/>
+    <token id="0x91ee3e0" file="build/test/runners/test_lights_runner.c" linenr="20" str="=" scope="0x921a620" type="op" isAssignmentOp="True" astOperand1="0x91ee370" astOperand2="0x91ee450"/>
+    <token id="0x91ee450" file="build/test/runners/test_lights_runner.c" linenr="20" str="0" scope="0x921a620" type="number" isInt="True" values="0x91ee454" astParent="0x91ee3e0"/>
+    <token id="0x91f3188" file="build/test/runners/test_lights_runner.c" linenr="20" str=";" scope="0x921a620"/>
+    <token id="0x91f31f8" file="build/test/runners/test_lights_runner.c" linenr="21" str="GlobalVerifyOrder" scope="0x921a620" type="name" varId="2" variable="0x91eed98" astParent="0x91f3290"/>
+    <token id="0x91f3290" file="build/test/runners/test_lights_runner.c" linenr="21" str="=" scope="0x921a620" type="op" isAssignmentOp="True" astOperand1="0x91f31f8" astOperand2="0x9217198"/>
+    <token id="0x9217198" file="build/test/runners/test_lights_runner.c" linenr="21" str="0" scope="0x921a620" type="number" isInt="True" values="0x921719c" astParent="0x91f3290"/>
+    <token id="0x9217208" file="build/test/runners/test_lights_runner.c" linenr="21" str=";" scope="0x921a620"/>
+    <token id="0x9217278" file="build/test/runners/test_lights_runner.c" linenr="22" str="GlobalOrderError" scope="0x921a620" type="name" varId="3" variable="0x91eedd0" astParent="0x920de90"/>
+    <token id="0x920de90" file="build/test/runners/test_lights_runner.c" linenr="22" str="=" scope="0x921a620" type="op" isAssignmentOp="True" astOperand1="0x9217278" astOperand2="0x920df00"/>
+    <token id="0x920df00" file="build/test/runners/test_lights_runner.c" linenr="22" str="0" scope="0x921a620" type="number" isInt="True" values="0x920df04" astParent="0x920de90"/>
+    <token id="0x920df70" file="build/test/runners/test_lights_runner.c" linenr="22" str=";" scope="0x921a620"/>
+    <token id="0x91ed8d8" file="build/test/runners/test_lights_runner.c" linenr="23" str="}" scope="0x921a620" link="0x91f1618"/>
+    <token id="0x91ed948" file="build/test/runners/test_lights_runner.c" linenr="24" str="static" scope="0x91ed1a0" type="name"/>
+    <token id="0x91ed9b8" file="build/test/runners/test_lights_runner.c" linenr="24" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x921a2b0" file="build/test/runners/test_lights_runner.c" linenr="24" str="CMock_Verify" scope="0x91ed1a0" type="name" function="0x921a6c8" astParent="0x921a320"/>
+    <token id="0x921a320" file="build/test/runners/test_lights_runner.c" linenr="24" str="(" scope="0x91ed1a0" link="0x921a400" astOperand1="0x921a2b0"/>
+    <token id="0x921a400" file="build/test/runners/test_lights_runner.c" linenr="24" str=")" scope="0x91ed1a0" link="0x921a320"/>
+    <token id="0x9202218" file="build/test/runners/test_lights_runner.c" linenr="25" str="{" scope="0x91ed620" link="0x9202288"/>
+    <token id="0x9202288" file="build/test/runners/test_lights_runner.c" linenr="26" str="}" scope="0x91ed620" link="0x9202218"/>
+    <token id="0x92022f8" file="build/test/runners/test_lights_runner.c" linenr="27" str="static" scope="0x91ed1a0" type="name"/>
+    <token id="0x9202368" file="build/test/runners/test_lights_runner.c" linenr="27" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x91f70d8" file="build/test/runners/test_lights_runner.c" linenr="27" str="CMock_Destroy" scope="0x91ed1a0" type="name" function="0x91ed6c8" astParent="0x91f7148"/>
+    <token id="0x91f7148" file="build/test/runners/test_lights_runner.c" linenr="27" str="(" scope="0x91ed1a0" link="0x91f7228" astOperand1="0x91f70d8"/>
+    <token id="0x91f7228" file="build/test/runners/test_lights_runner.c" linenr="27" str=")" scope="0x91ed1a0" link="0x91f7148"/>
+    <token id="0x92019b8" file="build/test/runners/test_lights_runner.c" linenr="28" str="{" scope="0x91ed748" link="0x9201a28"/>
+    <token id="0x9201a28" file="build/test/runners/test_lights_runner.c" linenr="29" str="}" scope="0x91ed748" link="0x92019b8"/>
+    <token id="0x9201a98" file="build/test/runners/test_lights_runner.c" linenr="32" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x9201b08" file="build/test/runners/test_lights_runner.c" linenr="32" str="resetTest" scope="0x91ed1a0" type="name" function="0x9202760" astParent="0x91ef808"/>
+    <token id="0x91ef808" file="build/test/runners/test_lights_runner.c" linenr="32" str="(" scope="0x91ed1a0" link="0x91ef8e8" astOperand1="0x9201b08"/>
+    <token id="0x91ef8e8" file="build/test/runners/test_lights_runner.c" linenr="32" str=")" scope="0x91ed1a0" link="0x91ef808"/>
+    <token id="0x91ef958" file="build/test/runners/test_lights_runner.c" linenr="32" str=";" scope="0x91ed1a0"/>
+    <token id="0x91f72c0" file="build/test/runners/test_lights_runner.c" linenr="33" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x91f7330" file="build/test/runners/test_lights_runner.c" linenr="33" str="resetTest" scope="0x91ed1a0" type="name" function="0x9202760" astParent="0x91f73a0"/>
+    <token id="0x91f73a0" file="build/test/runners/test_lights_runner.c" linenr="33" str="(" scope="0x91ed1a0" link="0x92054c8" astOperand1="0x91f7330"/>
+    <token id="0x92054c8" file="build/test/runners/test_lights_runner.c" linenr="33" str=")" scope="0x91ed1a0" link="0x91f73a0"/>
+    <token id="0x9205538" file="build/test/runners/test_lights_runner.c" linenr="34" str="{" scope="0x91f1058" link="0x9201818"/>
+    <token id="0x92055a8" file="build/test/runners/test_lights_runner.c" linenr="35" str="tearDown" scope="0x91f1058" type="name" function="0x91ec918" astParent="0x9205618"/>
+    <token id="0x9205618" file="build/test/runners/test_lights_runner.c" linenr="35" str="(" scope="0x91f1058" link="0x91ed3a0" astOperand1="0x92055a8"/>
+    <token id="0x91ed3a0" file="build/test/runners/test_lights_runner.c" linenr="35" str=")" scope="0x91f1058" link="0x9205618"/>
+    <token id="0x91ed410" file="build/test/runners/test_lights_runner.c" linenr="35" str=";" scope="0x91f1058"/>
+    <token id="0x91ed480" file="build/test/runners/test_lights_runner.c" linenr="36" str="CMock_Verify" scope="0x91f1058" type="name" function="0x921a6c8" astParent="0x91ed4f0"/>
+    <token id="0x91ed4f0" file="build/test/runners/test_lights_runner.c" linenr="36" str="(" scope="0x91f1058" link="0x92056f8" astOperand1="0x91ed480"/>
+    <token id="0x92056f8" file="build/test/runners/test_lights_runner.c" linenr="36" str=")" scope="0x91f1058" link="0x91ed4f0"/>
+    <token id="0x9205768" file="build/test/runners/test_lights_runner.c" linenr="36" str=";" scope="0x91f1058"/>
+    <token id="0x92057d8" file="build/test/runners/test_lights_runner.c" linenr="37" str="CMock_Destroy" scope="0x91f1058" type="name" function="0x91ed6c8" astParent="0x9205848"/>
+    <token id="0x9205848" file="build/test/runners/test_lights_runner.c" linenr="37" str="(" scope="0x91f1058" link="0x91ecdb8" astOperand1="0x92057d8"/>
+    <token id="0x91ecdb8" file="build/test/runners/test_lights_runner.c" linenr="37" str=")" scope="0x91f1058" link="0x9205848"/>
+    <token id="0x91ece28" file="build/test/runners/test_lights_runner.c" linenr="37" str=";" scope="0x91f1058"/>
+    <token id="0x91ece98" file="build/test/runners/test_lights_runner.c" linenr="38" str="CMock_Init" scope="0x91f1058" type="name" function="0x91eda30" astParent="0x91ecf08"/>
+    <token id="0x91ecf08" file="build/test/runners/test_lights_runner.c" linenr="38" str="(" scope="0x91f1058" link="0x921a780" astOperand1="0x91ece98"/>
+    <token id="0x921a780" file="build/test/runners/test_lights_runner.c" linenr="38" str=")" scope="0x91f1058" link="0x91ecf08"/>
+    <token id="0x921a7f0" file="build/test/runners/test_lights_runner.c" linenr="38" str=";" scope="0x91f1058"/>
+    <token id="0x921a860" file="build/test/runners/test_lights_runner.c" linenr="39" str="setUp" scope="0x91f1058" type="name" function="0x91fac20" astParent="0x921a8d0"/>
+    <token id="0x921a8d0" file="build/test/runners/test_lights_runner.c" linenr="39" str="(" scope="0x91f1058" link="0x9201738" astOperand1="0x921a860"/>
+    <token id="0x9201738" file="build/test/runners/test_lights_runner.c" linenr="39" str=")" scope="0x91f1058" link="0x921a8d0"/>
+    <token id="0x92017a8" file="build/test/runners/test_lights_runner.c" linenr="39" str=";" scope="0x91f1058"/>
+    <token id="0x9201818" file="build/test/runners/test_lights_runner.c" linenr="40" str="}" scope="0x91f1058" link="0x9205538"/>
+    <token id="0x9201888" file="build/test/runners/test_lights_runner.c" linenr="41" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x9202010" file="build/test/runners/test_lights_runner.c" linenr="41" str="verifyTest" scope="0x91ed1a0" type="name" function="0x91f1100" astParent="0x9202080"/>
+    <token id="0x9202080" file="build/test/runners/test_lights_runner.c" linenr="41" str="(" scope="0x91ed1a0" link="0x9202160" astOperand1="0x9202010"/>
+    <token id="0x9202160" file="build/test/runners/test_lights_runner.c" linenr="41" str=")" scope="0x91ed1a0" link="0x9202080"/>
+    <token id="0x91efa18" file="build/test/runners/test_lights_runner.c" linenr="41" str=";" scope="0x91ed1a0"/>
+    <token id="0x91efa88" file="build/test/runners/test_lights_runner.c" linenr="42" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x91efaf8" file="build/test/runners/test_lights_runner.c" linenr="42" str="verifyTest" scope="0x91ed1a0" type="name" function="0x91f1100" astParent="0x91efb68"/>
+    <token id="0x91efb68" file="build/test/runners/test_lights_runner.c" linenr="42" str="(" scope="0x91ed1a0" link="0x91ee6b8" astOperand1="0x91efaf8"/>
+    <token id="0x91ee6b8" file="build/test/runners/test_lights_runner.c" linenr="42" str=")" scope="0x91ed1a0" link="0x91efb68"/>
+    <token id="0x91ee728" file="build/test/runners/test_lights_runner.c" linenr="43" str="{" scope="0x91f1180" link="0x91db088"/>
+    <token id="0x91ee798" file="build/test/runners/test_lights_runner.c" linenr="44" str="CMock_Verify" scope="0x91f1180" type="name" function="0x921a6c8" astParent="0x91ee808"/>
+    <token id="0x91ee808" file="build/test/runners/test_lights_runner.c" linenr="44" str="(" scope="0x91f1180" link="0x91ee878" astOperand1="0x91ee798"/>
+    <token id="0x91ee878" file="build/test/runners/test_lights_runner.c" linenr="44" str=")" scope="0x91f1180" link="0x91ee808"/>
+    <token id="0x91db018" file="build/test/runners/test_lights_runner.c" linenr="44" str=";" scope="0x91f1180"/>
+    <token id="0x91db088" file="build/test/runners/test_lights_runner.c" linenr="45" str="}" scope="0x91f1180" link="0x91ee728"/>
+    <token id="0x91db0f8" file="build/test/runners/test_lights_runner.c" linenr="48" str="static" scope="0x91ed1a0" type="name"/>
+    <token id="0x91db168" file="build/test/runners/test_lights_runner.c" linenr="48" str="void" scope="0x91ed1a0" type="name"/>
+    <token id="0x91db1d8" file="build/test/runners/test_lights_runner.c" linenr="48" str="run_test" scope="0x91ed1a0" type="name" function="0x91f1228" astParent="0x91f33b8"/>
+    <token id="0x91f33b8" file="build/test/runners/test_lights_runner.c" linenr="48" str="(" scope="0x91ed1a0" link="0x91f23b0" astOperand1="0x91db1d8" astOperand2="0x9201e98"/>
+    <token id="0x91f3428" file="build/test/runners/test_lights_runner.c" linenr="48" str="UnityTestFunction" scope="0x91ed1a0" type="name"/>
+    <token id="0x91f3498" file="build/test/runners/test_lights_runner.c" linenr="48" str="func" scope="0x91ed1a0" type="name" varId="4" variable="0x91eee08" astParent="0x91f3508"/>
+    <token id="0x91f3508" file="build/test/runners/test_lights_runner.c" linenr="48" str="," scope="0x91ed1a0" astParent="0x9201e98" astOperand1="0x91f3498" astOperand2="0x9201db8"/>
+    <token id="0x91f3578" file="build/test/runners/test_lights_runner.c" linenr="48" str="const" scope="0x91ed1a0" type="name"/>
+    <token id="0x9201d48" file="build/test/runners/test_lights_runner.c" linenr="48" str="char" scope="0x91ed1a0" type="name" astParent="0x9201db8"/>
+    <token id="0x9201db8" file="build/test/runners/test_lights_runner.c" linenr="48" str="*" scope="0x91ed1a0" type="op" isArithmeticalOp="True" astParent="0x91f3508" astOperand1="0x9201d48" astOperand2="0x9201e28"/>
+    <token id="0x9201e28" file="build/test/runners/test_lights_runner.c" linenr="48" str="name" scope="0x91ed1a0" type="name" varId="5" variable="0x91eee40" astParent="0x9201db8"/>
+    <token id="0x9201e98" file="build/test/runners/test_lights_runner.c" linenr="48" str="," scope="0x91ed1a0" astParent="0x91f33b8" astOperand1="0x91f3508" astOperand2="0x91f2340"/>
+    <token id="0x9201f08" file="build/test/runners/test_lights_runner.c" linenr="48" str="int" scope="0x91ed1a0" type="name"/>
+    <token id="0x91f2340" file="build/test/runners/test_lights_runner.c" linenr="48" str="line_num" scope="0x91ed1a0" type="name" varId="6" variable="0x91eee78" astParent="0x9201e98"/>
+    <token id="0x91f23b0" file="build/test/runners/test_lights_runner.c" linenr="48" str=")" scope="0x91ed1a0" link="0x91f33b8"/>
+    <token id="0x91f2420" file="build/test/runners/test_lights_runner.c" linenr="49" str="{" scope="0x91f12a8" link="0x9212278"/>
+    <token id="0x91f2490" file="build/test/runners/test_lights_runner.c" linenr="50" str="Unity" scope="0x91f12a8" type="name" astParent="0x91f2500"/>
+    <token id="0x91f2500" file="build/test/runners/test_lights_runner.c" linenr="50" str="." scope="0x91f12a8" astParent="0x9201110" astOperand1="0x91f2490" astOperand2="0x92010a0"/>
+    <token id="0x92010a0" file="build/test/runners/test_lights_runner.c" linenr="50" str="CurrentTestName" scope="0x91f12a8" type="name" astParent="0x91f2500"/>
+    <token id="0x9201110" file="build/test/runners/test_lights_runner.c" linenr="50" str="=" scope="0x91f12a8" type="op" isAssignmentOp="True" astOperand1="0x91f2500" astOperand2="0x9201180"/>
+    <token id="0x9201180" file="build/test/runners/test_lights_runner.c" linenr="50" str="name" scope="0x91f12a8" type="name" varId="5" variable="0x91eee40" values="0x9201184" astParent="0x9201110"/>
+    <token id="0x92011f0" file="build/test/runners/test_lights_runner.c" linenr="50" str=";" scope="0x91f12a8"/>
+    <token id="0x9201260" file="build/test/runners/test_lights_runner.c" linenr="51" str="Unity" scope="0x91f12a8" type="name" astParent="0x91eada8"/>
+    <token id="0x91eada8" file="build/test/runners/test_lights_runner.c" linenr="51" str="." scope="0x91f12a8" astParent="0x91eae88" astOperand1="0x9201260" astOperand2="0x91eae18"/>
+    <token id="0x91eae18" file="build/test/runners/test_lights_runner.c" linenr="51" str="CurrentTestLineNumber" scope="0x91f12a8" type="name" astParent="0x91eada8"/>
+    <token id="0x91eae88" file="build/test/runners/test_lights_runner.c" linenr="51" str="=" scope="0x91f12a8" type="op" isAssignmentOp="True" astOperand1="0x91eada8" astOperand2="0x91eaef8"/>
+    <token id="0x91eaef8" file="build/test/runners/test_lights_runner.c" linenr="51" str="line_num" scope="0x91f12a8" type="name" varId="6" variable="0x91eee78" values="0x91eaefc" astParent="0x91eae88"/>
+    <token id="0x91eaf68" file="build/test/runners/test_lights_runner.c" linenr="51" str=";" scope="0x91f12a8"/>
+    <token id="0x91f37a8" file="build/test/runners/test_lights_runner.c" linenr="53" str="if" scope="0x91f12a8" type="name" astParent="0x91f3818"/>
+    <token id="0x91f3818" file="build/test/runners/test_lights_runner.c" linenr="53" str="(" scope="0x91f12a8" link="0x9200a58" astOperand1="0x91f37a8" astOperand2="0x91f3888"/>
+    <token id="0x91f3888" file="build/test/runners/test_lights_runner.c" linenr="53" str="!" scope="0x91f12a8" type="op" isLogicalOp="True" astParent="0x91f3818" astOperand1="0x91f3968"/>
+    <token id="0x91f38f8" file="build/test/runners/test_lights_runner.c" linenr="53" str="UnityTestMatches" scope="0x91f12a8" type="name" astParent="0x91f3968"/>
+    <token id="0x91f3968" file="build/test/runners/test_lights_runner.c" linenr="53" str="(" scope="0x91f12a8" link="0x91f39d8" astParent="0x91f3888" astOperand1="0x91f38f8"/>
+    <token id="0x91f39d8" file="build/test/runners/test_lights_runner.c" linenr="53" str=")" scope="0x91f12a8" link="0x91f3968"/>
+    <token id="0x9200a58" file="build/test/runners/test_lights_runner.c" linenr="53" str=")" scope="0x91f12a8" link="0x91f3818"/>
+    <token id="0x921a538" file="build/test/runners/test_lights_runner.c" linenr="53" str="{" scope="0x91f1350" link="0x921a5a8"/>
+    <token id="0x9200ac8" file="build/test/runners/test_lights_runner.c" linenr="54" str="return" scope="0x91f1350" type="name"/>
+    <token id="0x9200b38" file="build/test/runners/test_lights_runner.c" linenr="54" str=";" scope="0x91f1350"/>
+    <token id="0x921a5a8" file="build/test/runners/test_lights_runner.c" linenr="54" str="}" scope="0x91f1350" link="0x921a538"/>
+    <token id="0x9200ba8" file="build/test/runners/test_lights_runner.c" linenr="56" str="Unity" scope="0x91f12a8" type="name" astParent="0x9200c18"/>
+    <token id="0x9200c18" file="build/test/runners/test_lights_runner.c" linenr="56" str="." scope="0x91f12a8" astParent="0x91eb460" astOperand1="0x9200ba8" astOperand2="0x9200c88"/>
+    <token id="0x9200c88" file="build/test/runners/test_lights_runner.c" linenr="56" str="NumberOfTests" scope="0x91f12a8" type="name" astParent="0x9200c18"/>
+    <token id="0x91eb460" file="build/test/runners/test_lights_runner.c" linenr="56" str="++" scope="0x91f12a8" type="op" astOperand1="0x9200c18"/>
+    <token id="0x91eb4d0" file="build/test/runners/test_lights_runner.c" linenr="56" str=";" scope="0x91f12a8"/>
+    <token id="0x91eb540" file="build/test/runners/test_lights_runner.c" linenr="57" str="UNITY_CLR_DETAILS" scope="0x91f12a8" type="name" astParent="0x91eb5b0"/>
+    <token id="0x91eb5b0" file="build/test/runners/test_lights_runner.c" linenr="57" str="(" scope="0x91f12a8" link="0x91eb620" astOperand1="0x91eb540"/>
+    <token id="0x91eb620" file="build/test/runners/test_lights_runner.c" linenr="57" str=")" scope="0x91f12a8" link="0x91eb5b0"/>
+    <token id="0x91eb690" file="build/test/runners/test_lights_runner.c" linenr="57" str=";" scope="0x91f12a8"/>
+    <token id="0x9217358" file="build/test/runners/test_lights_runner.c" linenr="58" str="UNITY_EXEC_TIME_START" scope="0x91f12a8" type="name" astParent="0x92173c8"/>
+    <token id="0x92173c8" file="build/test/runners/test_lights_runner.c" linenr="58" str="(" scope="0x91f12a8" link="0x9217438" astOperand1="0x9217358"/>
+    <token id="0x9217438" file="build/test/runners/test_lights_runner.c" linenr="58" str=")" scope="0x91f12a8" link="0x92173c8"/>
+    <token id="0x92174a8" file="build/test/runners/test_lights_runner.c" linenr="58" str=";" scope="0x91f12a8"/>
+    <token id="0x9217518" file="build/test/runners/test_lights_runner.c" linenr="59" str="CMock_Init" scope="0x91f12a8" type="name" function="0x91eda30" astParent="0x9217588"/>
+    <token id="0x9217588" file="build/test/runners/test_lights_runner.c" linenr="59" str="(" scope="0x91f12a8" link="0x9204c60" astOperand1="0x9217518"/>
+    <token id="0x9204c60" file="build/test/runners/test_lights_runner.c" linenr="59" str=")" scope="0x91f12a8" link="0x9217588"/>
+    <token id="0x9204cd0" file="build/test/runners/test_lights_runner.c" linenr="59" str=";" scope="0x91f12a8"/>
+    <token id="0x9204d40" file="build/test/runners/test_lights_runner.c" linenr="60" str="if" scope="0x91f12a8" type="name" astParent="0x9204db0"/>
+    <token id="0x9204db0" file="build/test/runners/test_lights_runner.c" linenr="60" str="(" scope="0x91f12a8" link="0x91eb1b8" astOperand1="0x9204d40" astOperand2="0x9204e90"/>
+    <token id="0x9204e20" file="build/test/runners/test_lights_runner.c" linenr="60" str="TEST_PROTECT" scope="0x91f12a8" type="name" astParent="0x9204e90"/>
+    <token id="0x9204e90" file="build/test/runners/test_lights_runner.c" linenr="60" str="(" scope="0x91f12a8" link="0x91eb148" astParent="0x9204db0" astOperand1="0x9204e20"/>
+    <token id="0x91eb148" file="build/test/runners/test_lights_runner.c" linenr="60" str=")" scope="0x91f12a8" link="0x9204e90"/>
+    <token id="0x91eb1b8" file="build/test/runners/test_lights_runner.c" linenr="60" str=")" scope="0x91f12a8" link="0x9204db0"/>
+    <token id="0x91eb228" file="build/test/runners/test_lights_runner.c" linenr="61" str="{" scope="0x91f13f8" link="0x91faa48"/>
+    <token id="0x91eb298" file="build/test/runners/test_lights_runner.c" linenr="62" str="setUp" scope="0x91f13f8" type="name" function="0x91fac20" astParent="0x91eb308"/>
+    <token id="0x91eb308" file="build/test/runners/test_lights_runner.c" linenr="62" str="(" scope="0x91f13f8" link="0x91eb378" astOperand1="0x91eb298"/>
+    <token id="0x91eb378" file="build/test/runners/test_lights_runner.c" linenr="62" str=")" scope="0x91f13f8" link="0x91eb308"/>
+    <token id="0x91fa818" file="build/test/runners/test_lights_runner.c" linenr="62" str=";" scope="0x91f13f8"/>
+    <token id="0x91fa888" file="build/test/runners/test_lights_runner.c" linenr="63" str="func" scope="0x91f13f8" type="name" varId="4" variable="0x91eee08" astParent="0x91fa8f8"/>
+    <token id="0x91fa8f8" file="build/test/runners/test_lights_runner.c" linenr="63" str="(" scope="0x91f13f8" link="0x91fa968" astOperand1="0x91fa888"/>
+    <token id="0x91fa968" file="build/test/runners/test_lights_runner.c" linenr="63" str=")" scope="0x91f13f8" link="0x91fa8f8"/>
+    <token id="0x91fa9d8" file="build/test/runners/test_lights_runner.c" linenr="63" str=";" scope="0x91f13f8"/>
+    <token id="0x91faa48" file="build/test/runners/test_lights_runner.c" linenr="64" str="}" scope="0x91f13f8" link="0x91eb228"/>
+    <token id="0x92119d8" file="build/test/runners/test_lights_runner.c" linenr="65" str="if" scope="0x91f12a8" type="name" astParent="0x9211a48"/>
+    <token id="0x9211a48" file="build/test/runners/test_lights_runner.c" linenr="65" str="(" scope="0x91f12a8" link="0x9211c08" astOperand1="0x92119d8" astOperand2="0x9211b28"/>
+    <token id="0x9211ab8" file="build/test/runners/test_lights_runner.c" linenr="65" str="TEST_PROTECT" scope="0x91f12a8" type="name" astParent="0x9211b28"/>
+    <token id="0x9211b28" file="build/test/runners/test_lights_runner.c" linenr="65" str="(" scope="0x91f12a8" link="0x9211b98" astParent="0x9211a48" astOperand1="0x9211ab8"/>
+    <token id="0x9211b98" file="build/test/runners/test_lights_runner.c" linenr="65" str=")" scope="0x91f12a8" link="0x9211b28"/>
+    <token id="0x9211c08" file="build/test/runners/test_lights_runner.c" linenr="65" str=")" scope="0x91f12a8" link="0x9211a48"/>
+    <token id="0x9200d30" file="build/test/runners/test_lights_runner.c" linenr="66" str="{" scope="0x91eeb90" link="0x91ef588"/>
+    <token id="0x9200da0" file="build/test/runners/test_lights_runner.c" linenr="67" str="tearDown" scope="0x91eeb90" type="name" function="0x91ec918" astParent="0x9200e10"/>
+    <token id="0x9200e10" file="build/test/runners/test_lights_runner.c" linenr="67" str="(" scope="0x91eeb90" link="0x9200e80" astOperand1="0x9200da0"/>
+    <token id="0x9200e80" file="build/test/runners/test_lights_runner.c" linenr="67" str=")" scope="0x91eeb90" link="0x9200e10"/>
+    <token id="0x9200ef0" file="build/test/runners/test_lights_runner.c" linenr="67" str=";" scope="0x91eeb90"/>
+    <token id="0x9200f60" file="build/test/runners/test_lights_runner.c" linenr="68" str="CMock_Verify" scope="0x91eeb90" type="name" function="0x921a6c8" astParent="0x9200fd0"/>
+    <token id="0x9200fd0" file="build/test/runners/test_lights_runner.c" linenr="68" str="(" scope="0x91eeb90" link="0x91ef4a8" astOperand1="0x9200f60"/>
+    <token id="0x91ef4a8" file="build/test/runners/test_lights_runner.c" linenr="68" str=")" scope="0x91eeb90" link="0x9200fd0"/>
+    <token id="0x91ef518" file="build/test/runners/test_lights_runner.c" linenr="68" str=";" scope="0x91eeb90"/>
+    <token id="0x91ef588" file="build/test/runners/test_lights_runner.c" linenr="69" str="}" scope="0x91eeb90" link="0x9200d30"/>
+    <token id="0x91ef5f8" file="build/test/runners/test_lights_runner.c" linenr="70" str="CMock_Destroy" scope="0x91f12a8" type="name" function="0x91ed6c8" astParent="0x91ef668"/>
+    <token id="0x91ef668" file="build/test/runners/test_lights_runner.c" linenr="70" str="(" scope="0x91f12a8" link="0x91ef6d8" astOperand1="0x91ef5f8"/>
+    <token id="0x91ef6d8" file="build/test/runners/test_lights_runner.c" linenr="70" str=")" scope="0x91f12a8" link="0x91ef668"/>
+    <token id="0x91ef748" file="build/test/runners/test_lights_runner.c" linenr="70" str=";" scope="0x91f12a8"/>
+    <token id="0x91f26a0" file="build/test/runners/test_lights_runner.c" linenr="71" str="UNITY_EXEC_TIME_STOP" scope="0x91f12a8" type="name" astParent="0x91f2738"/>
+    <token id="0x91f2738" file="build/test/runners/test_lights_runner.c" linenr="71" str="(" scope="0x91f12a8" link="0x91f27a8" astOperand1="0x91f26a0"/>
+    <token id="0x91f27a8" file="build/test/runners/test_lights_runner.c" linenr="71" str=")" scope="0x91f12a8" link="0x91f2738"/>
+    <token id="0x91f2818" file="build/test/runners/test_lights_runner.c" linenr="71" str=";" scope="0x91f12a8"/>
+    <token id="0x91f2888" file="build/test/runners/test_lights_runner.c" linenr="72" str="UnityConcludeTest" scope="0x91f12a8" type="name" astParent="0x91f2920"/>
+    <token id="0x91f2920" file="build/test/runners/test_lights_runner.c" linenr="72" str="(" scope="0x91f12a8" link="0x91f2990" astOperand1="0x91f2888"/>
+    <token id="0x91f2990" file="build/test/runners/test_lights_runner.c" linenr="72" str=")" scope="0x91f12a8" link="0x91f2920"/>
+    <token id="0x9212208" file="build/test/runners/test_lights_runner.c" linenr="72" str=";" scope="0x91f12a8"/>
+    <token id="0x9212278" file="build/test/runners/test_lights_runner.c" linenr="73" str="}" scope="0x91f12a8" link="0x91f2420"/>
+    <token id="0x92122e8" file="build/test/runners/test_lights_runner.c" linenr="76" str="int" scope="0x91ed1a0" type="name"/>
+    <token id="0x9212358" file="build/test/runners/test_lights_runner.c" linenr="76" str="main" scope="0x91ed1a0" type="name" function="0x91eec38" astParent="0x92123c8"/>
+    <token id="0x92123c8" file="build/test/runners/test_lights_runner.c" linenr="76" str="(" scope="0x91ed1a0" link="0x92124a8" astOperand1="0x9212358"/>
+    <token id="0x92124a8" file="build/test/runners/test_lights_runner.c" linenr="76" str=")" scope="0x91ed1a0" link="0x92123c8"/>
+    <token id="0x9212740" file="build/test/runners/test_lights_runner.c" linenr="77" str="{" scope="0x91eecb8" link="0x91f0fe0"/>
+    <token id="0x92127b0" file="build/test/runners/test_lights_runner.c" linenr="78" str="UnityBegin" scope="0x91eecb8" type="name" astParent="0x9212820"/>
+    <token id="0x9212820" file="build/test/runners/test_lights_runner.c" linenr="78" str="(" scope="0x91eecb8" link="0x9212900" astOperand1="0x92127b0" astOperand2="0x9212890"/>
+    <token id="0x9212890" file="build/test/runners/test_lights_runner.c" linenr="78" str="&quot;test_lights.c&quot;" scope="0x91eecb8" type="string" strlen="13" values="0x9212894" astParent="0x9212820"/>
+    <token id="0x9212900" file="build/test/runners/test_lights_runner.c" linenr="78" str=")" scope="0x91eecb8" link="0x9212820"/>
+    <token id="0x9212970" file="build/test/runners/test_lights_runner.c" linenr="78" str=";" scope="0x91eecb8"/>
+    <token id="0x92129e0" file="build/test/runners/test_lights_runner.c" linenr="79" str="run_test" scope="0x91eecb8" type="name" function="0x91f1228" astParent="0x9212a50"/>
+    <token id="0x9212a50" file="build/test/runners/test_lights_runner.c" linenr="79" str="(" scope="0x91eecb8" link="0x91ecad8" astOperand1="0x92129e0" astOperand2="0x91ec9f8"/>
+    <token id="0x91ec808" file="build/test/runners/test_lights_runner.c" linenr="79" str="test_lights_NeedToImplement" scope="0x91eecb8" type="name" astParent="0x91ec8a0"/>
+    <token id="0x91ec8a0" file="build/test/runners/test_lights_runner.c" linenr="79" str="," scope="0x91eecb8" astParent="0x91ec9f8" astOperand1="0x91ec808" astOperand2="0x91ec960"/>
+    <token id="0x91ec960" file="build/test/runners/test_lights_runner.c" linenr="79" str="&quot;test_lights_NeedToImplement&quot;" scope="0x91eecb8" type="string" strlen="27" values="0x91ec964" astParent="0x91ec8a0"/>
+    <token id="0x91ec9f8" file="build/test/runners/test_lights_runner.c" linenr="79" str="," scope="0x91eecb8" astParent="0x9212a50" astOperand1="0x91ec8a0" astOperand2="0x91eca68"/>
+    <token id="0x91eca68" file="build/test/runners/test_lights_runner.c" linenr="79" str="13" scope="0x91eecb8" type="number" isInt="True" values="0x91eca6c" astParent="0x91ec9f8"/>
+    <token id="0x91ecad8" file="build/test/runners/test_lights_runner.c" linenr="79" str=")" scope="0x91eecb8" link="0x9212a50"/>
+    <token id="0x91ecb48" file="build/test/runners/test_lights_runner.c" linenr="79" str=";" scope="0x91eecb8"/>
+    <token id="0x91efc90" file="build/test/runners/test_lights_runner.c" linenr="80" str="run_test" scope="0x91eecb8" type="name" function="0x91f1228" astParent="0x91efd00"/>
+    <token id="0x91efd00" file="build/test/runners/test_lights_runner.c" linenr="80" str="(" scope="0x91eecb8" link="0x91effe0" astOperand1="0x91efc90" astOperand2="0x91eff00"/>
+    <token id="0x91efd70" file="build/test/runners/test_lights_runner.c" linenr="80" str="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff" scope="0x91eecb8" type="name" astParent="0x91efde0"/>
+    <token id="0x91efde0" file="build/test/runners/test_lights_runner.c" linenr="80" str="," scope="0x91eecb8" astParent="0x91eff00" astOperand1="0x91efd70" astOperand2="0x91efe50"/>
+    <token id="0x91efe50" file="build/test/runners/test_lights_runner.c" linenr="80" str="&quot;test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff&quot;" scope="0x91eecb8" type="string" strlen="56" values="0x91efe54" astParent="0x91efde0"/>
+    <token id="0x91eff00" file="build/test/runners/test_lights_runner.c" linenr="80" str="," scope="0x91eecb8" astParent="0x91efd00" astOperand1="0x91efde0" astOperand2="0x91eff70"/>
+    <token id="0x91eff70" file="build/test/runners/test_lights_runner.c" linenr="80" str="18" scope="0x91eecb8" type="number" isInt="True" values="0x91eff74" astParent="0x91eff00"/>
+    <token id="0x91effe0" file="build/test/runners/test_lights_runner.c" linenr="80" str=")" scope="0x91eecb8" link="0x91efd00"/>
+    <token id="0x91f0050" file="build/test/runners/test_lights_runner.c" linenr="80" str=";" scope="0x91eecb8"/>
+    <token id="0x91f00c0" file="build/test/runners/test_lights_runner.c" linenr="82" str="return" scope="0x91eecb8" type="name" astOperand1="0x91f0e90"/>
+    <token id="0x91f0e20" file="build/test/runners/test_lights_runner.c" linenr="82" str="UnityEnd" scope="0x91eecb8" type="name" astParent="0x91f0e90"/>
+    <token id="0x91f0e90" file="build/test/runners/test_lights_runner.c" linenr="82" str="(" scope="0x91eecb8" link="0x91f0f00" astParent="0x91f00c0" astOperand1="0x91f0e20"/>
+    <token id="0x91f0f00" file="build/test/runners/test_lights_runner.c" linenr="82" str=")" scope="0x91eecb8" link="0x91f0e90"/>
+    <token id="0x91f0f70" file="build/test/runners/test_lights_runner.c" linenr="82" str=";" scope="0x91eecb8"/>
+    <token id="0x91f0fe0" file="build/test/runners/test_lights_runner.c" linenr="83" str="}" scope="0x91eecb8" link="0x9212740"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x91ed1a0" type="Global">
+      <functionList>
+        <function id="0x91fac20" tokenDef="0x9201518" name="setUp"/>
+        <function id="0x91ec918" tokenDef="0x91eea60" name="tearDown"/>
+        <function id="0x9201368" tokenDef="0x91ed268" name="test_lights_NeedToImplement"/>
+        <function id="0x91ee638" tokenDef="0x91ecfe0" name="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff"/>
+        <function id="0x91eda30" tokenDef="0x91fc2d8" name="CMock_Init"/>
+        <function id="0x921a6c8" tokenDef="0x921a2b0" name="CMock_Verify"/>
+        <function id="0x91ed6c8" tokenDef="0x91f70d8" name="CMock_Destroy"/>
+        <function id="0x9202760" tokenDef="0x9201b08" name="resetTest"/>
+        <function id="0x91f1100" tokenDef="0x9202010" name="verifyTest"/>
+        <function id="0x91f1228" tokenDef="0x91db1d8" name="run_test">
+          <arg nr="1" variable="0x91eee08"/>
+          <arg nr="2" variable="0x91eee40"/>
+          <arg nr="3" variable="0x91eee78"/>
+        </function>
+        <function id="0x91eec38" tokenDef="0x9212358" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x91eed60"/>
+        <var id="0x91eed98"/>
+        <var id="0x91eedd0"/>
+      </varlist>
+    </scope>
+    <scope id="0x921a620" type="Function" className="CMock_Init" classStart="0x91f1618" classEnd="0x91ed8d8" nestedIn="0x91ed1a0" function="0x91eda30"/>
+    <scope id="0x91ed620" type="Function" className="CMock_Verify" classStart="0x9202218" classEnd="0x9202288" nestedIn="0x91ed1a0" function="0x921a6c8"/>
+    <scope id="0x91ed748" type="Function" className="CMock_Destroy" classStart="0x92019b8" classEnd="0x9201a28" nestedIn="0x91ed1a0" function="0x91ed6c8"/>
+    <scope id="0x91f1058" type="Function" className="resetTest" classStart="0x9205538" classEnd="0x9201818" nestedIn="0x91ed1a0" function="0x9202760"/>
+    <scope id="0x91f1180" type="Function" className="verifyTest" classStart="0x91ee728" classEnd="0x91db088" nestedIn="0x91ed1a0" function="0x91f1100"/>
+    <scope id="0x91f12a8" type="Function" className="run_test" classStart="0x91f2420" classEnd="0x9212278" nestedIn="0x91ed1a0" function="0x91f1228"/>
+    <scope id="0x91f1350" type="If" classStart="0x921a538" classEnd="0x921a5a8" nestedIn="0x91f12a8"/>
+    <scope id="0x91f13f8" type="If" classStart="0x91eb228" classEnd="0x91faa48" nestedIn="0x91f12a8"/>
+    <scope id="0x91eeb90" type="If" classStart="0x9200d30" classEnd="0x91ef588" nestedIn="0x91f12a8"/>
+    <scope id="0x91eecb8" type="Function" className="main" classStart="0x9212740" classEnd="0x91f0fe0" nestedIn="0x91ed1a0" function="0x91eec38"/>
+  </scopes>
+  <variables>
+    <var id="0x91eed60" nameToken="0x91c1d68" typeStartToken="0x91c2f68" typeEndToken="0x91c2f68" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91eed98" nameToken="0x91ee500" typeStartToken="0x91f0168" typeEndToken="0x91f0168" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91eedd0" nameToken="0x91eaca8" typeStartToken="0x91ef410" typeEndToken="0x91f0308" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x91eee08" nameToken="0x91f3498" typeStartToken="0x91f3428" typeEndToken="0x91f3428" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91eee40" nameToken="0x9201e28" typeStartToken="0x9201d48" typeEndToken="0x9201db8" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x91eee78" nameToken="0x91f2340" typeStartToken="0x9201f08" typeEndToken="0x9201f08" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x91ee454">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x921719c">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x920df04">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x9201184">
+      <value tokvalue="0x91ec960" possible="true"/>
+      <value tokvalue="0x91efe50" possible="true"/>
+    </values>
+    <values id="0x91eaefc">
+      <value intvalue="13" possible="true"/>
+      <value intvalue="18" possible="true"/>
+    </values>
+    <values id="0x9212894">
+      <value tokvalue="0x9212890" known="true"/>
+    </values>
+    <values id="0x91ec964">
+      <value tokvalue="0x91ec960" known="true"/>
+    </values>
+    <values id="0x91eca6c">
+      <value intvalue="13" known="true"/>
+    </values>
+    <values id="0x91efe54">
+      <value tokvalue="0x91efe50" known="true"/>
+    </values>
+    <values id="0x91eff74">
+      <value intvalue="18" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

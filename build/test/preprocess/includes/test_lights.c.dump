@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x91c1d68" file="build/test/preprocess/includes/test_lights.c" linenr="1" str="--" scope="0x92023f8" type="op" astParent="0x91f0168"/>
+    <token id="0x91f0168" file="build/test/preprocess/includes/test_lights.c" linenr="1" str="+" scope="0x92023f8" type="op" isArithmeticalOp="True" astParent="0x91f5e60" astOperand1="0x91c1d68" astOperand2="0x91ee500"/>
+    <token id="0x91ee500" file="build/test/preprocess/includes/test_lights.c" linenr="2" str="&quot;/var/lib/gems/2.4.0/gems/ceedling-0.30.0/vendor/unity/src/unity.h&quot;" scope="0x92023f8" type="string" strlen="65" values="0x91ee504" astParent="0x91f0168"/>
+    <token id="0x91f5e60" file="build/test/preprocess/includes/test_lights.c" linenr="3" str="-" scope="0x92023f8" type="op" isArithmeticalOp="True" astParent="0x9201518" astOperand1="0x91f0168" astOperand2="0x91f25d8"/>
+    <token id="0x9200958" file="build/test/preprocess/includes/test_lights.c" linenr="3" str="src" scope="0x92023f8" type="name" astParent="0x91f25d8"/>
+    <token id="0x91f25d8" file="build/test/preprocess/includes/test_lights.c" linenr="3" str="/" scope="0x92023f8" type="op" isArithmeticalOp="True" astParent="0x91f5e60" astOperand1="0x9200958" astOperand2="0x91f3098"/>
+    <token id="0x92013d0" file="build/test/preprocess/includes/test_lights.c" linenr="3" str="lights" scope="0x92023f8" type="name" astParent="0x91f3098"/>
+    <token id="0x91f3098" file="build/test/preprocess/includes/test_lights.c" linenr="3" str="." scope="0x92023f8" astParent="0x91f25d8" astOperand1="0x92013d0" astOperand2="0x92024e8"/>
+    <token id="0x92024e8" file="build/test/preprocess/includes/test_lights.c" linenr="3" str="h" scope="0x92023f8" type="name" astParent="0x91f3098"/>
+    <token id="0x9201518" file="build/test/preprocess/includes/test_lights.c" linenr="4" str="-" scope="0x92023f8" type="op" isArithmeticalOp="True" astOperand1="0x91f5e60" astOperand2="0x91ecc30"/>
+    <token id="0x91f3ae0" file="build/test/preprocess/includes/test_lights.c" linenr="4" str="build" scope="0x92023f8" type="name" astParent="0x91ee5c0"/>
+    <token id="0x91ee5c0" file="build/test/preprocess/includes/test_lights.c" linenr="4" str="/" scope="0x92023f8" type="op" isArithmeticalOp="True" astParent="0x91ecc30" astOperand1="0x91f3ae0" astOperand2="0x91c2f68"/>
+    <token id="0x91c2f68" file="build/test/preprocess/includes/test_lights.c" linenr="4" str="temp" scope="0x92023f8" type="name" astParent="0x91ee5c0"/>
+    <token id="0x91ecc30" file="build/test/preprocess/includes/test_lights.c" linenr="4" str="/" scope="0x92023f8" type="op" isArithmeticalOp="True" astParent="0x9201518" astOperand1="0x91ee5c0" astOperand2="0x92196a0"/>
+    <token id="0x9219630" file="build/test/preprocess/includes/test_lights.c" linenr="4" str="_test_lights" scope="0x92023f8" type="name" astParent="0x92196a0"/>
+    <token id="0x92196a0" file="build/test/preprocess/includes/test_lights.c" linenr="4" str="." scope="0x92023f8" astParent="0x91ecc30" astOperand1="0x9219630" astOperand2="0x91eb748"/>
+    <token id="0x91eb748" file="build/test/preprocess/includes/test_lights.c" linenr="4" str="c" scope="0x92023f8" type="name" astParent="0x92196a0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x92023f8" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+    <values id="0x91ee504">
+      <value tokvalue="0x91ee500" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

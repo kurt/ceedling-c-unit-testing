@@ -9,20 +9,19 @@ build:
   # instead of calling g++ directly you can also use some build toolkit like make
   # install the necessary build tools when needed
   before_script:
-  #  - apt-get update -y
-  #  - apt-get install sudo -y
-  #  - sudo apt-get install software-properties-common -y
-  #  - sudo apt-get update -y
-  #  - apt-get install ca-certificates
+    - apt-get update -y
+    - apt-get install sudo -y
+    - sudo apt-get install software-properties-common -y
+    - sudo apt-get update -y
+    - apt-get install ca-certificates
     #- sudo apt-add-repository ppa:brightbox/ruby-ng -y && sudo apt-get update -y
     #- sudo apt-get install ruby2.4 -y
-  #  - gem install ceedling 
+    - gem install ceedling 
   script:
-     - pwd
-  #  - ceedling
+    - ceedling
   artifacts:
-    reports:
-      junit: build/artifacts/test/report.xml
+    #reports:
+     # junit: build/artifacts/test/report.xml
     paths:
       - build/artifacts/test
       # depending on your build setup it's most likely a good idea to cache outputs to reduce the build time

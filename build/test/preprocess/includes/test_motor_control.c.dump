@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x91f3ae0" file="build/test/preprocess/includes/test_motor_control.c" linenr="1" str="--" scope="0x9201608" type="op" astParent="0x91c1d68"/>
+    <token id="0x91c1d68" file="build/test/preprocess/includes/test_motor_control.c" linenr="1" str="+" scope="0x9201608" type="op" isArithmeticalOp="True" astParent="0x91ee500" astOperand1="0x91f3ae0" astOperand2="0x91f0168"/>
+    <token id="0x91f0168" file="build/test/preprocess/includes/test_motor_control.c" linenr="2" str="&quot;/var/lib/gems/2.4.0/gems/ceedling-0.30.0/vendor/unity/src/unity.h&quot;" scope="0x9201608" type="string" strlen="65" values="0x91f016c" astParent="0x91c1d68"/>
+    <token id="0x91ee500" file="build/test/preprocess/includes/test_motor_control.c" linenr="3" str="-" scope="0x9201608" type="op" isArithmeticalOp="True" astParent="0x92027d0" astOperand1="0x91c1d68" astOperand2="0x91f0308"/>
+    <token id="0x91eaca8" file="build/test/preprocess/includes/test_motor_control.c" linenr="3" str="src" scope="0x9201608" type="name" astParent="0x91f0308"/>
+    <token id="0x91f0308" file="build/test/preprocess/includes/test_motor_control.c" linenr="3" str="/" scope="0x9201608" type="op" isArithmeticalOp="True" astParent="0x91ee500" astOperand1="0x91eaca8" astOperand2="0x9200958"/>
+    <token id="0x91f5e60" file="build/test/preprocess/includes/test_motor_control.c" linenr="3" str="motor_control" scope="0x9201608" type="name" astParent="0x9200958"/>
+    <token id="0x9200958" file="build/test/preprocess/includes/test_motor_control.c" linenr="3" str="." scope="0x9201608" astParent="0x91f0308" astOperand1="0x91f5e60" astOperand2="0x91f25d8"/>
+    <token id="0x91f25d8" file="build/test/preprocess/includes/test_motor_control.c" linenr="3" str="h" scope="0x9201608" type="name" astParent="0x9200958"/>
+    <token id="0x92027d0" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="-" scope="0x9201608" type="op" isArithmeticalOp="True" astParent="0x9202460" astOperand1="0x91ee500" astOperand2="0x92196a0"/>
+    <token id="0x91f3098" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="build" scope="0x9201608" type="name" astParent="0x9201518"/>
+    <token id="0x9201518" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="/" scope="0x9201608" type="op" isArithmeticalOp="True" astParent="0x91ecc30" astOperand1="0x91f3098" astOperand2="0x91c2f68"/>
+    <token id="0x91c2f68" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="test" scope="0x9201608" type="name" astParent="0x9201518"/>
+    <token id="0x91ecc30" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="/" scope="0x9201608" type="op" isArithmeticalOp="True" astParent="0x92196a0" astOperand1="0x9201518" astOperand2="0x9219630"/>
+    <token id="0x9219630" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="mocks" scope="0x9201608" type="name" astParent="0x91ecc30"/>
+    <token id="0x92196a0" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="/" scope="0x9201608" type="op" isArithmeticalOp="True" astParent="0x92027d0" astOperand1="0x91ecc30" astOperand2="0x91eb7b8"/>
+    <token id="0x91eb748" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="mock_spi" scope="0x9201608" type="name" astParent="0x91eb7b8"/>
+    <token id="0x91eb7b8" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="." scope="0x9201608" astParent="0x92196a0" astOperand1="0x91eb748" astOperand2="0x92023f0"/>
+    <token id="0x92023f0" file="build/test/preprocess/includes/test_motor_control.c" linenr="4" str="h" scope="0x9201608" type="name" astParent="0x91eb7b8"/>
+    <token id="0x9202460" file="build/test/preprocess/includes/test_motor_control.c" linenr="5" str="-" scope="0x9201608" type="op" isArithmeticalOp="True" astOperand1="0x92027d0" astOperand2="0x91eead0"/>
+    <token id="0x91ed268" file="build/test/preprocess/includes/test_motor_control.c" linenr="5" str="build" scope="0x9201608" type="name" astParent="0x91ed2d8"/>
+    <token id="0x91ed2d8" file="build/test/preprocess/includes/test_motor_control.c" linenr="5" str="/" scope="0x9201608" type="op" isArithmeticalOp="True" astParent="0x91eead0" astOperand1="0x91ed268" astOperand2="0x91eea60"/>
+    <token id="0x91eea60" file="build/test/preprocess/includes/test_motor_control.c" linenr="5" str="temp" scope="0x9201608" type="name" astParent="0x91ed2d8"/>
+    <token id="0x91eead0" file="build/test/preprocess/includes/test_motor_control.c" linenr="5" str="/" scope="0x9201608" type="op" isArithmeticalOp="True" astParent="0x9202460" astOperand1="0x91ed2d8" astOperand2="0x91ee930"/>
+    <token id="0x9212c00" file="build/test/preprocess/includes/test_motor_control.c" linenr="5" str="_test_motor_control" scope="0x9201608" type="name" astParent="0x91ee930"/>
+    <token id="0x91ee930" file="build/test/preprocess/includes/test_motor_control.c" linenr="5" str="." scope="0x9201608" astParent="0x91eead0" astOperand1="0x9212c00" astOperand2="0x91ee9a0"/>
+    <token id="0x91ee9a0" file="build/test/preprocess/includes/test_motor_control.c" linenr="5" str="c" scope="0x9201608" type="name" astParent="0x91ee930"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x9201608" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+    <values id="0x91f016c">
+      <value tokvalue="0x91f0168" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

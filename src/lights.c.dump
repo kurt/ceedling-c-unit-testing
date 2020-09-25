@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x91c2f68" file="src/lights.h" linenr="5" str="void" scope="0x91ee938" type="name"/>
+    <token id="0x91c1d68" file="src/lights.h" linenr="5" str="lights_SetHeadlightSwitchOff" scope="0x91ee938" type="name" function="0x91ee638" astParent="0x91f3ae0"/>
+    <token id="0x91f3ae0" file="src/lights.h" linenr="5" str="(" scope="0x91ee938" link="0x91f5e60" astOperand1="0x91c1d68"/>
+    <token id="0x91f5e60" file="src/lights.h" linenr="5" str=")" scope="0x91ee938" link="0x91f3ae0"/>
+    <token id="0x91ef410" file="src/lights.h" linenr="5" str=";" scope="0x91ee938"/>
+    <token id="0x91f0168" file="src/lights.h" linenr="6" str="bool" scope="0x91ee938" type="name"/>
+    <token id="0x91f0308" file="src/lights.h" linenr="6" str="lights_AreHeadlightsOn" scope="0x91ee938" type="name" function="0x9201368" astParent="0x91eaca8"/>
+    <token id="0x91eaca8" file="src/lights.h" linenr="6" str="(" scope="0x91ee938" link="0x91f25d8" astOperand1="0x91f0308"/>
+    <token id="0x91f25d8" file="src/lights.h" linenr="6" str=")" scope="0x91ee938" link="0x91eaca8"/>
+    <token id="0x9201670" file="src/lights.h" linenr="6" str=";" scope="0x91ee938"/>
+    <token id="0x92027d0" file="src/lights.c" linenr="3" str="void" scope="0x91ee938" type="name"/>
+    <token id="0x9201518" file="src/lights.c" linenr="3" str="lights_SetHeadlightSwitchOff" scope="0x91ee938" type="name" function="0x91ee638" astParent="0x91f3098"/>
+    <token id="0x91f3098" file="src/lights.c" linenr="3" str="(" scope="0x91ee938" link="0x92013d0" astOperand1="0x9201518"/>
+    <token id="0x92013d0" file="src/lights.c" linenr="3" str=")" scope="0x91ee938" link="0x91f3098"/>
+    <token id="0x91ee5c0" file="src/lights.c" linenr="3" str="{" scope="0x9212c08" link="0x9219630"/>
+    <token id="0x9219630" file="src/lights.c" linenr="5" str="}" scope="0x9212c08" link="0x91ee5c0"/>
+    <token id="0x92196a0" file="src/lights.c" linenr="7" str="bool" scope="0x91ee938" type="name"/>
+    <token id="0x92023f0" file="src/lights.c" linenr="7" str="lights_AreHeadlightsOn" scope="0x91ee938" type="name" function="0x9201368" astParent="0x9202460"/>
+    <token id="0x9202460" file="src/lights.c" linenr="7" str="(" scope="0x91ee938" link="0x91eb748" astOperand1="0x92023f0"/>
+    <token id="0x91eb748" file="src/lights.c" linenr="7" str=")" scope="0x91ee938" link="0x9202460"/>
+    <token id="0x91eb7b8" file="src/lights.c" linenr="7" str="{" scope="0x91ecfe8" link="0x91ed2d8"/>
+    <token id="0x91eea60" file="src/lights.c" linenr="8" str="return" scope="0x91ecfe8" type="name" astOperand1="0x91eead0"/>
+    <token id="0x91eead0" file="src/lights.c" linenr="8" str="false" scope="0x91ecfe8" type="name" astParent="0x91eea60"/>
+    <token id="0x91ed268" file="src/lights.c" linenr="8" str=";" scope="0x91ecfe8"/>
+    <token id="0x91ed2d8" file="src/lights.c" linenr="10" str="}" scope="0x91ecfe8" link="0x91eb7b8"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x91ee938" type="Global">
+      <functionList>
+        <function id="0x91ee638" tokenDef="0x91c1d68" name="lights_SetHeadlightSwitchOff"/>
+        <function id="0x9201368" tokenDef="0x91f0308" name="lights_AreHeadlightsOn"/>
+      </functionList>
+    </scope>
+    <scope id="0x9212c08" type="Function" className="lights_SetHeadlightSwitchOff" classStart="0x91ee5c0" classEnd="0x9219630" nestedIn="0x91ee938" function="0x91ee638"/>
+    <scope id="0x91ecfe8" type="Function" className="lights_AreHeadlightsOn" classStart="0x91eb7b8" classEnd="0x91ed2d8" nestedIn="0x91ee938" function="0x9201368"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

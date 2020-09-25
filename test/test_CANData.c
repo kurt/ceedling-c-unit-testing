@@ -16,9 +16,10 @@ void test_CANData_NeedToImplement(void)
 }
 
 void test_CANData_Parser(void){
-  uint8_t baudrate = 9600;
-  uint8_t data_out = 4;
-  
+  uint16_t baudrate = 9600;
+  uint16_t data_out = 4;
+  //char *memoryArea = malloc(10);
+  //char *newArea = malloc(10);
 
   spi_readData_ExpectAndReturn(data_out,baudrate,100);
   uint16_t parsedData = parseCANData();

@@ -1,0 +1,683 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x91c2f68" file="build/test/runners/test_motor_control_runner.c" linenr="8" str="int" scope="0x92026f0" type="name"/>
+    <token id="0x91c1d68" file="build/test/runners/test_motor_control_runner.c" linenr="8" str="GlobalExpectCount" scope="0x92026f0" type="name" varId="1" variable="0x91eeeb0"/>
+    <token id="0x91f3ae0" file="build/test/runners/test_motor_control_runner.c" linenr="8" str=";" scope="0x92026f0"/>
+    <token id="0x91f0168" file="build/test/runners/test_motor_control_runner.c" linenr="9" str="int" scope="0x92026f0" type="name"/>
+    <token id="0x91ee500" file="build/test/runners/test_motor_control_runner.c" linenr="9" str="GlobalVerifyOrder" scope="0x92026f0" type="name" varId="2" variable="0x91eeee8"/>
+    <token id="0x91f5e60" file="build/test/runners/test_motor_control_runner.c" linenr="9" str=";" scope="0x92026f0"/>
+    <token id="0x91ef410" file="build/test/runners/test_motor_control_runner.c" linenr="10" str="char" scope="0x92026f0" type="name" astParent="0x91eaca8"/>
+    <token id="0x91eaca8" file="build/test/runners/test_motor_control_runner.c" linenr="10" str="*" scope="0x92026f0" type="op" isArithmeticalOp="True" astOperand1="0x91ef410" astOperand2="0x91f0308"/>
+    <token id="0x91f0308" file="build/test/runners/test_motor_control_runner.c" linenr="10" str="GlobalOrderError" scope="0x92026f0" type="name" varId="3" variable="0x91eef20" astParent="0x91eaca8"/>
+    <token id="0x91f2fd8" file="build/test/runners/test_motor_control_runner.c" linenr="10" str=";" scope="0x92026f0"/>
+    <token id="0x9201670" file="build/test/runners/test_motor_control_runner.c" linenr="13" str="extern" scope="0x92026f0" type="name"/>
+    <token id="0x91f25d8" file="build/test/runners/test_motor_control_runner.c" linenr="13" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x9200958" file="build/test/runners/test_motor_control_runner.c" linenr="13" str="setUp" scope="0x92026f0" type="name" function="0x9201368" astParent="0x9201518"/>
+    <token id="0x9201518" file="build/test/runners/test_motor_control_runner.c" linenr="13" str="(" scope="0x92026f0" link="0x92013d0" astOperand1="0x9200958"/>
+    <token id="0x92013d0" file="build/test/runners/test_motor_control_runner.c" linenr="13" str=")" scope="0x92026f0" link="0x9201518"/>
+    <token id="0x91f3098" file="build/test/runners/test_motor_control_runner.c" linenr="13" str=";" scope="0x92026f0"/>
+    <token id="0x91ee5c0" file="build/test/runners/test_motor_control_runner.c" linenr="14" str="extern" scope="0x92026f0" type="name"/>
+    <token id="0x91ecc30" file="build/test/runners/test_motor_control_runner.c" linenr="14" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x9219630" file="build/test/runners/test_motor_control_runner.c" linenr="14" str="tearDown" scope="0x92026f0" type="name" function="0x91ee638" astParent="0x92196a0"/>
+    <token id="0x92196a0" file="build/test/runners/test_motor_control_runner.c" linenr="14" str="(" scope="0x92026f0" link="0x9202460" astOperand1="0x9219630"/>
+    <token id="0x9202460" file="build/test/runners/test_motor_control_runner.c" linenr="14" str=")" scope="0x92026f0" link="0x92196a0"/>
+    <token id="0x91eb748" file="build/test/runners/test_motor_control_runner.c" linenr="14" str=";" scope="0x92026f0"/>
+    <token id="0x91eb7b8" file="build/test/runners/test_motor_control_runner.c" linenr="15" str="extern" scope="0x92026f0" type="name"/>
+    <token id="0x91ed268" file="build/test/runners/test_motor_control_runner.c" linenr="15" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x91eea60" file="build/test/runners/test_motor_control_runner.c" linenr="15" str="test_motor_control_NeedToImplement" scope="0x92026f0" type="name" function="0x91ed210" astParent="0x91ee930"/>
+    <token id="0x91ee930" file="build/test/runners/test_motor_control_runner.c" linenr="15" str="(" scope="0x92026f0" link="0x9212c00" astOperand1="0x91eea60"/>
+    <token id="0x9212c00" file="build/test/runners/test_motor_control_runner.c" linenr="15" str=")" scope="0x92026f0" link="0x91ee930"/>
+    <token id="0x9212c70" file="build/test/runners/test_motor_control_runner.c" linenr="15" str=";" scope="0x92026f0"/>
+    <token id="0x9201bb0" file="build/test/runners/test_motor_control_runner.c" linenr="16" str="extern" scope="0x92026f0" type="name"/>
+    <token id="0x9201c20" file="build/test/runners/test_motor_control_runner.c" linenr="16" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x91ecfe0" file="build/test/runners/test_motor_control_runner.c" linenr="16" str="test_readEncoder" scope="0x92026f0" type="name" function="0x91fac20" astParent="0x91ed078"/>
+    <token id="0x91ed078" file="build/test/runners/test_motor_control_runner.c" linenr="16" str="(" scope="0x92026f0" link="0x91ed198" astOperand1="0x91ecfe0"/>
+    <token id="0x91ed198" file="build/test/runners/test_motor_control_runner.c" linenr="16" str=")" scope="0x92026f0" link="0x91ed078"/>
+    <token id="0x91fab38" file="build/test/runners/test_motor_control_runner.c" linenr="16" str=";" scope="0x92026f0"/>
+    <token id="0x91faba8" file="build/test/runners/test_motor_control_runner.c" linenr="20" str="static" scope="0x92026f0" type="name"/>
+    <token id="0x91fc2d8" file="build/test/runners/test_motor_control_runner.c" linenr="20" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x91fc348" file="build/test/runners/test_motor_control_runner.c" linenr="20" str="CMock_Init" scope="0x92026f0" type="name" function="0x91ee480" astParent="0x9202678"/>
+    <token id="0x9202678" file="build/test/runners/test_motor_control_runner.c" linenr="20" str="(" scope="0x92026f0" link="0x920de90" astOperand1="0x91fc348"/>
+    <token id="0x920de90" file="build/test/runners/test_motor_control_runner.c" linenr="20" str=")" scope="0x92026f0" link="0x9202678"/>
+    <token id="0x920df00" file="build/test/runners/test_motor_control_runner.c" linenr="21" str="{" scope="0x9205518" link="0x91ed948"/>
+    <token id="0x920df70" file="build/test/runners/test_motor_control_runner.c" linenr="22" str="GlobalExpectCount" scope="0x9205518" type="name" varId="1" variable="0x91eeeb0" astParent="0x91f1538"/>
+    <token id="0x91f1538" file="build/test/runners/test_motor_control_runner.c" linenr="22" str="=" scope="0x9205518" type="op" isAssignmentOp="True" astOperand1="0x920df70" astOperand2="0x91f15a8"/>
+    <token id="0x91f15a8" file="build/test/runners/test_motor_control_runner.c" linenr="22" str="0" scope="0x9205518" type="number" isInt="True" values="0x91f15ac" astParent="0x91f1538"/>
+    <token id="0x91f1618" file="build/test/runners/test_motor_control_runner.c" linenr="22" str=";" scope="0x9205518"/>
+    <token id="0x91ee370" file="build/test/runners/test_motor_control_runner.c" linenr="23" str="GlobalVerifyOrder" scope="0x9205518" type="name" varId="2" variable="0x91eeee8" astParent="0x91ee408"/>
+    <token id="0x91ee408" file="build/test/runners/test_motor_control_runner.c" linenr="23" str="=" scope="0x9205518" type="op" isAssignmentOp="True" astOperand1="0x91ee370" astOperand2="0x91f3188"/>
+    <token id="0x91f3188" file="build/test/runners/test_motor_control_runner.c" linenr="23" str="0" scope="0x9205518" type="number" isInt="True" values="0x91f318c" astParent="0x91ee408"/>
+    <token id="0x91f31f8" file="build/test/runners/test_motor_control_runner.c" linenr="23" str=";" scope="0x9205518"/>
+    <token id="0x91f3268" file="build/test/runners/test_motor_control_runner.c" linenr="24" str="GlobalOrderError" scope="0x9205518" type="name" varId="3" variable="0x91eef20" astParent="0x91f13a8"/>
+    <token id="0x91f13a8" file="build/test/runners/test_motor_control_runner.c" linenr="24" str="=" scope="0x9205518" type="op" isAssignmentOp="True" astOperand1="0x91f3268" astOperand2="0x91f1418"/>
+    <token id="0x91f1418" file="build/test/runners/test_motor_control_runner.c" linenr="24" str="0" scope="0x9205518" type="number" isInt="True" values="0x91f141c" astParent="0x91f13a8"/>
+    <token id="0x91f1488" file="build/test/runners/test_motor_control_runner.c" linenr="24" str=";" scope="0x9205518"/>
+    <token id="0x9217198" file="build/test/runners/test_motor_control_runner.c" linenr="25" str="mock_spi_Init" scope="0x9205518" type="name" astParent="0x9217208"/>
+    <token id="0x9217208" file="build/test/runners/test_motor_control_runner.c" linenr="25" str="(" scope="0x9205518" link="0x9217278" astOperand1="0x9217198"/>
+    <token id="0x9217278" file="build/test/runners/test_motor_control_runner.c" linenr="25" str=")" scope="0x9205518" link="0x9217208"/>
+    <token id="0x91ed8d8" file="build/test/runners/test_motor_control_runner.c" linenr="25" str=";" scope="0x9205518"/>
+    <token id="0x91ed948" file="build/test/runners/test_motor_control_runner.c" linenr="26" str="}" scope="0x9205518" link="0x920df00"/>
+    <token id="0x91ed9b8" file="build/test/runners/test_motor_control_runner.c" linenr="27" str="static" scope="0x92026f0" type="name"/>
+    <token id="0x921a2b0" file="build/test/runners/test_motor_control_runner.c" linenr="27" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x921a320" file="build/test/runners/test_motor_control_runner.c" linenr="27" str="CMock_Verify" scope="0x92026f0" type="name" function="0x92055c0" astParent="0x921a390"/>
+    <token id="0x921a390" file="build/test/runners/test_motor_control_runner.c" linenr="27" str="(" scope="0x92026f0" link="0x9202218" astOperand1="0x921a320"/>
+    <token id="0x9202218" file="build/test/runners/test_motor_control_runner.c" linenr="27" str=")" scope="0x92026f0" link="0x921a390"/>
+    <token id="0x9202288" file="build/test/runners/test_motor_control_runner.c" linenr="28" str="{" scope="0x921a540" link="0x9201a98"/>
+    <token id="0x92022f8" file="build/test/runners/test_motor_control_runner.c" linenr="29" str="mock_spi_Verify" scope="0x921a540" type="name" astParent="0x9202368"/>
+    <token id="0x9202368" file="build/test/runners/test_motor_control_runner.c" linenr="29" str="(" scope="0x921a540" link="0x92019b8" astOperand1="0x92022f8"/>
+    <token id="0x92019b8" file="build/test/runners/test_motor_control_runner.c" linenr="29" str=")" scope="0x921a540" link="0x9202368"/>
+    <token id="0x9201a28" file="build/test/runners/test_motor_control_runner.c" linenr="29" str=";" scope="0x921a540"/>
+    <token id="0x9201a98" file="build/test/runners/test_motor_control_runner.c" linenr="30" str="}" scope="0x921a540" link="0x9202288"/>
+    <token id="0x9201b08" file="build/test/runners/test_motor_control_runner.c" linenr="31" str="static" scope="0x92026f0" type="name"/>
+    <token id="0x91f72c0" file="build/test/runners/test_motor_control_runner.c" linenr="31" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x91f7330" file="build/test/runners/test_motor_control_runner.c" linenr="31" str="CMock_Destroy" scope="0x92026f0" type="name" function="0x921a5e8" astParent="0x91f73a0"/>
+    <token id="0x91f73a0" file="build/test/runners/test_motor_control_runner.c" linenr="31" str="(" scope="0x92026f0" link="0x91ef808" astOperand1="0x91f7330"/>
+    <token id="0x91ef808" file="build/test/runners/test_motor_control_runner.c" linenr="31" str=")" scope="0x92026f0" link="0x91f73a0"/>
+    <token id="0x91ef878" file="build/test/runners/test_motor_control_runner.c" linenr="32" str="{" scope="0x921a668" link="0x91f7228"/>
+    <token id="0x91ef8e8" file="build/test/runners/test_motor_control_runner.c" linenr="33" str="mock_spi_Destroy" scope="0x921a668" type="name" astParent="0x91f70d8"/>
+    <token id="0x91f70d8" file="build/test/runners/test_motor_control_runner.c" linenr="33" str="(" scope="0x921a668" link="0x91f7148" astOperand1="0x91ef8e8"/>
+    <token id="0x91f7148" file="build/test/runners/test_motor_control_runner.c" linenr="33" str=")" scope="0x921a668" link="0x91f70d8"/>
+    <token id="0x91f71b8" file="build/test/runners/test_motor_control_runner.c" linenr="33" str=";" scope="0x921a668"/>
+    <token id="0x91f7228" file="build/test/runners/test_motor_control_runner.c" linenr="34" str="}" scope="0x921a668" link="0x91ef878"/>
+    <token id="0x92056f8" file="build/test/runners/test_motor_control_runner.c" linenr="37" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x9205768" file="build/test/runners/test_motor_control_runner.c" linenr="37" str="resetTest" scope="0x92026f0" type="name" function="0x9211c80" astParent="0x92057d8"/>
+    <token id="0x92057d8" file="build/test/runners/test_motor_control_runner.c" linenr="37" str="(" scope="0x92026f0" link="0x91ed3a0" astOperand1="0x9205768"/>
+    <token id="0x91ed3a0" file="build/test/runners/test_motor_control_runner.c" linenr="37" str=")" scope="0x92026f0" link="0x92057d8"/>
+    <token id="0x91ed410" file="build/test/runners/test_motor_control_runner.c" linenr="37" str=";" scope="0x92026f0"/>
+    <token id="0x91ed480" file="build/test/runners/test_motor_control_runner.c" linenr="38" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x91ed4f0" file="build/test/runners/test_motor_control_runner.c" linenr="38" str="resetTest" scope="0x92026f0" type="name" function="0x9211c80" astParent="0x921a780"/>
+    <token id="0x921a780" file="build/test/runners/test_motor_control_runner.c" linenr="38" str="(" scope="0x92026f0" link="0x921a860" astOperand1="0x91ed4f0"/>
+    <token id="0x921a860" file="build/test/runners/test_motor_control_runner.c" linenr="38" str=")" scope="0x92026f0" link="0x921a780"/>
+    <token id="0x921a8d0" file="build/test/runners/test_motor_control_runner.c" linenr="39" str="{" scope="0x91ed620" link="0x91ee808"/>
+    <token id="0x91ecdb8" file="build/test/runners/test_motor_control_runner.c" linenr="40" str="tearDown" scope="0x91ed620" type="name" function="0x91ee638" astParent="0x91ece28"/>
+    <token id="0x91ece28" file="build/test/runners/test_motor_control_runner.c" linenr="40" str="(" scope="0x91ed620" link="0x91ece98" astOperand1="0x91ecdb8"/>
+    <token id="0x91ece98" file="build/test/runners/test_motor_control_runner.c" linenr="40" str=")" scope="0x91ed620" link="0x91ece28"/>
+    <token id="0x91ecf08" file="build/test/runners/test_motor_control_runner.c" linenr="40" str=";" scope="0x91ed620"/>
+    <token id="0x9201738" file="build/test/runners/test_motor_control_runner.c" linenr="41" str="CMock_Verify" scope="0x91ed620" type="name" function="0x92055c0" astParent="0x92017a8"/>
+    <token id="0x92017a8" file="build/test/runners/test_motor_control_runner.c" linenr="41" str="(" scope="0x91ed620" link="0x9201818" astOperand1="0x9201738"/>
+    <token id="0x9201818" file="build/test/runners/test_motor_control_runner.c" linenr="41" str=")" scope="0x91ed620" link="0x92017a8"/>
+    <token id="0x9201888" file="build/test/runners/test_motor_control_runner.c" linenr="41" str=";" scope="0x91ed620"/>
+    <token id="0x9202010" file="build/test/runners/test_motor_control_runner.c" linenr="42" str="CMock_Destroy" scope="0x91ed620" type="name" function="0x921a5e8" astParent="0x9202080"/>
+    <token id="0x9202080" file="build/test/runners/test_motor_control_runner.c" linenr="42" str="(" scope="0x91ed620" link="0x92020f0" astOperand1="0x9202010"/>
+    <token id="0x92020f0" file="build/test/runners/test_motor_control_runner.c" linenr="42" str=")" scope="0x91ed620" link="0x9202080"/>
+    <token id="0x9202160" file="build/test/runners/test_motor_control_runner.c" linenr="42" str=";" scope="0x91ed620"/>
+    <token id="0x91efa18" file="build/test/runners/test_motor_control_runner.c" linenr="43" str="CMock_Init" scope="0x91ed620" type="name" function="0x91ee480" astParent="0x91efa88"/>
+    <token id="0x91efa88" file="build/test/runners/test_motor_control_runner.c" linenr="43" str="(" scope="0x91ed620" link="0x91efaf8" astOperand1="0x91efa18"/>
+    <token id="0x91efaf8" file="build/test/runners/test_motor_control_runner.c" linenr="43" str=")" scope="0x91ed620" link="0x91efa88"/>
+    <token id="0x91efb68" file="build/test/runners/test_motor_control_runner.c" linenr="43" str=";" scope="0x91ed620"/>
+    <token id="0x91efbd8" file="build/test/runners/test_motor_control_runner.c" linenr="44" str="setUp" scope="0x91ed620" type="name" function="0x9201368" astParent="0x91ee6b8"/>
+    <token id="0x91ee6b8" file="build/test/runners/test_motor_control_runner.c" linenr="44" str="(" scope="0x91ed620" link="0x91ee728" astOperand1="0x91efbd8"/>
+    <token id="0x91ee728" file="build/test/runners/test_motor_control_runner.c" linenr="44" str=")" scope="0x91ed620" link="0x91ee6b8"/>
+    <token id="0x91ee798" file="build/test/runners/test_motor_control_runner.c" linenr="44" str=";" scope="0x91ed620"/>
+    <token id="0x91ee808" file="build/test/runners/test_motor_control_runner.c" linenr="45" str="}" scope="0x91ed620" link="0x921a8d0"/>
+    <token id="0x91ee878" file="build/test/runners/test_motor_control_runner.c" linenr="46" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x91db018" file="build/test/runners/test_motor_control_runner.c" linenr="46" str="verifyTest" scope="0x92026f0" type="name" function="0x91ed6c8" astParent="0x91db088"/>
+    <token id="0x91db088" file="build/test/runners/test_motor_control_runner.c" linenr="46" str="(" scope="0x92026f0" link="0x91db168" astOperand1="0x91db018"/>
+    <token id="0x91db168" file="build/test/runners/test_motor_control_runner.c" linenr="46" str=")" scope="0x92026f0" link="0x91db088"/>
+    <token id="0x91db1d8" file="build/test/runners/test_motor_control_runner.c" linenr="46" str=";" scope="0x92026f0"/>
+    <token id="0x91f33b8" file="build/test/runners/test_motor_control_runner.c" linenr="47" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x91f3428" file="build/test/runners/test_motor_control_runner.c" linenr="47" str="verifyTest" scope="0x92026f0" type="name" function="0x91ed6c8" astParent="0x91f3498"/>
+    <token id="0x91f3498" file="build/test/runners/test_motor_control_runner.c" linenr="47" str="(" scope="0x92026f0" link="0x91f3578" astOperand1="0x91f3428"/>
+    <token id="0x91f3578" file="build/test/runners/test_motor_control_runner.c" linenr="47" str=")" scope="0x92026f0" link="0x91f3498"/>
+    <token id="0x9201d48" file="build/test/runners/test_motor_control_runner.c" linenr="48" str="{" scope="0x91ed748" link="0x91f2340"/>
+    <token id="0x9201db8" file="build/test/runners/test_motor_control_runner.c" linenr="49" str="CMock_Verify" scope="0x91ed748" type="name" function="0x92055c0" astParent="0x9201e28"/>
+    <token id="0x9201e28" file="build/test/runners/test_motor_control_runner.c" linenr="49" str="(" scope="0x91ed748" link="0x9201e98" astOperand1="0x9201db8"/>
+    <token id="0x9201e98" file="build/test/runners/test_motor_control_runner.c" linenr="49" str=")" scope="0x91ed748" link="0x9201e28"/>
+    <token id="0x9201f08" file="build/test/runners/test_motor_control_runner.c" linenr="49" str=";" scope="0x91ed748"/>
+    <token id="0x91f2340" file="build/test/runners/test_motor_control_runner.c" linenr="50" str="}" scope="0x91ed748" link="0x9201d48"/>
+    <token id="0x91f23b0" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="static" scope="0x92026f0" type="name"/>
+    <token id="0x91f2420" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="void" scope="0x92026f0" type="name"/>
+    <token id="0x91f2490" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="run_test" scope="0x92026f0" type="name" function="0x91eeb00" astParent="0x91f2500"/>
+    <token id="0x91f2500" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="(" scope="0x92026f0" link="0x9200a58" astOperand1="0x91f2490" astOperand2="0x91eae88"/>
+    <token id="0x92010a0" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="UnityTestFunction" scope="0x92026f0" type="name"/>
+    <token id="0x9201110" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="func" scope="0x92026f0" type="name" varId="4" variable="0x91eef58" astParent="0x9201180"/>
+    <token id="0x9201180" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="," scope="0x92026f0" astParent="0x91eae88" astOperand1="0x9201110" astOperand2="0x91eada8"/>
+    <token id="0x92011f0" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="const" scope="0x92026f0" type="name"/>
+    <token id="0x9201260" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="char" scope="0x92026f0" type="name" astParent="0x91eada8"/>
+    <token id="0x91eada8" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="*" scope="0x92026f0" type="op" isArithmeticalOp="True" astParent="0x9201180" astOperand1="0x9201260" astOperand2="0x91eae18"/>
+    <token id="0x91eae18" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="name" scope="0x92026f0" type="name" varId="5" variable="0x91eef90" astParent="0x91eada8"/>
+    <token id="0x91eae88" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="," scope="0x92026f0" astParent="0x91f2500" astOperand1="0x9201180" astOperand2="0x91eaf68"/>
+    <token id="0x91eaef8" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="int" scope="0x92026f0" type="name"/>
+    <token id="0x91eaf68" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="line_num" scope="0x92026f0" type="name" varId="6" variable="0x91eefc8" astParent="0x91eae88"/>
+    <token id="0x9200a58" file="build/test/runners/test_motor_control_runner.c" linenr="53" str=")" scope="0x92026f0" link="0x91f2500"/>
+    <token id="0x9200ac8" file="build/test/runners/test_motor_control_runner.c" linenr="54" str="{" scope="0x91eeb90" link="0x9212488"/>
+    <token id="0x9200b38" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="Unity" scope="0x91eeb90" type="name" astParent="0x9200ba8"/>
+    <token id="0x9200ba8" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="." scope="0x91eeb90" astParent="0x9200c88" astOperand1="0x9200b38" astOperand2="0x9200c18"/>
+    <token id="0x9200c18" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="CurrentTestName" scope="0x91eeb90" type="name" astParent="0x9200ba8"/>
+    <token id="0x9200c88" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="=" scope="0x91eeb90" type="op" isAssignmentOp="True" astOperand1="0x9200ba8" astOperand2="0x91f37a8"/>
+    <token id="0x91f37a8" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="name" scope="0x91eeb90" type="name" varId="5" variable="0x91eef90" values="0x91f37ac" astParent="0x9200c88"/>
+    <token id="0x91f3818" file="build/test/runners/test_motor_control_runner.c" linenr="55" str=";" scope="0x91eeb90"/>
+    <token id="0x91f3888" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="Unity" scope="0x91eeb90" type="name" astParent="0x91f38f8"/>
+    <token id="0x91f38f8" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="." scope="0x91eeb90" astParent="0x91f39d8" astOperand1="0x91f3888" astOperand2="0x91f3968"/>
+    <token id="0x91f3968" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="CurrentTestLineNumber" scope="0x91eeb90" type="name" astParent="0x91f38f8"/>
+    <token id="0x91f39d8" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="=" scope="0x91eeb90" type="op" isAssignmentOp="True" astOperand1="0x91f38f8" astOperand2="0x9217358"/>
+    <token id="0x9217358" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="line_num" scope="0x91eeb90" type="name" varId="6" variable="0x91eefc8" values="0x921735c" astParent="0x91f39d8"/>
+    <token id="0x92173c8" file="build/test/runners/test_motor_control_runner.c" linenr="56" str=";" scope="0x91eeb90"/>
+    <token id="0x9217438" file="build/test/runners/test_motor_control_runner.c" linenr="61" str="Unity" scope="0x91eeb90" type="name" astParent="0x92174a8"/>
+    <token id="0x92174a8" file="build/test/runners/test_motor_control_runner.c" linenr="61" str="." scope="0x91eeb90" astParent="0x9217588" astOperand1="0x9217438" astOperand2="0x9217518"/>
+    <token id="0x9217518" file="build/test/runners/test_motor_control_runner.c" linenr="61" str="NumberOfTests" scope="0x91eeb90" type="name" astParent="0x92174a8"/>
+    <token id="0x9217588" file="build/test/runners/test_motor_control_runner.c" linenr="61" str="++" scope="0x91eeb90" type="op" astOperand1="0x92174a8"/>
+    <token id="0x91eb460" file="build/test/runners/test_motor_control_runner.c" linenr="61" str=";" scope="0x91eeb90"/>
+    <token id="0x91eb4d0" file="build/test/runners/test_motor_control_runner.c" linenr="62" str="UNITY_CLR_DETAILS" scope="0x91eeb90" type="name" astParent="0x91eb540"/>
+    <token id="0x91eb540" file="build/test/runners/test_motor_control_runner.c" linenr="62" str="(" scope="0x91eeb90" link="0x91eb5b0" astOperand1="0x91eb4d0"/>
+    <token id="0x91eb5b0" file="build/test/runners/test_motor_control_runner.c" linenr="62" str=")" scope="0x91eeb90" link="0x91eb540"/>
+    <token id="0x91eb620" file="build/test/runners/test_motor_control_runner.c" linenr="62" str=";" scope="0x91eeb90"/>
+    <token id="0x91eb690" file="build/test/runners/test_motor_control_runner.c" linenr="63" str="UNITY_EXEC_TIME_START" scope="0x91eeb90" type="name" astParent="0x9204c60"/>
+    <token id="0x9204c60" file="build/test/runners/test_motor_control_runner.c" linenr="63" str="(" scope="0x91eeb90" link="0x9204cd0" astOperand1="0x91eb690"/>
+    <token id="0x9204cd0" file="build/test/runners/test_motor_control_runner.c" linenr="63" str=")" scope="0x91eeb90" link="0x9204c60"/>
+    <token id="0x9204d40" file="build/test/runners/test_motor_control_runner.c" linenr="63" str=";" scope="0x91eeb90"/>
+    <token id="0x9204db0" file="build/test/runners/test_motor_control_runner.c" linenr="64" str="CMock_Init" scope="0x91eeb90" type="name" function="0x91ee480" astParent="0x9204e20"/>
+    <token id="0x9204e20" file="build/test/runners/test_motor_control_runner.c" linenr="64" str="(" scope="0x91eeb90" link="0x9204e90" astOperand1="0x9204db0"/>
+    <token id="0x9204e90" file="build/test/runners/test_motor_control_runner.c" linenr="64" str=")" scope="0x91eeb90" link="0x9204e20"/>
+    <token id="0x91eb148" file="build/test/runners/test_motor_control_runner.c" linenr="64" str=";" scope="0x91eeb90"/>
+    <token id="0x91eb1b8" file="build/test/runners/test_motor_control_runner.c" linenr="65" str="if" scope="0x91eeb90" type="name" astParent="0x91eb228"/>
+    <token id="0x91eb228" file="build/test/runners/test_motor_control_runner.c" linenr="65" str="(" scope="0x91eeb90" link="0x91fa818" astOperand1="0x91eb1b8" astOperand2="0x91eb308"/>
+    <token id="0x91eb298" file="build/test/runners/test_motor_control_runner.c" linenr="65" str="TEST_PROTECT" scope="0x91eeb90" type="name" astParent="0x91eb308"/>
+    <token id="0x91eb308" file="build/test/runners/test_motor_control_runner.c" linenr="65" str="(" scope="0x91eeb90" link="0x91eb378" astParent="0x91eb228" astOperand1="0x91eb298"/>
+    <token id="0x91eb378" file="build/test/runners/test_motor_control_runner.c" linenr="65" str=")" scope="0x91eeb90" link="0x91eb308"/>
+    <token id="0x91fa818" file="build/test/runners/test_motor_control_runner.c" linenr="65" str=")" scope="0x91eeb90" link="0x91eb228"/>
+    <token id="0x91fa888" file="build/test/runners/test_motor_control_runner.c" linenr="66" str="{" scope="0x91eec38" link="0x9211b98"/>
+    <token id="0x91fa8f8" file="build/test/runners/test_motor_control_runner.c" linenr="67" str="setUp" scope="0x91eec38" type="name" function="0x9201368" astParent="0x91fa968"/>
+    <token id="0x91fa968" file="build/test/runners/test_motor_control_runner.c" linenr="67" str="(" scope="0x91eec38" link="0x91fa9d8" astOperand1="0x91fa8f8"/>
+    <token id="0x91fa9d8" file="build/test/runners/test_motor_control_runner.c" linenr="67" str=")" scope="0x91eec38" link="0x91fa968"/>
+    <token id="0x91faa48" file="build/test/runners/test_motor_control_runner.c" linenr="67" str=";" scope="0x91eec38"/>
+    <token id="0x92119d8" file="build/test/runners/test_motor_control_runner.c" linenr="68" str="func" scope="0x91eec38" type="name" varId="4" variable="0x91eef58" astParent="0x9211a48"/>
+    <token id="0x9211a48" file="build/test/runners/test_motor_control_runner.c" linenr="68" str="(" scope="0x91eec38" link="0x9211ab8" astOperand1="0x92119d8"/>
+    <token id="0x9211ab8" file="build/test/runners/test_motor_control_runner.c" linenr="68" str=")" scope="0x91eec38" link="0x9211a48"/>
+    <token id="0x9211b28" file="build/test/runners/test_motor_control_runner.c" linenr="68" str=";" scope="0x91eec38"/>
+    <token id="0x9211b98" file="build/test/runners/test_motor_control_runner.c" linenr="69" str="}" scope="0x91eec38" link="0x91fa888"/>
+    <token id="0x9211c08" file="build/test/runners/test_motor_control_runner.c" linenr="70" str="if" scope="0x91eeb90" type="name" astParent="0x91ef4a8"/>
+    <token id="0x91ef4a8" file="build/test/runners/test_motor_control_runner.c" linenr="70" str="(" scope="0x91eeb90" link="0x91ef668" astOperand1="0x9211c08" astOperand2="0x91ef588"/>
+    <token id="0x91ef518" file="build/test/runners/test_motor_control_runner.c" linenr="70" str="TEST_PROTECT" scope="0x91eeb90" type="name" astParent="0x91ef588"/>
+    <token id="0x91ef588" file="build/test/runners/test_motor_control_runner.c" linenr="70" str="(" scope="0x91eeb90" link="0x91ef5f8" astParent="0x91ef4a8" astOperand1="0x91ef518"/>
+    <token id="0x91ef5f8" file="build/test/runners/test_motor_control_runner.c" linenr="70" str=")" scope="0x91eeb90" link="0x91ef588"/>
+    <token id="0x91ef668" file="build/test/runners/test_motor_control_runner.c" linenr="70" str=")" scope="0x91eeb90" link="0x91ef4a8"/>
+    <token id="0x91ef6d8" file="build/test/runners/test_motor_control_runner.c" linenr="71" str="{" scope="0x91eece0" link="0x91f26a0"/>
+    <token id="0x91ef748" file="build/test/runners/test_motor_control_runner.c" linenr="72" str="tearDown" scope="0x91eece0" type="name" function="0x91ee638" astParent="0x9200d30"/>
+    <token id="0x9200d30" file="build/test/runners/test_motor_control_runner.c" linenr="72" str="(" scope="0x91eece0" link="0x9200da0" astOperand1="0x91ef748"/>
+    <token id="0x9200da0" file="build/test/runners/test_motor_control_runner.c" linenr="72" str=")" scope="0x91eece0" link="0x9200d30"/>
+    <token id="0x9200e10" file="build/test/runners/test_motor_control_runner.c" linenr="72" str=";" scope="0x91eece0"/>
+    <token id="0x9200e80" file="build/test/runners/test_motor_control_runner.c" linenr="73" str="CMock_Verify" scope="0x91eece0" type="name" function="0x92055c0" astParent="0x9200ef0"/>
+    <token id="0x9200ef0" file="build/test/runners/test_motor_control_runner.c" linenr="73" str="(" scope="0x91eece0" link="0x9200f60" astOperand1="0x9200e80"/>
+    <token id="0x9200f60" file="build/test/runners/test_motor_control_runner.c" linenr="73" str=")" scope="0x91eece0" link="0x9200ef0"/>
+    <token id="0x9200fd0" file="build/test/runners/test_motor_control_runner.c" linenr="73" str=";" scope="0x91eece0"/>
+    <token id="0x91f26a0" file="build/test/runners/test_motor_control_runner.c" linenr="74" str="}" scope="0x91eece0" link="0x91ef6d8"/>
+    <token id="0x91f2710" file="build/test/runners/test_motor_control_runner.c" linenr="75" str="CMock_Destroy" scope="0x91eeb90" type="name" function="0x921a5e8" astParent="0x91f2780"/>
+    <token id="0x91f2780" file="build/test/runners/test_motor_control_runner.c" linenr="75" str="(" scope="0x91eeb90" link="0x91f27f0" astOperand1="0x91f2710"/>
+    <token id="0x91f27f0" file="build/test/runners/test_motor_control_runner.c" linenr="75" str=")" scope="0x91eeb90" link="0x91f2780"/>
+    <token id="0x91f2860" file="build/test/runners/test_motor_control_runner.c" linenr="75" str=";" scope="0x91eeb90"/>
+    <token id="0x91f28d0" file="build/test/runners/test_motor_control_runner.c" linenr="76" str="UNITY_EXEC_TIME_STOP" scope="0x91eeb90" type="name" astParent="0x91f2968"/>
+    <token id="0x91f2968" file="build/test/runners/test_motor_control_runner.c" linenr="76" str="(" scope="0x91eeb90" link="0x92121e8" astOperand1="0x91f28d0"/>
+    <token id="0x92121e8" file="build/test/runners/test_motor_control_runner.c" linenr="76" str=")" scope="0x91eeb90" link="0x91f2968"/>
+    <token id="0x9212258" file="build/test/runners/test_motor_control_runner.c" linenr="76" str=";" scope="0x91eeb90"/>
+    <token id="0x92122c8" file="build/test/runners/test_motor_control_runner.c" linenr="77" str="UnityConcludeTest" scope="0x91eeb90" type="name" astParent="0x9212338"/>
+    <token id="0x9212338" file="build/test/runners/test_motor_control_runner.c" linenr="77" str="(" scope="0x91eeb90" link="0x92123a8" astOperand1="0x92122c8"/>
+    <token id="0x92123a8" file="build/test/runners/test_motor_control_runner.c" linenr="77" str=")" scope="0x91eeb90" link="0x9212338"/>
+    <token id="0x9212418" file="build/test/runners/test_motor_control_runner.c" linenr="77" str=";" scope="0x91eeb90"/>
+    <token id="0x9212488" file="build/test/runners/test_motor_control_runner.c" linenr="78" str="}" scope="0x91eeb90" link="0x9200ac8"/>
+    <token id="0x92124f8" file="build/test/runners/test_motor_control_runner.c" linenr="81" str="int" scope="0x92026f0" type="name"/>
+    <token id="0x9212740" file="build/test/runners/test_motor_control_runner.c" linenr="81" str="main" scope="0x92026f0" type="name" function="0x91eed88" astParent="0x92127b0"/>
+    <token id="0x92127b0" file="build/test/runners/test_motor_control_runner.c" linenr="81" str="(" scope="0x92026f0" link="0x9212890" astOperand1="0x9212740"/>
+    <token id="0x9212890" file="build/test/runners/test_motor_control_runner.c" linenr="81" str=")" scope="0x92026f0" link="0x92127b0"/>
+    <token id="0x9212900" file="build/test/runners/test_motor_control_runner.c" linenr="82" str="{" scope="0x91eee08" link="0x92054a0"/>
+    <token id="0x9212970" file="build/test/runners/test_motor_control_runner.c" linenr="83" str="UnityBegin" scope="0x91eee08" type="name" astParent="0x92129e0"/>
+    <token id="0x92129e0" file="build/test/runners/test_motor_control_runner.c" linenr="83" str="(" scope="0x91eee08" link="0x91ec808" astOperand1="0x9212970" astOperand2="0x9212a78"/>
+    <token id="0x9212a78" file="build/test/runners/test_motor_control_runner.c" linenr="83" str="&quot;test_motor_control.c&quot;" scope="0x91eee08" type="string" strlen="20" values="0x9212a7c" astParent="0x92129e0"/>
+    <token id="0x91ec808" file="build/test/runners/test_motor_control_runner.c" linenr="83" str=")" scope="0x91eee08" link="0x92129e0"/>
+    <token id="0x91ec878" file="build/test/runners/test_motor_control_runner.c" linenr="83" str=";" scope="0x91eee08"/>
+    <token id="0x91ec8e8" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="run_test" scope="0x91eee08" type="name" function="0x91eeb00" astParent="0x91ec958"/>
+    <token id="0x91ec958" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="(" scope="0x91eee08" link="0x91efd00" astOperand1="0x91ec8e8" astOperand2="0x91ecb40"/>
+    <token id="0x91ec9c8" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="test_motor_control_NeedToImplement" scope="0x91eee08" type="name" astParent="0x91eca60"/>
+    <token id="0x91eca60" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="," scope="0x91eee08" astParent="0x91ecb40" astOperand1="0x91ec9c8" astOperand2="0x91ecad0"/>
+    <token id="0x91ecad0" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="&quot;test_motor_control_NeedToImplement&quot;" scope="0x91eee08" type="string" strlen="34" values="0x91ecad4" astParent="0x91eca60"/>
+    <token id="0x91ecb40" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="," scope="0x91eee08" astParent="0x91ec958" astOperand1="0x91eca60" astOperand2="0x91efc90"/>
+    <token id="0x91efc90" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="13" scope="0x91eee08" type="number" isInt="True" values="0x91efc94" astParent="0x91ecb40"/>
+    <token id="0x91efd00" file="build/test/runners/test_motor_control_runner.c" linenr="84" str=")" scope="0x91eee08" link="0x91ec958"/>
+    <token id="0x91efd70" file="build/test/runners/test_motor_control_runner.c" linenr="84" str=";" scope="0x91eee08"/>
+    <token id="0x91efde0" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="run_test" scope="0x91eee08" type="name" function="0x91eeb00" astParent="0x91efe50"/>
+    <token id="0x91efe50" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="(" scope="0x91eee08" link="0x9204fd0" astOperand1="0x91efde0" astOperand2="0x91f0060"/>
+    <token id="0x91efec0" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="test_readEncoder" scope="0x91eee08" type="name" astParent="0x91eff30"/>
+    <token id="0x91eff30" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="," scope="0x91eee08" astParent="0x91f0060" astOperand1="0x91efec0" astOperand2="0x91effc8"/>
+    <token id="0x91effc8" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="&quot;test_readEncoder&quot;" scope="0x91eee08" type="string" strlen="16" values="0x91effcc" astParent="0x91eff30"/>
+    <token id="0x91f0060" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="," scope="0x91eee08" astParent="0x91efe50" astOperand1="0x91eff30" astOperand2="0x9204f60"/>
+    <token id="0x9204f60" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="19" scope="0x91eee08" type="number" isInt="True" values="0x9204f64" astParent="0x91f0060"/>
+    <token id="0x9204fd0" file="build/test/runners/test_motor_control_runner.c" linenr="85" str=")" scope="0x91eee08" link="0x91efe50"/>
+    <token id="0x9205040" file="build/test/runners/test_motor_control_runner.c" linenr="85" str=";" scope="0x91eee08"/>
+    <token id="0x92050b0" file="build/test/runners/test_motor_control_runner.c" linenr="87" str="CMock_Guts_MemFreeFinal" scope="0x91eee08" type="name" astParent="0x9205120"/>
+    <token id="0x9205120" file="build/test/runners/test_motor_control_runner.c" linenr="87" str="(" scope="0x91eee08" link="0x9205190" astOperand1="0x92050b0"/>
+    <token id="0x9205190" file="build/test/runners/test_motor_control_runner.c" linenr="87" str=")" scope="0x91eee08" link="0x9205120"/>
+    <token id="0x9205200" file="build/test/runners/test_motor_control_runner.c" linenr="87" str=";" scope="0x91eee08"/>
+    <token id="0x9205270" file="build/test/runners/test_motor_control_runner.c" linenr="88" str="return" scope="0x91eee08" type="name" astOperand1="0x9205350"/>
+    <token id="0x92052e0" file="build/test/runners/test_motor_control_runner.c" linenr="88" str="UnityEnd" scope="0x91eee08" type="name" astParent="0x9205350"/>
+    <token id="0x9205350" file="build/test/runners/test_motor_control_runner.c" linenr="88" str="(" scope="0x91eee08" link="0x92053c0" astParent="0x9205270" astOperand1="0x92052e0"/>
+    <token id="0x92053c0" file="build/test/runners/test_motor_control_runner.c" linenr="88" str=")" scope="0x91eee08" link="0x9205350"/>
+    <token id="0x9205430" file="build/test/runners/test_motor_control_runner.c" linenr="88" str=";" scope="0x91eee08"/>
+    <token id="0x92054a0" file="build/test/runners/test_motor_control_runner.c" linenr="89" str="}" scope="0x91eee08" link="0x9212900"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x92026f0" type="Global">
+      <functionList>
+        <function id="0x9201368" tokenDef="0x9200958" name="setUp"/>
+        <function id="0x91ee638" tokenDef="0x9219630" name="tearDown"/>
+        <function id="0x91ed210" tokenDef="0x91eea60" name="test_motor_control_NeedToImplement"/>
+        <function id="0x91fac20" tokenDef="0x91ecfe0" name="test_readEncoder"/>
+        <function id="0x91ee480" tokenDef="0x91fc348" name="CMock_Init"/>
+        <function id="0x92055c0" tokenDef="0x921a320" name="CMock_Verify"/>
+        <function id="0x921a5e8" tokenDef="0x91f7330" name="CMock_Destroy"/>
+        <function id="0x9211c80" tokenDef="0x9205768" name="resetTest"/>
+        <function id="0x91ed6c8" tokenDef="0x91db018" name="verifyTest"/>
+        <function id="0x91eeb00" tokenDef="0x91f2490" name="run_test">
+          <arg nr="1" variable="0x91eef58"/>
+          <arg nr="2" variable="0x91eef90"/>
+          <arg nr="3" variable="0x91eefc8"/>
+        </function>
+        <function id="0x91eed88" tokenDef="0x9212740" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x91eeeb0"/>
+        <var id="0x91eeee8"/>
+        <var id="0x91eef20"/>
+      </varlist>
+    </scope>
+    <scope id="0x9205518" type="Function" className="CMock_Init" classStart="0x920df00" classEnd="0x91ed948" nestedIn="0x92026f0" function="0x91ee480"/>
+    <scope id="0x921a540" type="Function" className="CMock_Verify" classStart="0x9202288" classEnd="0x9201a98" nestedIn="0x92026f0" function="0x92055c0"/>
+    <scope id="0x921a668" type="Function" className="CMock_Destroy" classStart="0x91ef878" classEnd="0x91f7228" nestedIn="0x92026f0" function="0x921a5e8"/>
+    <scope id="0x91ed620" type="Function" className="resetTest" classStart="0x921a8d0" classEnd="0x91ee808" nestedIn="0x92026f0" function="0x9211c80"/>
+    <scope id="0x91ed748" type="Function" className="verifyTest" classStart="0x9201d48" classEnd="0x91f2340" nestedIn="0x92026f0" function="0x91ed6c8"/>
+    <scope id="0x91eeb90" type="Function" className="run_test" classStart="0x9200ac8" classEnd="0x9212488" nestedIn="0x92026f0" function="0x91eeb00"/>
+    <scope id="0x91eec38" type="If" classStart="0x91fa888" classEnd="0x9211b98" nestedIn="0x91eeb90"/>
+    <scope id="0x91eece0" type="If" classStart="0x91ef6d8" classEnd="0x91f26a0" nestedIn="0x91eeb90"/>
+    <scope id="0x91eee08" type="Function" className="main" classStart="0x9212900" classEnd="0x92054a0" nestedIn="0x92026f0" function="0x91eed88"/>
+  </scopes>
+  <variables>
+    <var id="0x91eeeb0" nameToken="0x91c1d68" typeStartToken="0x91c2f68" typeEndToken="0x91c2f68" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91eeee8" nameToken="0x91ee500" typeStartToken="0x91f0168" typeEndToken="0x91f0168" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91eef20" nameToken="0x91f0308" typeStartToken="0x91ef410" typeEndToken="0x91eaca8" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x91eef58" nameToken="0x9201110" typeStartToken="0x92010a0" typeEndToken="0x92010a0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91eef90" nameToken="0x91eae18" typeStartToken="0x9201260" typeEndToken="0x91eada8" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x91eefc8" nameToken="0x91eaf68" typeStartToken="0x91eaef8" typeEndToken="0x91eaef8" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x91f15ac">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x91f318c">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x91f141c">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x91f37ac">
+      <value tokvalue="0x91ecad0" possible="true"/>
+      <value tokvalue="0x91effc8" possible="true"/>
+    </values>
+    <values id="0x921735c">
+      <value intvalue="13" possible="true"/>
+      <value intvalue="19" possible="true"/>
+    </values>
+    <values id="0x9212a7c">
+      <value tokvalue="0x9212a78" known="true"/>
+    </values>
+    <values id="0x91ecad4">
+      <value tokvalue="0x91ecad0" known="true"/>
+    </values>
+    <values id="0x91efc94">
+      <value intvalue="13" known="true"/>
+    </values>
+    <values id="0x91effcc">
+      <value tokvalue="0x91effc8" known="true"/>
+    </values>
+    <values id="0x9204f64">
+      <value intvalue="19" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+<dump cfg="UNITY_USE_COMMAND_LINE_ARGS">
+  <tokenlist>
+    <token id="0x91c1d68" file="build/test/runners/test_motor_control_runner.c" linenr="8" str="int" scope="0x92013d8" type="name"/>
+    <token id="0x91f3ae0" file="build/test/runners/test_motor_control_runner.c" linenr="8" str="GlobalExpectCount" scope="0x92013d8" type="name" varId="1" variable="0x92055a8"/>
+    <token id="0x91c2f68" file="build/test/runners/test_motor_control_runner.c" linenr="8" str=";" scope="0x92013d8"/>
+    <token id="0x91f0168" file="build/test/runners/test_motor_control_runner.c" linenr="9" str="int" scope="0x92013d8" type="name"/>
+    <token id="0x91ee500" file="build/test/runners/test_motor_control_runner.c" linenr="9" str="GlobalVerifyOrder" scope="0x92013d8" type="name" varId="2" variable="0x92055e0"/>
+    <token id="0x91f5e60" file="build/test/runners/test_motor_control_runner.c" linenr="9" str=";" scope="0x92013d8"/>
+    <token id="0x91ef410" file="build/test/runners/test_motor_control_runner.c" linenr="10" str="char" scope="0x92013d8" type="name" astParent="0x91f0308"/>
+    <token id="0x91f0308" file="build/test/runners/test_motor_control_runner.c" linenr="10" str="*" scope="0x92013d8" type="op" isArithmeticalOp="True" astOperand1="0x91ef410" astOperand2="0x91eaca8"/>
+    <token id="0x91eaca8" file="build/test/runners/test_motor_control_runner.c" linenr="10" str="GlobalOrderError" scope="0x92013d8" type="name" varId="3" variable="0x9205618" astParent="0x91f0308"/>
+    <token id="0x91f25d8" file="build/test/runners/test_motor_control_runner.c" linenr="10" str=";" scope="0x92013d8"/>
+    <token id="0x9201670" file="build/test/runners/test_motor_control_runner.c" linenr="13" str="extern" scope="0x92013d8" type="name"/>
+    <token id="0x9200958" file="build/test/runners/test_motor_control_runner.c" linenr="13" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x92027d0" file="build/test/runners/test_motor_control_runner.c" linenr="13" str="setUp" scope="0x92013d8" type="name" function="0x91fac20" astParent="0x9201518"/>
+    <token id="0x9201518" file="build/test/runners/test_motor_control_runner.c" linenr="13" str="(" scope="0x92013d8" link="0x91f3098" astOperand1="0x92027d0"/>
+    <token id="0x91f3098" file="build/test/runners/test_motor_control_runner.c" linenr="13" str=")" scope="0x92013d8" link="0x9201518"/>
+    <token id="0x91ee5c0" file="build/test/runners/test_motor_control_runner.c" linenr="13" str=";" scope="0x92013d8"/>
+    <token id="0x91ecc30" file="build/test/runners/test_motor_control_runner.c" linenr="14" str="extern" scope="0x92013d8" type="name"/>
+    <token id="0x9219630" file="build/test/runners/test_motor_control_runner.c" linenr="14" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x92196a0" file="build/test/runners/test_motor_control_runner.c" linenr="14" str="tearDown" scope="0x92013d8" type="name" function="0x9201368" astParent="0x91eb748"/>
+    <token id="0x91eb748" file="build/test/runners/test_motor_control_runner.c" linenr="14" str="(" scope="0x92013d8" link="0x92023f0" astOperand1="0x92196a0"/>
+    <token id="0x92023f0" file="build/test/runners/test_motor_control_runner.c" linenr="14" str=")" scope="0x92013d8" link="0x91eb748"/>
+    <token id="0x9202460" file="build/test/runners/test_motor_control_runner.c" linenr="14" str=";" scope="0x92013d8"/>
+    <token id="0x91ed268" file="build/test/runners/test_motor_control_runner.c" linenr="15" str="extern" scope="0x92013d8" type="name"/>
+    <token id="0x91ed2d8" file="build/test/runners/test_motor_control_runner.c" linenr="15" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x91eea60" file="build/test/runners/test_motor_control_runner.c" linenr="15" str="test_motor_control_NeedToImplement" scope="0x92013d8" type="name" function="0x91f29b8" astParent="0x9212c00"/>
+    <token id="0x9212c00" file="build/test/runners/test_motor_control_runner.c" linenr="15" str="(" scope="0x92013d8" link="0x91ee930" astOperand1="0x91eea60"/>
+    <token id="0x91ee930" file="build/test/runners/test_motor_control_runner.c" linenr="15" str=")" scope="0x92013d8" link="0x9212c00"/>
+    <token id="0x91ee9a0" file="build/test/runners/test_motor_control_runner.c" linenr="15" str=";" scope="0x92013d8"/>
+    <token id="0x91ecfe0" file="build/test/runners/test_motor_control_runner.c" linenr="16" str="extern" scope="0x92013d8" type="name"/>
+    <token id="0x91ed050" file="build/test/runners/test_motor_control_runner.c" linenr="16" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x9201bb0" file="build/test/runners/test_motor_control_runner.c" linenr="16" str="test_readEncoder" scope="0x92013d8" type="name" function="0x91ee638" astParent="0x9201c20"/>
+    <token id="0x9201c20" file="build/test/runners/test_motor_control_runner.c" linenr="16" str="(" scope="0x92013d8" link="0x92026e8" astOperand1="0x9201bb0"/>
+    <token id="0x92026e8" file="build/test/runners/test_motor_control_runner.c" linenr="16" str=")" scope="0x92013d8" link="0x9201c20"/>
+    <token id="0x91fab38" file="build/test/runners/test_motor_control_runner.c" linenr="16" str=";" scope="0x92013d8"/>
+    <token id="0x91faba8" file="build/test/runners/test_motor_control_runner.c" linenr="20" str="static" scope="0x92013d8" type="name"/>
+    <token id="0x91ed128" file="build/test/runners/test_motor_control_runner.c" linenr="20" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x91ed198" file="build/test/runners/test_motor_control_runner.c" linenr="20" str="CMock_Init" scope="0x92013d8" type="name" function="0x91ed210" astParent="0x91fc2d8"/>
+    <token id="0x91fc2d8" file="build/test/runners/test_motor_control_runner.c" linenr="20" str="(" scope="0x92013d8" link="0x920de90" astOperand1="0x91ed198"/>
+    <token id="0x920de90" file="build/test/runners/test_motor_control_runner.c" linenr="20" str=")" scope="0x92013d8" link="0x91fc2d8"/>
+    <token id="0x920df00" file="build/test/runners/test_motor_control_runner.c" linenr="21" str="{" scope="0x91fc350" link="0x91ed948"/>
+    <token id="0x920df70" file="build/test/runners/test_motor_control_runner.c" linenr="22" str="GlobalExpectCount" scope="0x91fc350" type="name" varId="1" variable="0x92055a8" astParent="0x91f1538"/>
+    <token id="0x91f1538" file="build/test/runners/test_motor_control_runner.c" linenr="22" str="=" scope="0x91fc350" type="op" isAssignmentOp="True" astOperand1="0x920df70" astOperand2="0x91f15a8"/>
+    <token id="0x91f15a8" file="build/test/runners/test_motor_control_runner.c" linenr="22" str="0" scope="0x91fc350" type="number" isInt="True" values="0x91f15ac" astParent="0x91f1538"/>
+    <token id="0x91f1618" file="build/test/runners/test_motor_control_runner.c" linenr="22" str=";" scope="0x91fc350"/>
+    <token id="0x91ee370" file="build/test/runners/test_motor_control_runner.c" linenr="23" str="GlobalVerifyOrder" scope="0x91fc350" type="name" varId="2" variable="0x92055e0" astParent="0x91ee408"/>
+    <token id="0x91ee408" file="build/test/runners/test_motor_control_runner.c" linenr="23" str="=" scope="0x91fc350" type="op" isAssignmentOp="True" astOperand1="0x91ee370" astOperand2="0x91f3188"/>
+    <token id="0x91f3188" file="build/test/runners/test_motor_control_runner.c" linenr="23" str="0" scope="0x91fc350" type="number" isInt="True" values="0x91f318c" astParent="0x91ee408"/>
+    <token id="0x91f31f8" file="build/test/runners/test_motor_control_runner.c" linenr="23" str=";" scope="0x91fc350"/>
+    <token id="0x91f3268" file="build/test/runners/test_motor_control_runner.c" linenr="24" str="GlobalOrderError" scope="0x91fc350" type="name" varId="3" variable="0x9205618" astParent="0x91f13a8"/>
+    <token id="0x91f13a8" file="build/test/runners/test_motor_control_runner.c" linenr="24" str="=" scope="0x91fc350" type="op" isAssignmentOp="True" astOperand1="0x91f3268" astOperand2="0x91f1418"/>
+    <token id="0x91f1418" file="build/test/runners/test_motor_control_runner.c" linenr="24" str="0" scope="0x91fc350" type="number" isInt="True" values="0x91f141c" astParent="0x91f13a8"/>
+    <token id="0x91f1488" file="build/test/runners/test_motor_control_runner.c" linenr="24" str=";" scope="0x91fc350"/>
+    <token id="0x9217198" file="build/test/runners/test_motor_control_runner.c" linenr="25" str="mock_spi_Init" scope="0x91fc350" type="name" astParent="0x9217208"/>
+    <token id="0x9217208" file="build/test/runners/test_motor_control_runner.c" linenr="25" str="(" scope="0x91fc350" link="0x9217278" astOperand1="0x9217198"/>
+    <token id="0x9217278" file="build/test/runners/test_motor_control_runner.c" linenr="25" str=")" scope="0x91fc350" link="0x9217208"/>
+    <token id="0x91ed8d8" file="build/test/runners/test_motor_control_runner.c" linenr="25" str=";" scope="0x91fc350"/>
+    <token id="0x91ed948" file="build/test/runners/test_motor_control_runner.c" linenr="26" str="}" scope="0x91fc350" link="0x920df00"/>
+    <token id="0x91ed9b8" file="build/test/runners/test_motor_control_runner.c" linenr="27" str="static" scope="0x92013d8" type="name"/>
+    <token id="0x921a2b0" file="build/test/runners/test_motor_control_runner.c" linenr="27" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x921a320" file="build/test/runners/test_motor_control_runner.c" linenr="27" str="CMock_Verify" scope="0x92013d8" type="name" function="0x91ee480" astParent="0x921a390"/>
+    <token id="0x921a390" file="build/test/runners/test_motor_control_runner.c" linenr="27" str="(" scope="0x92013d8" link="0x9202218" astOperand1="0x921a320"/>
+    <token id="0x9202218" file="build/test/runners/test_motor_control_runner.c" linenr="27" str=")" scope="0x92013d8" link="0x921a390"/>
+    <token id="0x9202288" file="build/test/runners/test_motor_control_runner.c" linenr="28" str="{" scope="0x91efb00" link="0x9201a98"/>
+    <token id="0x92022f8" file="build/test/runners/test_motor_control_runner.c" linenr="29" str="mock_spi_Verify" scope="0x91efb00" type="name" astParent="0x9202368"/>
+    <token id="0x9202368" file="build/test/runners/test_motor_control_runner.c" linenr="29" str="(" scope="0x91efb00" link="0x92019b8" astOperand1="0x92022f8"/>
+    <token id="0x92019b8" file="build/test/runners/test_motor_control_runner.c" linenr="29" str=")" scope="0x91efb00" link="0x9202368"/>
+    <token id="0x9201a28" file="build/test/runners/test_motor_control_runner.c" linenr="29" str=";" scope="0x91efb00"/>
+    <token id="0x9201a98" file="build/test/runners/test_motor_control_runner.c" linenr="30" str="}" scope="0x91efb00" link="0x9202288"/>
+    <token id="0x9201b08" file="build/test/runners/test_motor_control_runner.c" linenr="31" str="static" scope="0x92013d8" type="name"/>
+    <token id="0x91f70d8" file="build/test/runners/test_motor_control_runner.c" linenr="31" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x91f7148" file="build/test/runners/test_motor_control_runner.c" linenr="31" str="CMock_Destroy" scope="0x92013d8" type="name" function="0x91efba8" astParent="0x91f71b8"/>
+    <token id="0x91f71b8" file="build/test/runners/test_motor_control_runner.c" linenr="31" str="(" scope="0x92013d8" link="0x91f72c0" astOperand1="0x91f7148"/>
+    <token id="0x91f72c0" file="build/test/runners/test_motor_control_runner.c" linenr="31" str=")" scope="0x92013d8" link="0x91f71b8"/>
+    <token id="0x91f7330" file="build/test/runners/test_motor_control_runner.c" linenr="32" str="{" scope="0x91ed620" link="0x91ef958"/>
+    <token id="0x91f73a0" file="build/test/runners/test_motor_control_runner.c" linenr="33" str="mock_spi_Destroy" scope="0x91ed620" type="name" astParent="0x91ef808"/>
+    <token id="0x91ef808" file="build/test/runners/test_motor_control_runner.c" linenr="33" str="(" scope="0x91ed620" link="0x91ef878" astOperand1="0x91f73a0"/>
+    <token id="0x91ef878" file="build/test/runners/test_motor_control_runner.c" linenr="33" str=")" scope="0x91ed620" link="0x91ef808"/>
+    <token id="0x91ef8e8" file="build/test/runners/test_motor_control_runner.c" linenr="33" str=";" scope="0x91ed620"/>
+    <token id="0x91ef958" file="build/test/runners/test_motor_control_runner.c" linenr="34" str="}" scope="0x91ed620" link="0x91f7330"/>
+    <token id="0x91ed3a0" file="build/test/runners/test_motor_control_runner.c" linenr="37" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x91ed410" file="build/test/runners/test_motor_control_runner.c" linenr="37" str="resetTest" scope="0x92013d8" type="name" function="0x91ed6c8" astParent="0x91ed480"/>
+    <token id="0x91ed480" file="build/test/runners/test_motor_control_runner.c" linenr="37" str="(" scope="0x92013d8" link="0x92056f8" astOperand1="0x91ed410"/>
+    <token id="0x92056f8" file="build/test/runners/test_motor_control_runner.c" linenr="37" str=")" scope="0x92013d8" link="0x91ed480"/>
+    <token id="0x9205768" file="build/test/runners/test_motor_control_runner.c" linenr="37" str=";" scope="0x92013d8"/>
+    <token id="0x92057d8" file="build/test/runners/test_motor_control_runner.c" linenr="38" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x9205848" file="build/test/runners/test_motor_control_runner.c" linenr="38" str="resetTest" scope="0x92013d8" type="name" function="0x91ed6c8" astParent="0x921a780"/>
+    <token id="0x921a780" file="build/test/runners/test_motor_control_runner.c" linenr="38" str="(" scope="0x92013d8" link="0x921a860" astOperand1="0x9205848"/>
+    <token id="0x921a860" file="build/test/runners/test_motor_control_runner.c" linenr="38" str=")" scope="0x92013d8" link="0x921a780"/>
+    <token id="0x921a8d0" file="build/test/runners/test_motor_control_runner.c" linenr="39" str="{" scope="0x91ed748" link="0x91db1d8"/>
+    <token id="0x91ecdb8" file="build/test/runners/test_motor_control_runner.c" linenr="40" str="tearDown" scope="0x91ed748" type="name" function="0x9201368" astParent="0x91ece28"/>
+    <token id="0x91ece28" file="build/test/runners/test_motor_control_runner.c" linenr="40" str="(" scope="0x91ed748" link="0x91ece98" astOperand1="0x91ecdb8"/>
+    <token id="0x91ece98" file="build/test/runners/test_motor_control_runner.c" linenr="40" str=")" scope="0x91ed748" link="0x91ece28"/>
+    <token id="0x91ecf08" file="build/test/runners/test_motor_control_runner.c" linenr="40" str=";" scope="0x91ed748"/>
+    <token id="0x9202010" file="build/test/runners/test_motor_control_runner.c" linenr="41" str="CMock_Verify" scope="0x91ed748" type="name" function="0x91ee480" astParent="0x9202080"/>
+    <token id="0x9202080" file="build/test/runners/test_motor_control_runner.c" linenr="41" str="(" scope="0x91ed748" link="0x92020f0" astOperand1="0x9202010"/>
+    <token id="0x92020f0" file="build/test/runners/test_motor_control_runner.c" linenr="41" str=")" scope="0x91ed748" link="0x9202080"/>
+    <token id="0x9202160" file="build/test/runners/test_motor_control_runner.c" linenr="41" str=";" scope="0x91ed748"/>
+    <token id="0x9201738" file="build/test/runners/test_motor_control_runner.c" linenr="42" str="CMock_Destroy" scope="0x91ed748" type="name" function="0x91efba8" astParent="0x92017a8"/>
+    <token id="0x92017a8" file="build/test/runners/test_motor_control_runner.c" linenr="42" str="(" scope="0x91ed748" link="0x9201818" astOperand1="0x9201738"/>
+    <token id="0x9201818" file="build/test/runners/test_motor_control_runner.c" linenr="42" str=")" scope="0x91ed748" link="0x92017a8"/>
+    <token id="0x9201888" file="build/test/runners/test_motor_control_runner.c" linenr="42" str=";" scope="0x91ed748"/>
+    <token id="0x921a538" file="build/test/runners/test_motor_control_runner.c" linenr="43" str="CMock_Init" scope="0x91ed748" type="name" function="0x91ed210" astParent="0x921a5a8"/>
+    <token id="0x921a5a8" file="build/test/runners/test_motor_control_runner.c" linenr="43" str="(" scope="0x91ed748" link="0x921a618" astOperand1="0x921a538"/>
+    <token id="0x921a618" file="build/test/runners/test_motor_control_runner.c" linenr="43" str=")" scope="0x91ed748" link="0x921a5a8"/>
+    <token id="0x921a688" file="build/test/runners/test_motor_control_runner.c" linenr="43" str=";" scope="0x91ed748"/>
+    <token id="0x91db018" file="build/test/runners/test_motor_control_runner.c" linenr="44" str="setUp" scope="0x91ed748" type="name" function="0x91fac20" astParent="0x91db088"/>
+    <token id="0x91db088" file="build/test/runners/test_motor_control_runner.c" linenr="44" str="(" scope="0x91ed748" link="0x91db0f8" astOperand1="0x91db018"/>
+    <token id="0x91db0f8" file="build/test/runners/test_motor_control_runner.c" linenr="44" str=")" scope="0x91ed748" link="0x91db088"/>
+    <token id="0x91db168" file="build/test/runners/test_motor_control_runner.c" linenr="44" str=";" scope="0x91ed748"/>
+    <token id="0x91db1d8" file="build/test/runners/test_motor_control_runner.c" linenr="45" str="}" scope="0x91ed748" link="0x921a8d0"/>
+    <token id="0x91ee6b8" file="build/test/runners/test_motor_control_runner.c" linenr="46" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x91ee728" file="build/test/runners/test_motor_control_runner.c" linenr="46" str="verifyTest" scope="0x92013d8" type="name" function="0x91eeb00" astParent="0x91ee798"/>
+    <token id="0x91ee798" file="build/test/runners/test_motor_control_runner.c" linenr="46" str="(" scope="0x92013d8" link="0x91ee878" astOperand1="0x91ee728"/>
+    <token id="0x91ee878" file="build/test/runners/test_motor_control_runner.c" linenr="46" str=")" scope="0x92013d8" link="0x91ee798"/>
+    <token id="0x91f33b8" file="build/test/runners/test_motor_control_runner.c" linenr="46" str=";" scope="0x92013d8"/>
+    <token id="0x91f3428" file="build/test/runners/test_motor_control_runner.c" linenr="47" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x91f3498" file="build/test/runners/test_motor_control_runner.c" linenr="47" str="verifyTest" scope="0x92013d8" type="name" function="0x91eeb00" astParent="0x91f3508"/>
+    <token id="0x91f3508" file="build/test/runners/test_motor_control_runner.c" linenr="47" str="(" scope="0x92013d8" link="0x9201d48" astOperand1="0x91f3498"/>
+    <token id="0x9201d48" file="build/test/runners/test_motor_control_runner.c" linenr="47" str=")" scope="0x92013d8" link="0x91f3508"/>
+    <token id="0x9201db8" file="build/test/runners/test_motor_control_runner.c" linenr="48" str="{" scope="0x92050b8" link="0x91f23b0"/>
+    <token id="0x9201e28" file="build/test/runners/test_motor_control_runner.c" linenr="49" str="CMock_Verify" scope="0x92050b8" type="name" function="0x91ee480" astParent="0x9201e98"/>
+    <token id="0x9201e98" file="build/test/runners/test_motor_control_runner.c" linenr="49" str="(" scope="0x92050b8" link="0x9201f08" astOperand1="0x9201e28"/>
+    <token id="0x9201f08" file="build/test/runners/test_motor_control_runner.c" linenr="49" str=")" scope="0x92050b8" link="0x9201e98"/>
+    <token id="0x91f2340" file="build/test/runners/test_motor_control_runner.c" linenr="49" str=";" scope="0x92050b8"/>
+    <token id="0x91f23b0" file="build/test/runners/test_motor_control_runner.c" linenr="50" str="}" scope="0x92050b8" link="0x9201db8"/>
+    <token id="0x91f2420" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="static" scope="0x92013d8" type="name"/>
+    <token id="0x91f2490" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="void" scope="0x92013d8" type="name"/>
+    <token id="0x91f2500" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="run_test" scope="0x92013d8" type="name" function="0x9205160" astParent="0x92010a0"/>
+    <token id="0x92010a0" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="(" scope="0x92013d8" link="0x91f3818" astOperand1="0x91f2500" astOperand2="0x91eaef8"/>
+    <token id="0x9201110" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="UnityTestFunction" scope="0x92013d8" type="name"/>
+    <token id="0x9201180" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="func" scope="0x92013d8" type="name" varId="4" variable="0x9205650" astParent="0x92011f0"/>
+    <token id="0x92011f0" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="," scope="0x92013d8" astParent="0x91eaef8" astOperand1="0x9201180" astOperand2="0x91eae18"/>
+    <token id="0x9201260" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="const" scope="0x92013d8" type="name"/>
+    <token id="0x91eada8" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="char" scope="0x92013d8" type="name" astParent="0x91eae18"/>
+    <token id="0x91eae18" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="*" scope="0x92013d8" type="op" isArithmeticalOp="True" astParent="0x92011f0" astOperand1="0x91eada8" astOperand2="0x91eae88"/>
+    <token id="0x91eae88" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="name" scope="0x92013d8" type="name" varId="5" variable="0x91f02b8" astParent="0x91eae18"/>
+    <token id="0x91eaef8" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="," scope="0x92013d8" astParent="0x92010a0" astOperand1="0x92011f0" astOperand2="0x91f37a8"/>
+    <token id="0x91eaf68" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="int" scope="0x92013d8" type="name"/>
+    <token id="0x91f37a8" file="build/test/runners/test_motor_control_runner.c" linenr="53" str="line_num" scope="0x92013d8" type="name" varId="6" variable="0x91faac0" astParent="0x91eaef8"/>
+    <token id="0x91f3818" file="build/test/runners/test_motor_control_runner.c" linenr="53" str=")" scope="0x92013d8" link="0x92010a0"/>
+    <token id="0x91f3888" file="build/test/runners/test_motor_control_runner.c" linenr="54" str="{" scope="0x92051e0" link="0x91ec878"/>
+    <token id="0x91f38f8" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="Unity" scope="0x92051e0" type="name" astParent="0x91f3968"/>
+    <token id="0x91f3968" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="." scope="0x92051e0" astParent="0x9200a58" astOperand1="0x91f38f8" astOperand2="0x91f39d8"/>
+    <token id="0x91f39d8" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="CurrentTestName" scope="0x92051e0" type="name" astParent="0x91f3968"/>
+    <token id="0x9200a58" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="=" scope="0x92051e0" type="op" isAssignmentOp="True" astOperand1="0x91f3968" astOperand2="0x9200ac8"/>
+    <token id="0x9200ac8" file="build/test/runners/test_motor_control_runner.c" linenr="55" str="name" scope="0x92051e0" type="name" varId="5" variable="0x91f02b8" values="0x9200acc" astParent="0x9200a58"/>
+    <token id="0x9200b38" file="build/test/runners/test_motor_control_runner.c" linenr="55" str=";" scope="0x92051e0"/>
+    <token id="0x9200ba8" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="Unity" scope="0x92051e0" type="name" astParent="0x9200c18"/>
+    <token id="0x9200c18" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="." scope="0x92051e0" astParent="0x9217358" astOperand1="0x9200ba8" astOperand2="0x9200c88"/>
+    <token id="0x9200c88" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="CurrentTestLineNumber" scope="0x92051e0" type="name" astParent="0x9200c18"/>
+    <token id="0x9217358" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="=" scope="0x92051e0" type="op" isAssignmentOp="True" astOperand1="0x9200c18" astOperand2="0x92173c8"/>
+    <token id="0x92173c8" file="build/test/runners/test_motor_control_runner.c" linenr="56" str="line_num" scope="0x92051e0" type="name" varId="6" variable="0x91faac0" values="0x92173cc" astParent="0x9217358"/>
+    <token id="0x9217438" file="build/test/runners/test_motor_control_runner.c" linenr="56" str=";" scope="0x92051e0"/>
+    <token id="0x92174a8" file="build/test/runners/test_motor_control_runner.c" linenr="58" str="if" scope="0x92051e0" type="name" astParent="0x9217518"/>
+    <token id="0x9217518" file="build/test/runners/test_motor_control_runner.c" linenr="58" str="(" scope="0x92051e0" link="0x91eb5b0" astOperand1="0x92174a8" astOperand2="0x9217588"/>
+    <token id="0x9217588" file="build/test/runners/test_motor_control_runner.c" linenr="58" str="!" scope="0x92051e0" type="op" isLogicalOp="True" astParent="0x9217518" astOperand1="0x91eb4d0"/>
+    <token id="0x91eb460" file="build/test/runners/test_motor_control_runner.c" linenr="58" str="UnityTestMatches" scope="0x92051e0" type="name" astParent="0x91eb4d0"/>
+    <token id="0x91eb4d0" file="build/test/runners/test_motor_control_runner.c" linenr="58" str="(" scope="0x92051e0" link="0x91eb540" astParent="0x9217588" astOperand1="0x91eb460"/>
+    <token id="0x91eb540" file="build/test/runners/test_motor_control_runner.c" linenr="58" str=")" scope="0x92051e0" link="0x91eb4d0"/>
+    <token id="0x91eb5b0" file="build/test/runners/test_motor_control_runner.c" linenr="58" str=")" scope="0x92051e0" link="0x9217518"/>
+    <token id="0x91efa18" file="build/test/runners/test_motor_control_runner.c" linenr="58" str="{" scope="0x9205288" link="0x91efa88"/>
+    <token id="0x91eb620" file="build/test/runners/test_motor_control_runner.c" linenr="59" str="return" scope="0x9205288" type="name"/>
+    <token id="0x91eb690" file="build/test/runners/test_motor_control_runner.c" linenr="59" str=";" scope="0x9205288"/>
+    <token id="0x91efa88" file="build/test/runners/test_motor_control_runner.c" linenr="59" str="}" scope="0x9205288" link="0x91efa18"/>
+    <token id="0x9204c60" file="build/test/runners/test_motor_control_runner.c" linenr="61" str="Unity" scope="0x92051e0" type="name" astParent="0x9204cd0"/>
+    <token id="0x9204cd0" file="build/test/runners/test_motor_control_runner.c" linenr="61" str="." scope="0x92051e0" astParent="0x9204db0" astOperand1="0x9204c60" astOperand2="0x9204d40"/>
+    <token id="0x9204d40" file="build/test/runners/test_motor_control_runner.c" linenr="61" str="NumberOfTests" scope="0x92051e0" type="name" astParent="0x9204cd0"/>
+    <token id="0x9204db0" file="build/test/runners/test_motor_control_runner.c" linenr="61" str="++" scope="0x92051e0" type="op" astOperand1="0x9204cd0"/>
+    <token id="0x9204e20" file="build/test/runners/test_motor_control_runner.c" linenr="61" str=";" scope="0x92051e0"/>
+    <token id="0x9204e90" file="build/test/runners/test_motor_control_runner.c" linenr="62" str="UNITY_CLR_DETAILS" scope="0x92051e0" type="name" astParent="0x91eb148"/>
+    <token id="0x91eb148" file="build/test/runners/test_motor_control_runner.c" linenr="62" str="(" scope="0x92051e0" link="0x91eb1b8" astOperand1="0x9204e90"/>
+    <token id="0x91eb1b8" file="build/test/runners/test_motor_control_runner.c" linenr="62" str=")" scope="0x92051e0" link="0x91eb148"/>
+    <token id="0x91eb228" file="build/test/runners/test_motor_control_runner.c" linenr="62" str=";" scope="0x92051e0"/>
+    <token id="0x91eb298" file="build/test/runners/test_motor_control_runner.c" linenr="63" str="UNITY_EXEC_TIME_START" scope="0x92051e0" type="name" astParent="0x91eb330"/>
+    <token id="0x91eb330" file="build/test/runners/test_motor_control_runner.c" linenr="63" str="(" scope="0x92051e0" link="0x91eb3a0" astOperand1="0x91eb298"/>
+    <token id="0x91eb3a0" file="build/test/runners/test_motor_control_runner.c" linenr="63" str=")" scope="0x92051e0" link="0x91eb330"/>
+    <token id="0x91fa818" file="build/test/runners/test_motor_control_runner.c" linenr="63" str=";" scope="0x92051e0"/>
+    <token id="0x91fa888" file="build/test/runners/test_motor_control_runner.c" linenr="64" str="CMock_Init" scope="0x92051e0" type="name" function="0x91ed210" astParent="0x91fa8f8"/>
+    <token id="0x91fa8f8" file="build/test/runners/test_motor_control_runner.c" linenr="64" str="(" scope="0x92051e0" link="0x91fa968" astOperand1="0x91fa888"/>
+    <token id="0x91fa968" file="build/test/runners/test_motor_control_runner.c" linenr="64" str=")" scope="0x92051e0" link="0x91fa8f8"/>
+    <token id="0x91fa9d8" file="build/test/runners/test_motor_control_runner.c" linenr="64" str=";" scope="0x92051e0"/>
+    <token id="0x91faa48" file="build/test/runners/test_motor_control_runner.c" linenr="65" str="if" scope="0x92051e0" type="name" astParent="0x92119d8"/>
+    <token id="0x92119d8" file="build/test/runners/test_motor_control_runner.c" linenr="65" str="(" scope="0x92051e0" link="0x9211b98" astOperand1="0x91faa48" astOperand2="0x9211ab8"/>
+    <token id="0x9211a48" file="build/test/runners/test_motor_control_runner.c" linenr="65" str="TEST_PROTECT" scope="0x92051e0" type="name" astParent="0x9211ab8"/>
+    <token id="0x9211ab8" file="build/test/runners/test_motor_control_runner.c" linenr="65" str="(" scope="0x92051e0" link="0x9211b28" astParent="0x92119d8" astOperand1="0x9211a48"/>
+    <token id="0x9211b28" file="build/test/runners/test_motor_control_runner.c" linenr="65" str=")" scope="0x92051e0" link="0x9211ab8"/>
+    <token id="0x9211b98" file="build/test/runners/test_motor_control_runner.c" linenr="65" str=")" scope="0x92051e0" link="0x92119d8"/>
+    <token id="0x9211c08" file="build/test/runners/test_motor_control_runner.c" linenr="66" str="{" scope="0x9205330" link="0x91ef518"/>
+    <token id="0x9200d30" file="build/test/runners/test_motor_control_runner.c" linenr="67" str="setUp" scope="0x9205330" type="name" function="0x91fac20" astParent="0x9200da0"/>
+    <token id="0x9200da0" file="build/test/runners/test_motor_control_runner.c" linenr="67" str="(" scope="0x9205330" link="0x9200e10" astOperand1="0x9200d30"/>
+    <token id="0x9200e10" file="build/test/runners/test_motor_control_runner.c" linenr="67" str=")" scope="0x9205330" link="0x9200da0"/>
+    <token id="0x9200e80" file="build/test/runners/test_motor_control_runner.c" linenr="67" str=";" scope="0x9205330"/>
+    <token id="0x9200ef0" file="build/test/runners/test_motor_control_runner.c" linenr="68" str="func" scope="0x9205330" type="name" varId="4" variable="0x9205650" astParent="0x9200f60"/>
+    <token id="0x9200f60" file="build/test/runners/test_motor_control_runner.c" linenr="68" str="(" scope="0x9205330" link="0x9200fd0" astOperand1="0x9200ef0"/>
+    <token id="0x9200fd0" file="build/test/runners/test_motor_control_runner.c" linenr="68" str=")" scope="0x9205330" link="0x9200f60"/>
+    <token id="0x91ef4a8" file="build/test/runners/test_motor_control_runner.c" linenr="68" str=";" scope="0x9205330"/>
+    <token id="0x91ef518" file="build/test/runners/test_motor_control_runner.c" linenr="69" str="}" scope="0x9205330" link="0x9211c08"/>
+    <token id="0x91ef588" file="build/test/runners/test_motor_control_runner.c" linenr="70" str="if" scope="0x92051e0" type="name" astParent="0x91ef5f8"/>
+    <token id="0x91ef5f8" file="build/test/runners/test_motor_control_runner.c" linenr="70" str="(" scope="0x92051e0" link="0x91f26a0" astOperand1="0x91ef588" astOperand2="0x91ef6d8"/>
+    <token id="0x91ef668" file="build/test/runners/test_motor_control_runner.c" linenr="70" str="TEST_PROTECT" scope="0x92051e0" type="name" astParent="0x91ef6d8"/>
+    <token id="0x91ef6d8" file="build/test/runners/test_motor_control_runner.c" linenr="70" str="(" scope="0x92051e0" link="0x91ef748" astParent="0x91ef5f8" astOperand1="0x91ef668"/>
+    <token id="0x91ef748" file="build/test/runners/test_motor_control_runner.c" linenr="70" str=")" scope="0x92051e0" link="0x91ef6d8"/>
+    <token id="0x91f26a0" file="build/test/runners/test_motor_control_runner.c" linenr="70" str=")" scope="0x92051e0" link="0x91ef5f8"/>
+    <token id="0x91f2710" file="build/test/runners/test_motor_control_runner.c" linenr="71" str="{" scope="0x92053d8" link="0x91ef180"/>
+    <token id="0x91f2780" file="build/test/runners/test_motor_control_runner.c" linenr="72" str="tearDown" scope="0x92053d8" type="name" function="0x9201368" astParent="0x91f27f0"/>
+    <token id="0x91f27f0" file="build/test/runners/test_motor_control_runner.c" linenr="72" str="(" scope="0x92053d8" link="0x91f2860" astOperand1="0x91f2780"/>
+    <token id="0x91f2860" file="build/test/runners/test_motor_control_runner.c" linenr="72" str=")" scope="0x92053d8" link="0x91f27f0"/>
+    <token id="0x91f28d0" file="build/test/runners/test_motor_control_runner.c" linenr="72" str=";" scope="0x92053d8"/>
+    <token id="0x91f2940" file="build/test/runners/test_motor_control_runner.c" linenr="73" str="CMock_Verify" scope="0x92053d8" type="name" function="0x91ee480" astParent="0x91ef030"/>
+    <token id="0x91ef030" file="build/test/runners/test_motor_control_runner.c" linenr="73" str="(" scope="0x92053d8" link="0x91ef0a0" astOperand1="0x91f2940"/>
+    <token id="0x91ef0a0" file="build/test/runners/test_motor_control_runner.c" linenr="73" str=")" scope="0x92053d8" link="0x91ef030"/>
+    <token id="0x91ef110" file="build/test/runners/test_motor_control_runner.c" linenr="73" str=";" scope="0x92053d8"/>
+    <token id="0x91ef180" file="build/test/runners/test_motor_control_runner.c" linenr="74" str="}" scope="0x92053d8" link="0x91f2710"/>
+    <token id="0x91ef1f0" file="build/test/runners/test_motor_control_runner.c" linenr="75" str="CMock_Destroy" scope="0x92051e0" type="name" function="0x91efba8" astParent="0x91ef260"/>
+    <token id="0x91ef260" file="build/test/runners/test_motor_control_runner.c" linenr="75" str="(" scope="0x92051e0" link="0x91ef2d0" astOperand1="0x91ef1f0"/>
+    <token id="0x91ef2d0" file="build/test/runners/test_motor_control_runner.c" linenr="75" str=")" scope="0x92051e0" link="0x91ef260"/>
+    <token id="0x9212740" file="build/test/runners/test_motor_control_runner.c" linenr="75" str=";" scope="0x92051e0"/>
+    <token id="0x92127b0" file="build/test/runners/test_motor_control_runner.c" linenr="76" str="UNITY_EXEC_TIME_STOP" scope="0x92051e0" type="name" astParent="0x9212848"/>
+    <token id="0x9212848" file="build/test/runners/test_motor_control_runner.c" linenr="76" str="(" scope="0x92051e0" link="0x92128b8" astOperand1="0x92127b0"/>
+    <token id="0x92128b8" file="build/test/runners/test_motor_control_runner.c" linenr="76" str=")" scope="0x92051e0" link="0x9212848"/>
+    <token id="0x9212928" file="build/test/runners/test_motor_control_runner.c" linenr="76" str=";" scope="0x92051e0"/>
+    <token id="0x9212998" file="build/test/runners/test_motor_control_runner.c" linenr="77" str="UnityConcludeTest" scope="0x92051e0" type="name" astParent="0x9212a30"/>
+    <token id="0x9212a30" file="build/test/runners/test_motor_control_runner.c" linenr="77" str="(" scope="0x92051e0" link="0x9212aa0" astOperand1="0x9212998"/>
+    <token id="0x9212aa0" file="build/test/runners/test_motor_control_runner.c" linenr="77" str=")" scope="0x92051e0" link="0x9212a30"/>
+    <token id="0x91ec808" file="build/test/runners/test_motor_control_runner.c" linenr="77" str=";" scope="0x92051e0"/>
+    <token id="0x91ec878" file="build/test/runners/test_motor_control_runner.c" linenr="78" str="}" scope="0x92051e0" link="0x91f3888"/>
+    <token id="0x91ec8e8" file="build/test/runners/test_motor_control_runner.c" linenr="81" str="int" scope="0x92013d8" type="name"/>
+    <token id="0x91ec958" file="build/test/runners/test_motor_control_runner.c" linenr="81" str="main" scope="0x92013d8" type="name" function="0x9205480" astParent="0x91ec9c8"/>
+    <token id="0x91ec9c8" file="build/test/runners/test_motor_control_runner.c" linenr="81" str="(" scope="0x92013d8" link="0x91ecaa8" astOperand1="0x91ec958"/>
+    <token id="0x91ecaa8" file="build/test/runners/test_motor_control_runner.c" linenr="81" str=")" scope="0x92013d8" link="0x91ec9c8"/>
+    <token id="0x91ecb18" file="build/test/runners/test_motor_control_runner.c" linenr="82" str="{" scope="0x9205500" link="0x9205040"/>
+    <token id="0x91ecb88" file="build/test/runners/test_motor_control_runner.c" linenr="83" str="UnityBegin" scope="0x9205500" type="name" astParent="0x91eeb88"/>
+    <token id="0x91eeb88" file="build/test/runners/test_motor_control_runner.c" linenr="83" str="(" scope="0x9205500" link="0x91eecb8" astOperand1="0x91ecb88" astOperand2="0x91eec20"/>
+    <token id="0x91eec20" file="build/test/runners/test_motor_control_runner.c" linenr="83" str="&quot;test_motor_control.c&quot;" scope="0x9205500" type="string" strlen="20" values="0x91eec24" astParent="0x91eeb88"/>
+    <token id="0x91eecb8" file="build/test/runners/test_motor_control_runner.c" linenr="83" str=")" scope="0x9205500" link="0x91eeb88"/>
+    <token id="0x91eed28" file="build/test/runners/test_motor_control_runner.c" linenr="83" str=";" scope="0x9205500"/>
+    <token id="0x91eed98" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="run_test" scope="0x9205500" type="name" function="0x9205160" astParent="0x91eee08"/>
+    <token id="0x91eee08" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="(" scope="0x9205500" link="0x91efd70" astOperand1="0x91eed98" astOperand2="0x91efc90"/>
+    <token id="0x91eee78" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="test_motor_control_NeedToImplement" scope="0x9205500" type="name" astParent="0x91eef10"/>
+    <token id="0x91eef10" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="," scope="0x9205500" astParent="0x91efc90" astOperand1="0x91eee78" astOperand2="0x91eef80"/>
+    <token id="0x91eef80" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="&quot;test_motor_control_NeedToImplement&quot;" scope="0x9205500" type="string" strlen="34" values="0x91eef84" astParent="0x91eef10"/>
+    <token id="0x91efc90" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="," scope="0x9205500" astParent="0x91eee08" astOperand1="0x91eef10" astOperand2="0x91efd00"/>
+    <token id="0x91efd00" file="build/test/runners/test_motor_control_runner.c" linenr="84" str="13" scope="0x9205500" type="number" isInt="True" values="0x91efd04" astParent="0x91efc90"/>
+    <token id="0x91efd70" file="build/test/runners/test_motor_control_runner.c" linenr="84" str=")" scope="0x9205500" link="0x91eee08"/>
+    <token id="0x91efde0" file="build/test/runners/test_motor_control_runner.c" linenr="84" str=";" scope="0x9205500"/>
+    <token id="0x91efe50" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="run_test" scope="0x9205500" type="name" function="0x9205160" astParent="0x91efec0"/>
+    <token id="0x91efec0" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="(" scope="0x9205500" link="0x91f09d8" astOperand1="0x91efe50" astOperand2="0x91f08f8"/>
+    <token id="0x91eff30" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="test_readEncoder" scope="0x9205500" type="name" astParent="0x91effa0"/>
+    <token id="0x91effa0" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="," scope="0x9205500" astParent="0x91f08f8" astOperand1="0x91eff30" astOperand2="0x91f0038"/>
+    <token id="0x91f0038" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="&quot;test_readEncoder&quot;" scope="0x9205500" type="string" strlen="16" values="0x91f003c" astParent="0x91effa0"/>
+    <token id="0x91f08f8" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="," scope="0x9205500" astParent="0x91efec0" astOperand1="0x91effa0" astOperand2="0x91f0968"/>
+    <token id="0x91f0968" file="build/test/runners/test_motor_control_runner.c" linenr="85" str="19" scope="0x9205500" type="number" isInt="True" values="0x91f096c" astParent="0x91f08f8"/>
+    <token id="0x91f09d8" file="build/test/runners/test_motor_control_runner.c" linenr="85" str=")" scope="0x9205500" link="0x91efec0"/>
+    <token id="0x91f0a48" file="build/test/runners/test_motor_control_runner.c" linenr="85" str=";" scope="0x9205500"/>
+    <token id="0x91f0ab8" file="build/test/runners/test_motor_control_runner.c" linenr="87" str="CMock_Guts_MemFreeFinal" scope="0x9205500" type="name" astParent="0x91f0b28"/>
+    <token id="0x91f0b28" file="build/test/runners/test_motor_control_runner.c" linenr="87" str="(" scope="0x9205500" link="0x91f0b98" astOperand1="0x91f0ab8"/>
+    <token id="0x91f0b98" file="build/test/runners/test_motor_control_runner.c" linenr="87" str=")" scope="0x9205500" link="0x91f0b28"/>
+    <token id="0x91f0c08" file="build/test/runners/test_motor_control_runner.c" linenr="87" str=";" scope="0x9205500"/>
+    <token id="0x91f0c78" file="build/test/runners/test_motor_control_runner.c" linenr="88" str="return" scope="0x9205500" type="name" astOperand1="0x91f0d58"/>
+    <token id="0x91f0ce8" file="build/test/runners/test_motor_control_runner.c" linenr="88" str="UnityEnd" scope="0x9205500" type="name" astParent="0x91f0d58"/>
+    <token id="0x91f0d58" file="build/test/runners/test_motor_control_runner.c" linenr="88" str="(" scope="0x9205500" link="0x9204f60" astParent="0x91f0c78" astOperand1="0x91f0ce8"/>
+    <token id="0x9204f60" file="build/test/runners/test_motor_control_runner.c" linenr="88" str=")" scope="0x9205500" link="0x91f0d58"/>
+    <token id="0x9204fd0" file="build/test/runners/test_motor_control_runner.c" linenr="88" str=";" scope="0x9205500"/>
+    <token id="0x9205040" file="build/test/runners/test_motor_control_runner.c" linenr="89" str="}" scope="0x9205500" link="0x91ecb18"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x92013d8" type="Global">
+      <functionList>
+        <function id="0x91fac20" tokenDef="0x92027d0" name="setUp"/>
+        <function id="0x9201368" tokenDef="0x92196a0" name="tearDown"/>
+        <function id="0x91f29b8" tokenDef="0x91eea60" name="test_motor_control_NeedToImplement"/>
+        <function id="0x91ee638" tokenDef="0x9201bb0" name="test_readEncoder"/>
+        <function id="0x91ed210" tokenDef="0x91ed198" name="CMock_Init"/>
+        <function id="0x91ee480" tokenDef="0x921a320" name="CMock_Verify"/>
+        <function id="0x91efba8" tokenDef="0x91f7148" name="CMock_Destroy"/>
+        <function id="0x91ed6c8" tokenDef="0x91ed410" name="resetTest"/>
+        <function id="0x91eeb00" tokenDef="0x91ee728" name="verifyTest"/>
+        <function id="0x9205160" tokenDef="0x91f2500" name="run_test">
+          <arg nr="1" variable="0x9205650"/>
+          <arg nr="2" variable="0x91f02b8"/>
+          <arg nr="3" variable="0x91faac0"/>
+        </function>
+        <function id="0x9205480" tokenDef="0x91ec958" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x92055a8"/>
+        <var id="0x92055e0"/>
+        <var id="0x9205618"/>
+      </varlist>
+    </scope>
+    <scope id="0x91fc350" type="Function" className="CMock_Init" classStart="0x920df00" classEnd="0x91ed948" nestedIn="0x92013d8" function="0x91ed210"/>
+    <scope id="0x91efb00" type="Function" className="CMock_Verify" classStart="0x9202288" classEnd="0x9201a98" nestedIn="0x92013d8" function="0x91ee480"/>
+    <scope id="0x91ed620" type="Function" className="CMock_Destroy" classStart="0x91f7330" classEnd="0x91ef958" nestedIn="0x92013d8" function="0x91efba8"/>
+    <scope id="0x91ed748" type="Function" className="resetTest" classStart="0x921a8d0" classEnd="0x91db1d8" nestedIn="0x92013d8" function="0x91ed6c8"/>
+    <scope id="0x92050b8" type="Function" className="verifyTest" classStart="0x9201db8" classEnd="0x91f23b0" nestedIn="0x92013d8" function="0x91eeb00"/>
+    <scope id="0x92051e0" type="Function" className="run_test" classStart="0x91f3888" classEnd="0x91ec878" nestedIn="0x92013d8" function="0x9205160"/>
+    <scope id="0x9205288" type="If" classStart="0x91efa18" classEnd="0x91efa88" nestedIn="0x92051e0"/>
+    <scope id="0x9205330" type="If" classStart="0x9211c08" classEnd="0x91ef518" nestedIn="0x92051e0"/>
+    <scope id="0x92053d8" type="If" classStart="0x91f2710" classEnd="0x91ef180" nestedIn="0x92051e0"/>
+    <scope id="0x9205500" type="Function" className="main" classStart="0x91ecb18" classEnd="0x9205040" nestedIn="0x92013d8" function="0x9205480"/>
+  </scopes>
+  <variables>
+    <var id="0x92055a8" nameToken="0x91f3ae0" typeStartToken="0x91c1d68" typeEndToken="0x91c1d68" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x92055e0" nameToken="0x91ee500" typeStartToken="0x91f0168" typeEndToken="0x91f0168" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9205618" nameToken="0x91eaca8" typeStartToken="0x91ef410" typeEndToken="0x91f0308" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x9205650" nameToken="0x9201180" typeStartToken="0x9201110" typeEndToken="0x9201110" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91f02b8" nameToken="0x91eae88" typeStartToken="0x91eada8" typeEndToken="0x91eae18" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x91faac0" nameToken="0x91f37a8" typeStartToken="0x91eaf68" typeEndToken="0x91eaf68" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x91f15ac">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x91f318c">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x91f141c">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x9200acc">
+      <value tokvalue="0x91eef80" possible="true"/>
+      <value tokvalue="0x91f0038" possible="true"/>
+    </values>
+    <values id="0x92173cc">
+      <value intvalue="13" possible="true"/>
+      <value intvalue="19" possible="true"/>
+    </values>
+    <values id="0x91eec24">
+      <value tokvalue="0x91eec20" known="true"/>
+    </values>
+    <values id="0x91eef84">
+      <value tokvalue="0x91eef80" known="true"/>
+    </values>
+    <values id="0x91efd04">
+      <value intvalue="13" known="true"/>
+    </values>
+    <values id="0x91f003c">
+      <value tokvalue="0x91f0038" known="true"/>
+    </values>
+    <values id="0x91f096c">
+      <value intvalue="19" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

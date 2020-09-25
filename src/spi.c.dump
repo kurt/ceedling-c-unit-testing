@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x91c2f68" file="src/spi.h" linenr="7" str="uint16_t" scope="0x91f71c0" type="name"/>
+    <token id="0x91f3ae0" file="src/spi.h" linenr="7" str="spi_readData" scope="0x91f71c0" type="name" function="0x91ee638" astParent="0x91f0308"/>
+    <token id="0x91f0308" file="src/spi.h" linenr="7" str="(" scope="0x91f71c0" link="0x91ee500" astOperand1="0x91f3ae0" astOperand2="0x91f5e60"/>
+    <token id="0x92013d0" file="src/spi.h" linenr="7" str="uint16_t" scope="0x91f71c0" type="name"/>
+    <token id="0x91c1d68" file="src/spi.h" linenr="7" str="dataOut" scope="0x91f71c0" type="name" varId="1" astParent="0x91f5e60"/>
+    <token id="0x91f5e60" file="src/spi.h" linenr="7" str="," scope="0x91f71c0" astParent="0x91f0308" astOperand1="0x91c1d68" astOperand2="0x91f0168"/>
+    <token id="0x91ef410" file="src/spi.h" linenr="7" str="uint16_t" scope="0x91f71c0" type="name"/>
+    <token id="0x91f0168" file="src/spi.h" linenr="7" str="baudrate" scope="0x91f71c0" type="name" varId="2" astParent="0x91f5e60"/>
+    <token id="0x91ee500" file="src/spi.h" linenr="7" str=")" scope="0x91f71c0" link="0x91f0308"/>
+    <token id="0x91eaca8" file="src/spi.h" linenr="7" str=";" scope="0x91f71c0"/>
+    <token id="0x9201670" file="src/spi.h" linenr="8" str="bool" scope="0x91f71c0" type="name"/>
+    <token id="0x91f25d8" file="src/spi.h" linenr="8" str="checkBaudRate" scope="0x91f71c0" type="name" function="0x91fac20" astParent="0x9200958"/>
+    <token id="0x9200958" file="src/spi.h" linenr="8" str="(" scope="0x91f71c0" link="0x91f3098" astOperand1="0x91f25d8" astOperand2="0x9201518"/>
+    <token id="0x92027d0" file="src/spi.h" linenr="8" str="uint16_t" scope="0x91f71c0" type="name"/>
+    <token id="0x9201518" file="src/spi.h" linenr="8" str="baudrate" scope="0x91f71c0" type="name" varId="3" astParent="0x9200958"/>
+    <token id="0x91f3098" file="src/spi.h" linenr="8" str=")" scope="0x91f71c0" link="0x9200958"/>
+    <token id="0x91ee5c0" file="src/spi.h" linenr="8" str=";" scope="0x91f71c0"/>
+    <token id="0x91ecc30" file="src/spi.c" linenr="4" str="uint16_t" scope="0x91f71c0" type="name"/>
+    <token id="0x91eea60" file="src/spi.c" linenr="4" str="spi_readData" scope="0x91f71c0" type="name" function="0x91ee638" astParent="0x91eead0"/>
+    <token id="0x91eead0" file="src/spi.c" linenr="4" str="(" scope="0x91f71c0" link="0x9202460" astOperand1="0x91eea60" astOperand2="0x9219630"/>
+    <token id="0x91f1098" file="src/spi.c" linenr="4" str="uint16_t" scope="0x91f71c0" type="name"/>
+    <token id="0x91f1108" file="src/spi.c" linenr="4" str="dataOut" scope="0x91f71c0" type="name" varId="4" variable="0x92172f0" astParent="0x9219630"/>
+    <token id="0x9219630" file="src/spi.c" linenr="4" str="," scope="0x91f71c0" astParent="0x91eead0" astOperand1="0x91f1108" astOperand2="0x92023f0"/>
+    <token id="0x92196a0" file="src/spi.c" linenr="4" str="uint16_t" scope="0x91f71c0" type="name"/>
+    <token id="0x92023f0" file="src/spi.c" linenr="4" str="baudrate" scope="0x91f71c0" type="name" varId="5" variable="0x9202610" astParent="0x9219630"/>
+    <token id="0x9202460" file="src/spi.c" linenr="4" str=")" scope="0x91f71c0" link="0x91eead0"/>
+    <token id="0x91eb748" file="src/spi.c" linenr="4" str="{" scope="0x9205700" link="0x91fc348"/>
+    <token id="0x91eb7b8" file="src/spi.c" linenr="5" str="uint16_t" scope="0x9205700" type="name"/>
+    <token id="0x91ed268" file="src/spi.c" linenr="5" str="RandomData" scope="0x9205700" type="name" varId="6" variable="0x91f3110"/>
+    <token id="0x91ed2d8" file="src/spi.c" linenr="5" str=";" scope="0x9205700"/>
+    <token id="0x91ee450" file="src/spi.c" linenr="5" str="RandomData" scope="0x9205700" type="name" varId="6" variable="0x91f3110" astParent="0x9201b08"/>
+    <token id="0x9201b08" file="src/spi.c" linenr="5" str="=" scope="0x9205700" type="op" isAssignmentOp="True" astOperand1="0x91ee450" astOperand2="0x91ee930"/>
+    <token id="0x91ee930" file="src/spi.c" linenr="5" str="100" scope="0x9205700" type="number" isInt="True" values="0x91ee934" astParent="0x9201b08"/>
+    <token id="0x91ee9a0" file="src/spi.c" linenr="5" str=";" scope="0x9205700"/>
+    <token id="0x9212c00" file="src/spi.c" linenr="6" str="checkBaudRate" scope="0x9205700" type="name" function="0x91fac20" astParent="0x9212c70"/>
+    <token id="0x9212c70" file="src/spi.c" linenr="6" str="(" scope="0x9205700" link="0x91ed050" astOperand1="0x9212c00" astOperand2="0x91ecfe0"/>
+    <token id="0x91ecfe0" file="src/spi.c" linenr="6" str="baudrate" scope="0x9205700" type="name" varId="5" variable="0x9202610" astParent="0x9212c70"/>
+    <token id="0x91ed050" file="src/spi.c" linenr="6" str=")" scope="0x9205700" link="0x9212c70"/>
+    <token id="0x9201bb0" file="src/spi.c" linenr="6" str=";" scope="0x9205700"/>
+    <token id="0x9201c20" file="src/spi.c" linenr="7" str="uint16_t" scope="0x9205700" type="name"/>
+    <token id="0x91fab38" file="src/spi.c" linenr="7" str="data" scope="0x9205700" type="name" varId="7" variable="0x9202560"/>
+    <token id="0x91faba8" file="src/spi.c" linenr="7" str=";" scope="0x9205700"/>
+    <token id="0x91f70d8" file="src/spi.c" linenr="7" str="data" scope="0x9205700" type="name" varId="7" variable="0x9202560" astParent="0x91f7148"/>
+    <token id="0x91f7148" file="src/spi.c" linenr="7" str="=" scope="0x9205700" type="op" isAssignmentOp="True" astOperand1="0x91f70d8" astOperand2="0x91ed128"/>
+    <token id="0x91ed128" file="src/spi.c" linenr="7" str="dataOut" scope="0x9205700" type="name" varId="4" variable="0x92172f0" astParent="0x91f7148"/>
+    <token id="0x91ed198" file="src/spi.c" linenr="7" str=";" scope="0x9205700"/>
+    <token id="0x9202678" file="src/spi.c" linenr="8" str="return" scope="0x9205700" type="name" astOperand1="0x92026e8"/>
+    <token id="0x92026e8" file="src/spi.c" linenr="8" str="RandomData" scope="0x9205700" type="name" varId="6" variable="0x91f3110" values="0x92026ec" astParent="0x9202678"/>
+    <token id="0x91fc2d8" file="src/spi.c" linenr="8" str=";" scope="0x9205700"/>
+    <token id="0x91fc348" file="src/spi.c" linenr="9" str="}" scope="0x9205700" link="0x91eb748"/>
+    <token id="0x91ed8d8" file="src/spi.c" linenr="12" str="bool" scope="0x91f71c0" type="name"/>
+    <token id="0x91ed948" file="src/spi.c" linenr="12" str="checkBaudRate" scope="0x91f71c0" type="name" function="0x91fac20" astParent="0x91ed9b8"/>
+    <token id="0x91ed9b8" file="src/spi.c" linenr="12" str="(" scope="0x91f71c0" link="0x91f1618" astOperand1="0x91ed948" astOperand2="0x91f15a8"/>
+    <token id="0x91f1538" file="src/spi.c" linenr="12" str="uint16_t" scope="0x91f71c0" type="name"/>
+    <token id="0x91f15a8" file="src/spi.c" linenr="12" str="baudrate" scope="0x91f71c0" type="name" varId="8" variable="0x91ece68" astParent="0x91ed9b8"/>
+    <token id="0x91f1618" file="src/spi.c" linenr="12" str=")" scope="0x91f71c0" link="0x91ed9b8"/>
+    <token id="0x920de90" file="src/spi.c" linenr="12" str="{" scope="0x92057a8" link="0x9201a98"/>
+    <token id="0x920df00" file="src/spi.c" linenr="13" str="if" scope="0x92057a8" type="name" astParent="0x920df70"/>
+    <token id="0x920df70" file="src/spi.c" linenr="13" str="(" scope="0x92057a8" link="0x91f31f8" astOperand1="0x920df00" astOperand2="0x91ee3e0"/>
+    <token id="0x91ee370" file="src/spi.c" linenr="13" str="baudrate" scope="0x92057a8" type="name" varId="8" variable="0x91ece68" values="0x91ee374" astParent="0x91ee3e0"/>
+    <token id="0x91ee3e0" file="src/spi.c" linenr="13" str="!=" scope="0x92057a8" type="op" isComparisonOp="True" values="0x91ee3e4" astParent="0x920df70" astOperand1="0x91ee370" astOperand2="0x91f3188"/>
+    <token id="0x91f3188" file="src/spi.c" linenr="13" str="9600" scope="0x92057a8" type="number" isInt="True" values="0x91f318c" astParent="0x91ee3e0"/>
+    <token id="0x91f31f8" file="src/spi.c" linenr="13" str=")" scope="0x92057a8" link="0x920df70"/>
+    <token id="0x91f3268" file="src/spi.c" linenr="13" str="{" scope="0x91ed3a8" link="0x91ef958"/>
+    <token id="0x9217198" file="src/spi.c" linenr="14" str="printf" scope="0x91ed3a8" type="name" astParent="0x9217208"/>
+    <token id="0x9217208" file="src/spi.c" linenr="14" str="(" scope="0x91ed3a8" link="0x91ed6f8" astOperand1="0x9217198" astOperand2="0x91ed618"/>
+    <token id="0x9217278" file="src/spi.c" linenr="14" str="&quot;Baud Rate %d is Incorrect!\n&quot;" scope="0x91ed3a8" type="string" strlen="27" values="0x921727c" astParent="0x91ed618"/>
+    <token id="0x91ed618" file="src/spi.c" linenr="14" str="," scope="0x91ed3a8" astParent="0x9217208" astOperand1="0x9217278" astOperand2="0x91ed688"/>
+    <token id="0x91ed688" file="src/spi.c" linenr="14" str="baudrate" scope="0x91ed3a8" type="name" varId="8" variable="0x91ece68" astParent="0x91ed618"/>
+    <token id="0x91ed6f8" file="src/spi.c" linenr="14" str=")" scope="0x91ed3a8" link="0x9217208"/>
+    <token id="0x91ed768" file="src/spi.c" linenr="14" str=";" scope="0x91ed3a8"/>
+    <token id="0x91ef808" file="src/spi.c" linenr="15" str="return" scope="0x91ed3a8" type="name" astOperand1="0x91ef878"/>
+    <token id="0x91ef878" file="src/spi.c" linenr="15" str="0" scope="0x91ed3a8" type="number" isInt="True" values="0x91ef87c" astParent="0x91ef808"/>
+    <token id="0x91ef8e8" file="src/spi.c" linenr="15" str=";" scope="0x91ed3a8"/>
+    <token id="0x91ef958" file="src/spi.c" linenr="16" str="}" scope="0x91ed3a8" link="0x91f3268"/>
+    <token id="0x91f72c0" file="src/spi.c" linenr="17" str="else" scope="0x92057a8" type="name"/>
+    <token id="0x91f7330" file="src/spi.c" linenr="17" str="{" scope="0x91ecdc0" link="0x9201a28"/>
+    <token id="0x91f73a0" file="src/spi.c" linenr="18" str="return" scope="0x91ecdc0" type="name" astOperand1="0x91f7410"/>
+    <token id="0x91f7410" file="src/spi.c" linenr="18" str="1" scope="0x91ecdc0" type="number" isInt="True" values="0x91f7414" astParent="0x91f73a0"/>
+    <token id="0x92019b8" file="src/spi.c" linenr="18" str=";" scope="0x91ecdc0"/>
+    <token id="0x9201a28" file="src/spi.c" linenr="19" str="}" scope="0x91ecdc0" link="0x91f7330"/>
+    <token id="0x9201a98" file="src/spi.c" linenr="20" str="}" scope="0x92057a8" link="0x920de90"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x91f71c0" type="Global">
+      <functionList>
+        <function id="0x91ee638" tokenDef="0x91f3ae0" name="spi_readData">
+          <arg nr="1" variable="0x92172f0"/>
+          <arg nr="2" variable="0x9202610"/>
+        </function>
+        <function id="0x91fac20" tokenDef="0x91f25d8" name="checkBaudRate">
+          <arg nr="1" variable="0x91ece68"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x9205700" type="Function" className="spi_readData" classStart="0x91eb748" classEnd="0x91fc348" nestedIn="0x91f71c0" function="0x91ee638">
+      <varlist>
+        <var id="0x91f3110"/>
+        <var id="0x9202560"/>
+      </varlist>
+    </scope>
+    <scope id="0x92057a8" type="Function" className="checkBaudRate" classStart="0x920de90" classEnd="0x9201a98" nestedIn="0x91f71c0" function="0x91fac20"/>
+    <scope id="0x91ed3a8" type="If" classStart="0x91f3268" classEnd="0x91ef958" nestedIn="0x92057a8"/>
+    <scope id="0x91ed450" type="Else" classStart="0x91f7330" classEnd="0x9201a28" nestedIn="0x92057a8"/>
+    <scope id="0x91ecdc0" type="Try" classStart="0x91f7330" classEnd="0x9201a28" nestedIn="0x92057a8"/>
+  </scopes>
+  <variables>
+    <var id="0x92172f0" nameToken="0x91f1108" typeStartToken="0x91f1098" typeEndToken="0x91f1098" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9202610" nameToken="0x92023f0" typeStartToken="0x92196a0" typeEndToken="0x92196a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91f3110" nameToken="0x91ed268" typeStartToken="0x91eb7b8" typeEndToken="0x91eb7b8" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9202560" nameToken="0x91fab38" typeStartToken="0x9201c20" typeEndToken="0x9201c20" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91ece68" nameToken="0x91f15a8" typeStartToken="0x91f1538" typeEndToken="0x91f1538" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x91ee934">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x92026ec">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x91ee374">
+      <value intvalue="9600" condition-line="13" possible="true"/>
+    </values>
+    <values id="0x91ee3e4">
+      <value intvalue="0" condition-line="13" possible="true"/>
+    </values>
+    <values id="0x91f318c">
+      <value intvalue="9600" known="true"/>
+    </values>
+    <values id="0x921727c">
+      <value tokvalue="0x9217278" known="true"/>
+    </values>
+    <values id="0x91ef87c">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x91f7414">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

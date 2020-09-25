@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x92013d0" file="test/test_lights.c" linenr="5" str="void" scope="0x91ecc38" type="name"/>
+    <token id="0x91c1d68" file="test/test_lights.c" linenr="5" str="setUp" scope="0x91ecc38" type="name" function="0x91ee638" astParent="0x91c2f68"/>
+    <token id="0x91c2f68" file="test/test_lights.c" linenr="5" str="(" scope="0x91ecc38" link="0x91f3098" astOperand1="0x91c1d68"/>
+    <token id="0x91f3098" file="test/test_lights.c" linenr="5" str=")" scope="0x91ecc38" link="0x91c2f68"/>
+    <token id="0x91f1108" file="test/test_lights.c" linenr="6" str="{" scope="0x91ee378" link="0x91f0308"/>
+    <token id="0x91f0308" file="test/test_lights.c" linenr="7" str="}" scope="0x91ee378" link="0x91f1108"/>
+    <token id="0x91f5e60" file="test/test_lights.c" linenr="9" str="void" scope="0x91ecc38" type="name"/>
+    <token id="0x91f0168" file="test/test_lights.c" linenr="9" str="tearDown" scope="0x91ecc38" type="name" function="0x91ed210" astParent="0x91ef410"/>
+    <token id="0x91ef410" file="test/test_lights.c" linenr="9" str="(" scope="0x91ecc38" link="0x9201670" astOperand1="0x91f0168"/>
+    <token id="0x9201670" file="test/test_lights.c" linenr="9" str=")" scope="0x91ecc38" link="0x91ef410"/>
+    <token id="0x9200958" file="test/test_lights.c" linenr="10" str="{" scope="0x92171a0" link="0x91f25d8"/>
+    <token id="0x91f25d8" file="test/test_lights.c" linenr="11" str="}" scope="0x92171a0" link="0x9200958"/>
+    <token id="0x9201518" file="test/test_lights.c" linenr="13" str="void" scope="0x91ecc38" type="name"/>
+    <token id="0x92027d0" file="test/test_lights.c" linenr="13" str="test_lights_NeedToImplement" scope="0x91ecc38" type="name" function="0x91fac20" astParent="0x91ee5c0"/>
+    <token id="0x91ee5c0" file="test/test_lights.c" linenr="13" str="(" scope="0x91ecc38" link="0x91ed268" astOperand1="0x92027d0"/>
+    <token id="0x91ed268" file="test/test_lights.c" linenr="13" str=")" scope="0x91ecc38" link="0x91ee5c0"/>
+    <token id="0x91ed2d8" file="test/test_lights.c" linenr="14" str="{" scope="0x9217278" link="0x9202460"/>
+    <token id="0x91eea60" file="test/test_lights.c" linenr="15" str="TEST_IGNORE_MESSAGE" scope="0x9217278" type="name" astParent="0x91eead0"/>
+    <token id="0x91eead0" file="test/test_lights.c" linenr="15" str="(" scope="0x9217278" link="0x92196a0" astOperand1="0x91eea60" astOperand2="0x9219630"/>
+    <token id="0x9219630" file="test/test_lights.c" linenr="15" str="&quot;Need to Implement lights&quot;" scope="0x9217278" type="string" strlen="24" values="0x9219634" astParent="0x91eead0"/>
+    <token id="0x92196a0" file="test/test_lights.c" linenr="15" str=")" scope="0x9217278" link="0x91eead0"/>
+    <token id="0x92023f0" file="test/test_lights.c" linenr="15" str=";" scope="0x9217278"/>
+    <token id="0x9202460" file="test/test_lights.c" linenr="16" str="}" scope="0x9217278" link="0x91ed2d8"/>
+    <token id="0x91eb748" file="test/test_lights.c" linenr="18" str="void" scope="0x91ecc38" type="name"/>
+    <token id="0x9212c00" file="test/test_lights.c" linenr="18" str="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff" scope="0x91ecc38" type="name" function="0x9201368" astParent="0x91ee930"/>
+    <token id="0x91ee930" file="test/test_lights.c" linenr="18" str="(" scope="0x91ecc38" link="0x9201bb0" astOperand1="0x9212c00"/>
+    <token id="0x9201bb0" file="test/test_lights.c" linenr="18" str=")" scope="0x91ecc38" link="0x91ee930"/>
+    <token id="0x9201c20" file="test/test_lights.c" linenr="19" str="{" scope="0x91ed3a8" link="0x91ed9b8"/>
+    <token id="0x91ecfe0" file="test/test_lights.c" linenr="21" str="lights_SetHeadlightSwitchOff" scope="0x91ed3a8" type="name" astParent="0x91ed050"/>
+    <token id="0x91ed050" file="test/test_lights.c" linenr="21" str="(" scope="0x91ed3a8" link="0x91ed128" astOperand1="0x91ecfe0"/>
+    <token id="0x91ed128" file="test/test_lights.c" linenr="21" str=")" scope="0x91ed3a8" link="0x91ed050"/>
+    <token id="0x91ed198" file="test/test_lights.c" linenr="21" str=";" scope="0x91ed3a8"/>
+    <token id="0x91fab38" file="test/test_lights.c" linenr="23" str="TEST_ASSERT_EQUAL" scope="0x91ed3a8" type="name" astParent="0x91faba8"/>
+    <token id="0x91faba8" file="test/test_lights.c" linenr="23" str="(" scope="0x91ed3a8" link="0x91ed8d8" astOperand1="0x91fab38" astOperand2="0x92026e8"/>
+    <token id="0x9202678" file="test/test_lights.c" linenr="23" str="false" scope="0x91ed3a8" type="name" astParent="0x92026e8"/>
+    <token id="0x92026e8" file="test/test_lights.c" linenr="23" str="," scope="0x91ed3a8" astParent="0x91faba8" astOperand1="0x9202678" astOperand2="0x920df00"/>
+    <token id="0x920de90" file="test/test_lights.c" linenr="23" str="lights_AreHeadlightsOn" scope="0x91ed3a8" type="name" astParent="0x920df00"/>
+    <token id="0x920df00" file="test/test_lights.c" linenr="23" str="(" scope="0x91ed3a8" link="0x920df70" astParent="0x92026e8" astOperand1="0x920de90"/>
+    <token id="0x920df70" file="test/test_lights.c" linenr="23" str=")" scope="0x91ed3a8" link="0x920df00"/>
+    <token id="0x91ed8d8" file="test/test_lights.c" linenr="23" str=")" scope="0x91ed3a8" link="0x91faba8"/>
+    <token id="0x91ed948" file="test/test_lights.c" linenr="23" str=";" scope="0x91ed3a8"/>
+    <token id="0x91ed9b8" file="test/test_lights.c" linenr="24" str="}" scope="0x91ed3a8" link="0x9201c20"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x91ecc38" type="Global">
+      <functionList>
+        <function id="0x91ee638" tokenDef="0x91c1d68" name="setUp"/>
+        <function id="0x91ed210" tokenDef="0x91f0168" name="tearDown"/>
+        <function id="0x91fac20" tokenDef="0x92027d0" name="test_lights_NeedToImplement"/>
+        <function id="0x9201368" tokenDef="0x9212c00" name="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff"/>
+      </functionList>
+    </scope>
+    <scope id="0x91ee378" type="Function" className="setUp" classStart="0x91f1108" classEnd="0x91f0308" nestedIn="0x91ecc38" function="0x91ee638"/>
+    <scope id="0x92171a0" type="Function" className="tearDown" classStart="0x9200958" classEnd="0x91f25d8" nestedIn="0x91ecc38" function="0x91ed210"/>
+    <scope id="0x9217278" type="Function" className="test_lights_NeedToImplement" classStart="0x91ed2d8" classEnd="0x9202460" nestedIn="0x91ecc38" function="0x91fac20"/>
+    <scope id="0x91ed3a8" type="Function" className="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff" classStart="0x9201c20" classEnd="0x91ed9b8" nestedIn="0x91ecc38" function="0x9201368"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+    <values id="0x9219634">
+      <value tokvalue="0x9219630" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

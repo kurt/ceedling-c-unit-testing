@@ -1,1 +1,1 @@
-build/test/out/c/CANData.o: src/CANData.c src/CANData.h
+build/test/out/c/CANData.o: src/CANData.c src/CANData.h src/spi.h

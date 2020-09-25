@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x91c1d68" file="src/spi.h" linenr="7" str="uint16_t" scope="0x91f1540" type="name"/>
+    <token id="0x91c2f68" file="src/spi.h" linenr="7" str="spi_readData" scope="0x91f1540" type="name" function="0x9201368" astParent="0x91f3ae0"/>
+    <token id="0x91f3ae0" file="src/spi.h" linenr="7" str="(" scope="0x91f1540" link="0x91ee500" astOperand1="0x91c2f68" astOperand2="0x91f5e60"/>
+    <token id="0x91f0308" file="src/spi.h" linenr="7" str="uint16_t" scope="0x91f1540" type="name"/>
+    <token id="0x92013d0" file="src/spi.h" linenr="7" str="dataOut" scope="0x91f1540" type="name" varId="1" variable="0x91f3110" astParent="0x91f5e60"/>
+    <token id="0x91f5e60" file="src/spi.h" linenr="7" str="," scope="0x91f1540" astParent="0x91f3ae0" astOperand1="0x92013d0" astOperand2="0x91f0168"/>
+    <token id="0x91ef410" file="src/spi.h" linenr="7" str="uint16_t" scope="0x91f1540" type="name"/>
+    <token id="0x91f0168" file="src/spi.h" linenr="7" str="baudrate" scope="0x91f1540" type="name" varId="2" variable="0x9202560" astParent="0x91f5e60"/>
+    <token id="0x91ee500" file="src/spi.h" linenr="7" str=")" scope="0x91f1540" link="0x91f3ae0"/>
+    <token id="0x91eaca8" file="src/spi.h" linenr="7" str=";" scope="0x91f1540"/>
+    <token id="0x91f25d8" file="src/spi.h" linenr="8" str="bool" scope="0x91f1540" type="name"/>
+    <token id="0x9200958" file="src/spi.h" linenr="8" str="checkBaudRate" scope="0x91f1540" type="name" function="0x91ee638" astParent="0x9201670"/>
+    <token id="0x9201670" file="src/spi.h" linenr="8" str="(" scope="0x91f1540" link="0x91f3098" astOperand1="0x9200958" astOperand2="0x92027d0"/>
+    <token id="0x9201518" file="src/spi.h" linenr="8" str="uint16_t" scope="0x91f1540" type="name"/>
+    <token id="0x92027d0" file="src/spi.h" linenr="8" str="baudrate" scope="0x91f1540" type="name" varId="3" variable="0x9202610" astParent="0x9201670"/>
+    <token id="0x91f3098" file="src/spi.h" linenr="8" str=")" scope="0x91f1540" link="0x9201670"/>
+    <token id="0x91ee5c0" file="src/spi.h" linenr="8" str=";" scope="0x91f1540"/>
+    <token id="0x91ecc30" file="src/motor_control.h" linenr="5" str="float" scope="0x91f1540" type="name"/>
+    <token id="0x91f1098" file="src/motor_control.h" linenr="5" str="readEncoder" scope="0x91f1540" type="name" function="0x91fac20" astParent="0x91f1108"/>
+    <token id="0x91f1108" file="src/motor_control.h" linenr="5" str="(" scope="0x91f1540" link="0x9219630" astOperand1="0x91f1098"/>
+    <token id="0x9219630" file="src/motor_control.h" linenr="5" str=")" scope="0x91f1540" link="0x91f1108"/>
+    <token id="0x92196a0" file="src/motor_control.h" linenr="5" str=";" scope="0x91f1540"/>
+    <token id="0x92023f0" file="src/motor_control.c" linenr="19" str="float" scope="0x91f1540" type="name"/>
+    <token id="0x9202460" file="src/motor_control.c" linenr="19" str="readEncoder" scope="0x91f1540" type="name" function="0x91fac20" astParent="0x91eb748"/>
+    <token id="0x91eb748" file="src/motor_control.c" linenr="19" str="(" scope="0x91f1540" link="0x91eb7b8" astOperand1="0x9202460"/>
+    <token id="0x91eb7b8" file="src/motor_control.c" linenr="19" str=")" scope="0x91f1540" link="0x91eb748"/>
+    <token id="0x91ed268" file="src/motor_control.c" linenr="19" str="{" scope="0x91ee378" link="0x92026e8"/>
+    <token id="0x91ed2d8" file="src/motor_control.c" linenr="20" str="uint16_t" scope="0x91ee378" type="name"/>
+    <token id="0x91eea60" file="src/motor_control.c" linenr="20" str="spi_data" scope="0x91ee378" type="name" varId="4" variable="0x91f02b8"/>
+    <token id="0x91eead0" file="src/motor_control.c" linenr="20" str=";" scope="0x91ee378"/>
+    <token id="0x91ee930" file="src/motor_control.c" linenr="21" str="spi_data" scope="0x91ee378" type="name" varId="4" variable="0x91f02b8" astParent="0x91ee9a0"/>
+    <token id="0x91ee9a0" file="src/motor_control.c" linenr="21" str="=" scope="0x91ee378" type="op" isAssignmentOp="True" astOperand1="0x91ee930" astOperand2="0x9212c70"/>
+    <token id="0x9212c00" file="src/motor_control.c" linenr="21" str="spi_readData" scope="0x91ee378" type="name" function="0x9201368" astParent="0x9212c70"/>
+    <token id="0x9212c70" file="src/motor_control.c" linenr="21" str="(" scope="0x91ee378" link="0x9201c20" astParent="0x91ee9a0" astOperand1="0x9212c00" astOperand2="0x91ed050"/>
+    <token id="0x91ecfe0" file="src/motor_control.c" linenr="21" str="6" scope="0x91ee378" type="number" isInt="True" values="0x91ecfe4" astParent="0x91ed050"/>
+    <token id="0x91ed050" file="src/motor_control.c" linenr="21" str="," scope="0x91ee378" astParent="0x9212c70" astOperand1="0x91ecfe0" astOperand2="0x9201bb0"/>
+    <token id="0x9201bb0" file="src/motor_control.c" linenr="21" str="9600" scope="0x91ee378" type="number" isInt="True" values="0x9201bb4" astParent="0x91ed050"/>
+    <token id="0x9201c20" file="src/motor_control.c" linenr="21" str=")" scope="0x91ee378" link="0x9212c70"/>
+    <token id="0x91fab38" file="src/motor_control.c" linenr="21" str=";" scope="0x91ee378"/>
+    <token id="0x91faba8" file="src/motor_control.c" linenr="22" str="return" scope="0x91ee378" type="name" astOperand1="0x91ed128"/>
+    <token id="0x91ed128" file="src/motor_control.c" linenr="22" str="(" scope="0x91ee378" link="0x91fc2d8" astParent="0x91faba8" astOperand1="0x91fc348"/>
+    <token id="0x91ed198" file="src/motor_control.c" linenr="22" str="float" scope="0x91ee378" type="name"/>
+    <token id="0x91fc2d8" file="src/motor_control.c" linenr="22" str=")" scope="0x91ee378" link="0x91ed128"/>
+    <token id="0x91fc348" file="src/motor_control.c" linenr="22" str="spi_data" scope="0x91ee378" type="name" varId="4" variable="0x91f02b8" astParent="0x91ed128"/>
+    <token id="0x9202678" file="src/motor_control.c" linenr="22" str=";" scope="0x91ee378"/>
+    <token id="0x92026e8" file="src/motor_control.c" linenr="23" str="}" scope="0x91ee378" link="0x91ed268"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x91f1540" type="Global">
+      <functionList>
+        <function id="0x9201368" tokenDef="0x91c2f68" name="spi_readData">
+          <arg nr="1" variable="0x91f3110"/>
+          <arg nr="2" variable="0x9202560"/>
+        </function>
+        <function id="0x91ee638" tokenDef="0x9200958" name="checkBaudRate">
+          <arg nr="1" variable="0x9202610"/>
+        </function>
+        <function id="0x91fac20" tokenDef="0x91f1098" name="readEncoder"/>
+      </functionList>
+    </scope>
+    <scope id="0x91ee378" type="Function" className="readEncoder" classStart="0x91ed268" classEnd="0x92026e8" nestedIn="0x91f1540" function="0x91fac20">
+      <varlist>
+        <var id="0x91f02b8"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x91f3110" nameToken="0x92013d0" typeStartToken="0x91f0308" typeEndToken="0x91f0308" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9202560" nameToken="0x91f0168" typeStartToken="0x91ef410" typeEndToken="0x91ef410" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9202610" nameToken="0x92027d0" typeStartToken="0x9201518" typeEndToken="0x9201518" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x91f02b8" nameToken="0x91eea60" typeStartToken="0x91ed2d8" typeEndToken="0x91ed2d8" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x91ecfe4">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x9201bb4">
+      <value intvalue="9600" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

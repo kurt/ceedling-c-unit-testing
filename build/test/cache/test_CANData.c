@@ -32,15 +32,17 @@ void test_CANData_NeedToImplement(void)
 
 void test_CANData_Parser(void){
 
-  uint8_t baudrate = 9600;
+  uint16_t baudrate = 9600;
 
-  uint8_t data_out = 4;
-
-
+  uint16_t data_out = 4;
 
 
 
-  spi_readData_CMockExpectAndReturn(23, data_out, baudrate, 100);
+
+
+
+
+  spi_readData_CMockExpectAndReturn(24, data_out, baudrate, 100);
 
   uint16_t parsedData = parseCANData();
 
@@ -48,6 +50,6 @@ void test_CANData_Parser(void){
 
  ((void *)0)
 
- ), (UNITY_UINT)(25), UNITY_DISPLAY_STYLE_UINT16);
+ ), (UNITY_UINT)(26), UNITY_DISPLAY_STYLE_UINT16);
 
 }

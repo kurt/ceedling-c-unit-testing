@@ -52,14 +52,18 @@
   :common: []
 :libraries:
   :flag: "-l${1}"
-  :path_flag: "-L ${1}"
+  :path_flag: "-L ${1} -Werror"
   :test: []
   :test_preprocess: []
   :release: []
   :release_preprocess: []
   :placement: :end
   :system: []
-:flags: {}
+:flags:
+  :test:
+    :compile:
+      :*:
+      - "-Werror"
 :extension:
   :header: ".h"
   :source: ".c"
@@ -103,6 +107,19 @@
   :includes: []
   :file_suffix: _runner
 :tools:
+  :pre_test_fixture_execute:
+    :executable: valgrind
+    :arguments:
+    - "--track-origins=yes"
+    - "--leak-check=full"
+    - "--show-leak-kinds=all"
+    - "--errors-for-leak-kinds=all"
+    - "--error-exitcode=1"
+    - "${1}"
+    :name: pre_test_fixture_execute
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
   :test_compiler:
     :executable: gcc
     :name: default_test_compiler
@@ -277,11 +294,13 @@
   :load_paths:
   - "/var/lib/gems/2.4.0/gems/ceedling-0.30.0/lib/../plugins"
   :enabled:
+  - command_hooks
   - stdout_pretty_tests_report
   - module_generator
   - gcov
   - junit_tests_report
   :display_raw_test_results: false
+  :command_hooks_path: "/var/lib/gems/2.4.0/gems/ceedling-0.30.0/lib/../plugins/command_hooks"
   :stdout_pretty_tests_report_path: "/var/lib/gems/2.4.0/gems/ceedling-0.30.0/lib/../plugins/stdout_pretty_tests_report"
   :module_generator_path: "/var/lib/gems/2.4.0/gems/ceedling-0.30.0/lib/../plugins/module_generator"
   :gcov_path: "/var/lib/gems/2.4.0/gems/ceedling-0.30.0/lib/../plugins/gcov"
