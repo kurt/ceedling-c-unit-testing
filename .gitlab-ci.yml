@@ -16,6 +16,7 @@ build:
     - sudo apt-get update -y
     - apt-get install ca-certificates
     - sudo apt-get install valgrind -y
+    - sudo apt install lcov -y
     #- sudo apt-add-repository ppa:brightbox/ruby-ng -y && sudo apt-get update -y
     #- sudo apt-get install ruby2.4 -y
     - gem install ceedling 
