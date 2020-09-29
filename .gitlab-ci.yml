@@ -21,6 +21,10 @@ build:
     - gem install ceedling 
   script:
     - ceedling
+    # dont include external libraries
+    - lcov  --directory . --no-external  -c --output-file testout
+    # remove certain paths
+    - lcov --remove testout "/build/*" "/test/*" -o cov_init2.info
   artifacts:
     reports:
       junit: build/artifacts/test/report.xml
