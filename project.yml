@@ -105,7 +105,9 @@
   :test:
     :compile:
       :*:
-        - -Werror
+        - -Werror #-fprofile-arcs -ftest-coverage  
+        #- -fprofile-arcs
+        #- -ftest-coverage      
 :plugins:
   :load_paths:
     - "#{Ceedling.load_path}"

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<testsuites tests="11" failures="0" skipped="5" time="0.016894">
+  <testsuite name="test_CANData" tests="2" failures="0" skipped="1" time="0.003720">
+    <testcase name="test_CANData_Parser" time="0.000000"/>
+    <testcase name="test_CANData_NeedToImplement" time="0.000000">
+      <skipped />
+    </testcase>
+  </testsuite>
+  <testsuite name="test_lights" tests="2" failures="0" skipped="1" time="0.003812">
+    <testcase name="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff" time="0.000000"/>
+    <testcase name="test_lights_NeedToImplement" time="0.000000">
+      <skipped />
+    </testcase>
+  </testsuite>
+  <testsuite name="test_motor_control" tests="2" failures="0" skipped="1" time="0.003158">
+    <testcase name="test_readEncoder" time="0.000000"/>
+    <testcase name="test_motor_control_NeedToImplement" time="0.000000">
+      <skipped />
+    </testcase>
+  </testsuite>
+  <testsuite name="test_spi" tests="2" failures="0" skipped="1" time="0.002708">
+    <testcase name="test_CheckBaudRate" time="0.000000"/>
+    <testcase name="test_spi_NeedToImplement" time="0.000000">
+      <skipped />
+    </testcase>
+    <system-out>
+Baud Rate 100 is Incorrect!
+    </system-out>
+  </testsuite>
+  <testsuite name="test_tempsensor" tests="3" failures="0" skipped="1" time="0.003496">
+    <testcase name="test_whenTempRegisterReadsMaxValue_thenTheTempIsTheMaxValue" time="0.000000"/>
+    <testcase name="test_whenTempRegisterReadsMinValue_thenTheTempIsTheMinValu" time="0.000000"/>
+    <testcase name="test_tempsensor_NeedToImplement" time="0.000000">
+      <skipped />
+    </testcase>
+  </testsuite>
+</testsuites>

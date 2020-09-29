@@ -43,8 +43,6 @@ void test_CheckBaudRate(){
 
    do {if ((checkBaudRate(baud))) {} else {UnityFail( ((" Expected TRUE Was FALSE")), (UNITY_UINT)((UNITY_UINT)(23)));}} while(0);
 
-
-
-   do {if (!(checkBaudRate(b2))) {} else {UnityFail( ((" Expected FALSE Was TRUE")), (UNITY_UINT)((UNITY_UINT)(25)));}} while(0);
+   do {if (!(checkBaudRate(b2))) {} else {UnityFail( ((" Expected FALSE Was TRUE")), (UNITY_UINT)((UNITY_UINT)(24)));}} while(0);
 
 }
