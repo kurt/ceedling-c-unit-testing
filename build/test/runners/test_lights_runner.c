@@ -12,6 +12,7 @@ extern void setUp(void);
 extern void tearDown(void);
 extern void test_lights_NeedToImplement(void);
 extern void test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff(void);
+extern void test_setup(void);
 
 
 /*=======Mock Management=====*/
@@ -76,8 +77,9 @@ static void run_test(UnityTestFunction func, const char* name, int line_num)
 int main(void)
 {
   UnityBegin("test_lights.c");
-  run_test(test_lights_NeedToImplement, "test_lights_NeedToImplement", 13);
-  run_test(test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff, "test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff", 18);
+  run_test(test_lights_NeedToImplement, "test_lights_NeedToImplement", 14);
+  run_test(test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff, "test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff", 19);
+  run_test(test_setup, "test_setup", 27);
 
   return UnityEnd();
 }
