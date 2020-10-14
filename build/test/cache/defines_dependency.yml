@@ -21,3 +21,5 @@ src/global_variable_creator.c:
 - TEST
 src/global_variable_creator2.c:
 - TEST
+src/inline_function.c:
+- TEST

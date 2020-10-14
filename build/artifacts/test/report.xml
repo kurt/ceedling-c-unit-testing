@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<testsuites tests="22" failures="0" skipped="7" time="0.060612">
-  <testsuite name="test_CANData" tests="2" failures="0" skipped="1" time="0.011691">
+<testsuites tests="23" failures="0" skipped="7" time="0.080707">
+  <testsuite name="test_CANData" tests="2" failures="0" skipped="1" time="0.009636">
     <testcase name="test_CANData_Parser" time="0.000000"/>
     <testcase name="test_CANData_NeedToImplement" time="0.000000">
       <skipped />
     </testcase>
   </testsuite>
-  <testsuite name="test_global_variables" tests="3" failures="0" skipped="1" time="0.004037">
+  <testsuite name="test_global_variables" tests="3" failures="0" skipped="1" time="0.005172">
     <testcase name="test_grab_global_variable" time="0.000000"/>
     <testcase name="test_pass_global_variable" time="0.000000"/>
     <testcase name="test_global_variables_NeedToImplement" time="0.000000">
@@ -17,7 +17,13 @@ Global Var is: 10
 Global Var is: 100
     </system-out>
   </testsuite>
-  <testsuite name="test_lights" tests="3" failures="0" skipped="1" time="0.008326">
+  <testsuite name="test_inline_function" tests="1" failures="0" skipped="0" time="0.007491">
+    <testcase name="test_inline_func" time="0.000000"/>
+    <system-out>
+43
+    </system-out>
+  </testsuite>
+  <testsuite name="test_lights" tests="3" failures="0" skipped="1" time="0.014486">
     <testcase name="test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff" time="0.000000"/>
     <testcase name="test_setup" time="0.000000"/>
     <testcase name="test_lights_NeedToImplement" time="0.000000">
@@ -27,13 +33,13 @@ Global Var is: 100
 Test is Added Kurt
     </system-out>
   </testsuite>
-  <testsuite name="test_motor_control" tests="2" failures="0" skipped="1" time="0.011082">
+  <testsuite name="test_motor_control" tests="2" failures="0" skipped="1" time="0.005409">
     <testcase name="test_readEncoder" time="0.000000"/>
     <testcase name="test_motor_control_NeedToImplement" time="0.000000">
       <skipped />
     </testcase>
   </testsuite>
-  <testsuite name="test_spi" tests="2" failures="0" skipped="1" time="0.010806">
+  <testsuite name="test_spi" tests="2" failures="0" skipped="1" time="0.025974">
     <testcase name="test_CheckBaudRate" time="0.000000"/>
     <testcase name="test_spi_NeedToImplement" time="0.000000">
       <skipped />
@@ -42,7 +48,7 @@ Test is Added Kurt
 Baud Rate 100 is Incorrect!
     </system-out>
   </testsuite>
-  <testsuite name="test_switch_case" tests="7" failures="0" skipped="1" time="0.005105">
+  <testsuite name="test_switch_case" tests="7" failures="0" skipped="1" time="0.005945">
     <testcase name="test_if_else_emergency" time="0.000000"/>
     <testcase name="test_if_else_hot" time="0.000000"/>
     <testcase name="test_if_else_warm" time="0.000000"/>
@@ -61,7 +67,7 @@ This is very cold special operations taken
 Invalid operating temperature
     </system-out>
   </testsuite>
-  <testsuite name="test_tempsensor" tests="3" failures="0" skipped="1" time="0.009565">
+  <testsuite name="test_tempsensor" tests="3" failures="0" skipped="1" time="0.006595">
     <testcase name="test_whenTempRegisterReadsMaxValue_thenTheTempIsTheMaxValue" time="0.000000"/>
     <testcase name="test_whenTempRegisterReadsMinValue_thenTheTempIsTheMinValu" time="0.000000"/>
     <testcase name="test_tempsensor_NeedToImplement" time="0.000000">
