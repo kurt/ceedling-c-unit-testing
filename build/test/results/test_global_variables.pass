@@ -1,0 +1,28 @@
+---
+:source:
+  :path: test
+  :file: test_global_variables.c
+:successes:
+- :test: test_grab_global_variable
+  :line: 20
+  :message: ''
+  :unity_test_time: 0
+- :test: test_pass_global_variable
+  :line: 24
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores:
+- :test: test_global_variables_NeedToImplement
+  :line: 16
+  :message: Need to Implement global_variables
+  :unity_test_time: 0
+:counts:
+  :total: 3
+  :passed: 2
+  :failed: 0
+  :ignored: 1
+:stdout:
+- 'Global Var is: 10'
+- 'Global Var is: 100'
+:time: 0.00403680199997325

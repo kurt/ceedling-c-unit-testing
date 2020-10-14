@@ -1,0 +1,48 @@
+---
+:source:
+  :path: test
+  :file: test_switch_case.c
+:successes:
+- :test: test_if_else_emergency
+  :line: 19
+  :message: ''
+  :unity_test_time: 0
+- :test: test_if_else_hot
+  :line: 25
+  :message: ''
+  :unity_test_time: 0
+- :test: test_if_else_warm
+  :line: 31
+  :message: ''
+  :unity_test_time: 0
+- :test: test_if_else_normal
+  :line: 37
+  :message: ''
+  :unity_test_time: 0
+- :test: test_if_else_cold
+  :line: 43
+  :message: ''
+  :unity_test_time: 0
+- :test: test_if_else_frozen
+  :line: 49
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores:
+- :test: test_switch_case_NeedToImplement
+  :line: 15
+  :message: Need to Implement switch_case
+  :unity_test_time: 0
+:counts:
+  :total: 7
+  :passed: 6
+  :failed: 0
+  :ignored: 1
+:stdout:
+- Heat is too much sending error!
+- Temperature is getting too hot initializing emergency cool
+- Temperature is a bit hot but ok
+- Temperature is in normal operating range
+- This is very cold special operations taken
+- Invalid operating temperature
+:time: 0.005105452999941917

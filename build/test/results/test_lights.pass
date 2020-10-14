@@ -4,17 +4,17 @@
   :file: test_lights.c
 :successes:
 - :test: test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff
-  :line: 19
+  :line: 20
   :message: ''
   :unity_test_time: 0
 - :test: test_setup
-  :line: 27
+  :line: 28
   :message: ''
   :unity_test_time: 0
 :failures: []
 :ignores:
 - :test: test_lights_NeedToImplement
-  :line: 16
+  :line: 17
   :message: Need to Implement lights
   :unity_test_time: 0
 :counts:
@@ -24,4 +24,4 @@
   :ignored: 1
 :stdout:
 - Test is Added Kurt
-:time: 0.023299789001612226
+:time: 0.008325516999775573

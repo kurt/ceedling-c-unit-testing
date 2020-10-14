@@ -10,9 +10,13 @@ char* GlobalOrderError;
 /*=======External Functions This Runner Calls=====*/
 extern void setUp(void);
 extern void tearDown(void);
-extern void test_lights_NeedToImplement(void);
-extern void test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff(void);
-extern void test_setup(void);
+extern void test_switch_case_NeedToImplement(void);
+extern void test_if_else_emergency(void);
+extern void test_if_else_hot(void);
+extern void test_if_else_warm(void);
+extern void test_if_else_normal(void);
+extern void test_if_else_cold(void);
+extern void test_if_else_frozen(void);
 
 
 /*=======Mock Management=====*/
@@ -76,10 +80,14 @@ static void run_test(UnityTestFunction func, const char* name, int line_num)
 /*=======MAIN=====*/
 int main(void)
 {
-  UnityBegin("test_lights.c");
-  run_test(test_lights_NeedToImplement, "test_lights_NeedToImplement", 15);
-  run_test(test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff, "test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff", 20);
-  run_test(test_setup, "test_setup", 28);
+  UnityBegin("test_switch_case.c");
+  run_test(test_switch_case_NeedToImplement, "test_switch_case_NeedToImplement", 13);
+  run_test(test_if_else_emergency, "test_if_else_emergency", 19);
+  run_test(test_if_else_hot, "test_if_else_hot", 25);
+  run_test(test_if_else_warm, "test_if_else_warm", 31);
+  run_test(test_if_else_normal, "test_if_else_normal", 37);
+  run_test(test_if_else_cold, "test_if_else_cold", 43);
+  run_test(test_if_else_frozen, "test_if_else_frozen", 49);
 
   return UnityEnd();
 }

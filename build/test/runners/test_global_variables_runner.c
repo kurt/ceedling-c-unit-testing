@@ -10,9 +10,9 @@ char* GlobalOrderError;
 /*=======External Functions This Runner Calls=====*/
 extern void setUp(void);
 extern void tearDown(void);
-extern void test_lights_NeedToImplement(void);
-extern void test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff(void);
-extern void test_setup(void);
+extern void test_global_variables_NeedToImplement(void);
+extern void test_grab_global_variable();
+extern void test_pass_global_variable();
 
 
 /*=======Mock Management=====*/
@@ -76,10 +76,10 @@ static void run_test(UnityTestFunction func, const char* name, int line_num)
 /*=======MAIN=====*/
 int main(void)
 {
-  UnityBegin("test_lights.c");
-  run_test(test_lights_NeedToImplement, "test_lights_NeedToImplement", 15);
-  run_test(test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff, "test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff", 20);
-  run_test(test_setup, "test_setup", 28);
+  UnityBegin("test_global_variables.c");
+  run_test(test_global_variables_NeedToImplement, "test_global_variables_NeedToImplement", 14);
+  run_test(test_grab_global_variable, "test_grab_global_variable", 20);
+  run_test(test_pass_global_variable, "test_pass_global_variable", 24);
 
   return UnityEnd();
 }

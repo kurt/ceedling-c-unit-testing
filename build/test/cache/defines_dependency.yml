@@ -13,3 +13,11 @@ src/spi.c:
 - TEST
 src/motor_control.c:
 - TEST
+src/switch_case.c:
+- TEST
+src/global_variables.c:
+- TEST
+src/global_variable_creator.c:
+- TEST
+src/global_variable_creator2.c:
+- TEST
