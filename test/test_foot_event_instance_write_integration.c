@@ -1,25 +1,3 @@
-/**
- * @file    test_foot_event_instance_write_integration.c
- * @ingroup foot_event_generator
- *
- * foot_event_generator integration test file.
- *
- * @par COPYRIGHT MARKING
- *      Bionic Power Inc. CONFIDENTIAL <br>
- *      Copyright 2022 Bionic Power Inc. <br>
- *      All Rights Reserved.
- *      @par
- *      NOTICE: All information contained herein is, and remains, the property of Bionic Power Inc.
- *      and its suppliers, if any. The intellectual and technical concepts contained herein are
- *      proprietary to Bionic Power Inc. and its suppliers and may be covered by Patents, pending
- *      patents, and are protected by trade secret or copyright law.
- *      @par
- *      Dissemination of this information or reproduction of this material is strictly forbidden
- *      unless prior written permission is obtained from Bionic Power Inc.
- *
- * @addtogroup foot_event_generator
- * @{
- */
 #include "unity.h"
 
 TEST_FILE("cmsis_gcc.c"); //when cexception_helper_str is needed
